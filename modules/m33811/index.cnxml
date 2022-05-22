@@ -1,0 +1,202 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Photolithography</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33811</md:content-id>
+  <md:title>Photolithography</md:title>
+  <md:abstract/>
+  <md:uuid>fd6647f3-ae19-4657-918d-13e48a3fbd42</md:uuid>
+</metadata>
+
+  <content>
+    <note id="eip-351">This module is based upon the Connexions module entitled <emphasis effect="italics">Photolithography</emphasis> by Bill Wilson. </note><para id="para1">Actually, implants (especially for moats) are
+      usually done at a sufficiently high energy so that the dopant
+      (phosphorus) is already pretty far into the substrate (often
+      several microns or so), even before the diffusion starts. The
+      anneal/diffusion moves the impurities into the wafer a bit more,
+      and as we shall see also makes the n-region grow larger. 
+    </para>
+    
+    <para id="para2">"The n-region"!  We have not said a thing about
+      how we make our moat in only certain areas of the wafer. From
+      the description we have so far, is seems we have simply built an
+      n-type layer over the whole surface of the wafer. This would be
+      bad! We need to come up with some kind of "window" to
+      only permit the implanting impurities to enter the silicon wafer
+      where we want them and not elsewhere. We will do this by
+      constructing an implantation "barrier". 
+    </para>
+
+    <para id="para3">To do this, the first thing we do is grow a layer
+      of silicon dioxide over the entire surface of the wafer. We
+      talked about oxide growth when we were discussing MOSFETs but
+      let's go into a little more detail. You can grow oxide in either
+      a dry oxygen atmosphere, or in a an atmosphere which contains
+      water vapor, or steam. In <link target-id="fig1"/>, we show oxide
+      thickness as a function of time for growth with steam. Dry O<sub>2</sub>
+
+      does not behave too much differently, the rate is just somewhat
+      slower.
+</para>
+
+      <figure id="fig1"><media id="id1170680808496" alt=""><image src="../../media/5.12.png" mime-type="image/png" width="300" print-width="3in"/></media>
+      <caption>A plot of oxide thickness as a function of time. </caption></figure>
+
+
+<para id="paranew41">
+      On top of the oxide, we are now going to deposit yet another
+      material. This is silicon nitride, Si<sub>3</sub>N<sub>4</sub> 
+
+    
+      or just plain "nitride" as it is usually
+      called. Silicon nitride is deposited through a method called
+      chemical vapor deposition or "CVD". The usual technique is to
+      react dichlorosilane and ammonia in a hot walled low pressure
+      chemical vapor deposition system (LPCVD). The reaction is:
+</para>
+
+
+      <equation id="eqn1"><media id="id58_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq58.jpg" id="id58__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<para id="paranew42">
+      Silicon nitride is a good barrier for impurities, oxygen and
+      other things which do not want to get into the wafer. Take a
+      look at <link target-id="fig2"/> and see what we have so far. A
+      word about scale and dimensions. The silicon wafer is about
+      250 μm thick (about 0.01") since it has to be strong enough
+      not to break as it is being handled. The two deposited layers
+      are each about 1 μm thick, so they should actually be drawn as
+      lines thinner than the other lines in the figure. This would
+      obviously make the whole idea of a sketch ridiculous, so we will
+      leave things distorted as they are, keeping in mind that the
+      deposited and diffused layers are actually
+      much thinner than the rest of wafer, which
+      really does not do anything except support the active circuits
+      up on top. 
+</para>
+
+      <figure id="fig2"><media id="id1170680142893" alt=""><image src="../../media/5.13.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+      <caption>Initial wafer configuration. </caption></figure>
+
+<para id="paranew43">
+      Now what we want to do is remove part of
+      the nitride, so we can make our n-well, but not put in
+      phosphorous where do not want it. We do this with a processes
+      called <emphasis effect="italics">photolithography</emphasis> and <emphasis effect="italics">etching</emphasis> 
+      respectively. First thing we do is coat the wafer with yet
+      another layer of material. This is a liquid called
+      photoresist and it is applied through a process
+      called spin-coating. The wafer is put on a vacuum
+      chuck, and a layer of liquid photoresist is sprayed uncap of the
+      wafer. The chuck is then spun rapidly, getting to several
+      thousand RPM in a small fraction of a second. Centrifugal force
+      causes the resist to spread out uniformly across the wafer
+      surface. The solvent for the
+      photoresist is quite volatile and so the layer of photoresist
+      dries while the wafer is still spinning, resulting in a thin,
+      uniform coating across the wafer <link target-id="fig3"/>.
+</para>
+
+      <figure id="fig3"><media id="id1170686272673" alt=""><image src="../../media/5.14.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+      <caption>After the photoresist is spun on. </caption></figure>
+
+
+
+
+<para id="paranew44">The name "photoresist" gives some clue as to what this stuff
+      is. Basically, photoresist is a polymer mixed with some kind of
+      light sensitizing compound. In positive
+      photoresist, wherever light strikes it, the polymer is weakened,
+      and it can be more easily removed with a solvent during the
+      development  process. Conversely,
+      negative photoresist is strengthened when
+      it is illuminated with light, and is more resistant to the
+      solvent than is the unilluminated photoresist. Positive resist
+      is so-called because the image of the developed photoresist on
+      the wafer looks just like the mask that was used to create
+      it. Negative photoresist makes an image which is the opposite of
+      what the mask looks like. 
+    </para>
+
+    <para id="para4">We have to come up with some way of selectively
+      illuminating certain portions of the photoresist. Anyone who has
+      ever seen a projector know how we can do this. But, since we
+      want to make small things, not big ones, we
+      will change around our projector so that it makes a smaller
+      image, instead of a bigger one. The instrument that projects the
+      light onto the photoresist on the wafer is called a
+      projection printer or stepper <link target-id="fig4"/>.
+</para>
+
+
+      <figure id="fig4"><media id="id1170674422229" alt=""><image src="../../media/5.15.png" mime-type="image/png" width="250" print-width="2.5in"/></media> 
+      <caption>A schematic of a stepper configuration. </caption></figure>
+
+<para id="paranew45">
+      As shown in <link target-id="fig4"/>, the stepper consists of
+      several parts. There is a light source (usually a mercury vapor
+      lamp, although ultra-violet excimer lasers are also starting to
+      come into use), a condenser lens to image the light source on
+      the mask or reticle. The mask contains
+      an image of the pattern we are trying the place on
+      the wafer. The projection lens then makes a reduced (usually 5x)
+      image of the mask on the wafer. Because it would be far too
+      costly, if not just plain impossible, to project onto the whole
+      wafer all at once, only a small selected area is printed at one
+      time. Then the wafer is scanned or
+      stepped into a new position, and the image is
+      printed again. If previous patterns have already been formed on
+      the wafer, TV cameras, with artificial intelligence algorithms
+      are used to align  the current image with the
+      previously formed features. The stepper moves the whole surface
+      of the wafer under the lens, until the wafer is completely
+      covered with the desired pattern. A stepper is  one of the most important pieces of
+      equipment in the whole IC fab however, since it determines what
+      the minimum feature size on the circuit will be. 
+    </para>
+
+    <para id="para5">After exposure, the photoresist is placed in a
+      suitable solvent, and "developed". Suppose for our example the
+      structure shown in <link target-id="fig5"/> is what results from
+      the photolithographic step.
+</para>
+
+      <figure id="fig5"><media id="id8899814" alt=""><image src="../../media/5.16.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+      <caption>After photoresist exposure and development. </caption></figure>
+
+
+
+<para id="paranew46">
+      The pattern that was used in the photolithographic (PL) step
+      exposed half of our area to light, and so the photoresist (PR)
+      in that region was removed upon development. The wafer is now
+      immersed in a hydrofluoric acid (HF) solution. HF acid etches
+      silicon nitride quite rapidly, but does not etch silicon dioxide
+      nearly as fast, so after the etch we have what we see in <link target-id="fig6"/>.
+</para>
+
+
+
+      <figure id="fig6"><media id="id1170676394920" alt=""><image src="../../media/5.17.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+      <caption>After the nitride etch step. </caption></figure>
+
+<para id="paranew47">
+      We now take our wafer, put it in the ion
+      implanter and subject it to a "blast" of phosphorus ions <link target-id="fig7"/>.
+
+</para>
+
+      <figure id="fig7"><media id="id1170680719875" alt=""><image src="../../media/5.18.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+      <caption>Implanting phospohrus. </caption></figure>
+
+
+<para id="paranew48">
+      The ions go right through the oxide layer on the RHS, but stick
+      in the resist/nitride layer on the LHS of our structure.
+
+    </para>
+  </content>
+  
+</document>

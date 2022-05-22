@@ -1,0 +1,23 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction to Nitride Chemical Vapor Deposition</title>
+  <metadata>
+  <md:content-id>m26117</md:content-id><md:title>Introduction to Nitride Chemical Vapor Deposition</md:title>
+  <md:abstract/>
+  <md:uuid>323737d2-6721-40e0-a635-4a1e6eaad674</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167002166823"> The refractory nature and high dielectric properties of many nitrides make them attractive for chemical and electronic passivation. As a consequence silicon nitride has become the standard within the semiconductor industry, as both an encapsulation layer and as an etch mask. </para>
+    <para id="id1167004275815"> In a similar manner to oxide growth by chemical vapor deposition (CVD), two sources are generally required for binary nitride CVD: the element of choice and a nitrogen source. However, unlike the CVD of oxides, elemental nitrogen (N<sub>2</sub>) is not reactive, even at elevated temperatures, thereby requiring plasma enhancement. Even with plasma enhanced CVD (PECVD), N<sub>2</sub> does not yield high quality films. As a substitute for N<sub>2</sub>, ammonia (NH<sub>3</sub>) has found general acceptance as a suitable nitrogen source. It is a gas, readily purified and cheap, however, it is of low reactivity at low temperatures. PECVD has therefore found favor for low temperature NH<sub>3</sub>-based precursor systems. </para>
+    <para id="id1167003934021">Recent attempts to lower deposition temperatures have included the use of more reactive sources (e.g., H<sub>2</sub>NNH<sub>2</sub>) and precursors containing nitrogen as a coordinated ligand. Probably the most important discovery with respect to nitride deposition is the use of a transamination reaction between amido compounds and ammonia (<link target-id="eip-129"/>). </para>
+    <equation id="eip-129"><media id="id1167002512296_media" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics1-33e7.jpg" id="id1167002512296__onlineimage" width="300" print-width="3in"/>
+      </media>
+</equation>
+    <section id="id1167005411276">
+      <title>Bibliography</title>
+      <list id="id1167004043089" list-type="bulleted"><item>D. M. Hoffman, <emphasis effect="italics">Polyhedron</emphasis>, 1994, <emphasis effect="bold">13</emphasis>, 1169.</item>
+      </list>
+    </section>
+  </content>
+</document>

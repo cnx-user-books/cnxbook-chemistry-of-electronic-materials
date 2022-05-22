@@ -1,0 +1,114 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Molecular Beam Epitaxy</title>
+  <metadata>
+  <md:content-id>m25712</md:content-id><md:title>Molecular Beam Epitaxy</md:title>
+  <md:abstract/>
+  <md:uuid>0b2614e4-aa98-49c1-bf50-1db3ee3c5ecd</md:uuid>
+</metadata>
+
+<content>
+    <note id="eip-991">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Sarah Westcott.</note><section id="id1169879965728">
+      <title>Introduction</title>
+      <para id="id1169869161283">In the process of epitaxy, a thin layer of material is grown on a substrate. With respect to crystal growth it applies to the process of growing thin crystalline layers on a crystal substrate. In epitaxial growth, there is a precise crystal orientation of the film in relation to the substrate. For electronic devices, the substrate is a single crystal (usually Si or GaAs) and therefore so is the epitaxial layer (epilayer). In the most basic form of molecular beam epitaxy (MBE), the substrate is placed in ultra high vacuum (UHV) and the source materials for the film are evaporated from elemental sources. The evaporated molecules or atoms flow as a beam, striking the substrate, where they are adsorbed on the surface. Once on the surface, the atoms move by surface diffusion until they reach a thermodynamically favorable location to bond to the substrate. Molecules will dissociate to atomic form during diffusion or at a favorable site. <link target-id="id93333"/> illustrates the processes that can occur on the surface. Because the atoms require time for surface diffusion, the quality of the film will be better with slower growth. Typically growth rates of about 1 monolayer per second provide sufficiently high quality.</para>
+
+
+      
+
+<figure id="id93333"><media id="id93333_media" alt="">
+            <image mime-type="image/jpg" src="../../media/MBE 1.jpg" id="id93333__onlineimage" width="400" print-width="3.5in"/>
+          </media>
+        <caption>Schematic illustration of processes on growing surface during MBE. 
+Adsorption of atoms on the surface, surface diffusion of atoms, formation of crystalline lattice, desorption of particles from the surface.</caption></figure>
+
+
+
+
+<para id="id1169869138029">A typical MBE chamber is shown in <link target-id="id93334"/>. The substrate is chemically washed and then put into a loading chamber where it is further cleaned using argon ion bombardment followed by annealing. This removes the top layers of the substrate, which is usually an undesired oxide which grew in air and contains impurities. The annealing heals any damage caused by the bombardment. The substrate then enters the growth chamber via the sample exchange load lock. It is secured on a molybdenum holder either mechanically or with melted indium or gallium which hold the substrate by surface tension.</para>
+      
+
+<figure id="id93334"><media id=" id93334_media" alt="">
+            <image mime-type="image/jpg" src="../../media/MBE 2.jpg" id=" id93334__onlineimage" width="550" print-width="4.5in"/>
+          </media>
+        <caption>The MBE growth chamber. </caption></figure>
+
+
+
+<para id="id1169871699448">Each effusion cell (see <link target-id="id93334"/>) is a source of one element in the film. The effusion cell, also called a Knudsen cell, contains the elemental form in very high purity (greater than 99.99999% for Ga and As). The cell is heated to encourage evaporation. For GaAs growth, the temperature is typically controlled for a vapor pressure of 10<sup>-2</sup> to 10<sup>-3</sup> Torr inside the effusion cell, which results in a transport of about 10<sup>15</sup> molecules/cm<sup>2</sup> to the substrate when the shutter for that cell is opened. The shape and size of the opening in the cell is optimized for an even distribution of particles on the substrate. Due to the relatively low concentration of molecules, they typically do not interact with other molecules in the beam during the 5 - 30 cm journey to the substrate. The substrate is usually rotated, at a few rpm, to further even the distribution.</para>
+      <para id="id1169875514373"> Because MBE takes place in UHV and has relatively low pressure of residual gas at the surface, analysis techniques such as reflection high energy diffraction and ellipsometry can be used during growth, both to study and control the growth process. The UHV environment also allows pre or post growth analysis techniques such as Auger spectroscopy.</para>
+    </section>
+    <section id="id1169882014569">
+      <title>Elemental and molecular sources</title>
+      <para id="id8445856">The effusion cell is used for the majority of MBE growth. All materials used in the cell are carefully chosen to be noninteracting with the element being evaporated. For example, the crucible is pyrolitic boron nitride. However, it has disadvantages, such as:</para>
+      
+      <list id="eip-223"><item>The evaporated species may be molecular, rather than monomeric, which will require further dissocation at the surface.</item>
+<item>When the shutter is opened, the heat loss from the cell results in a transient in the beam flux which last for several minutes and cause variations of up to 50%. </item>
+<item>The growth chamber must be opened up to replace the solid sources.</item></list>
+      
+      <para id="id1169874774772">Cracker cells are used to improve the ratio of monomeric to molecular (or at least dimeric to tetrameric) particles from the source. The cracker cell, placed so that the beam passes through it after the effusion cell, is maintained at a high temperature (and sometimes high pressure) to encourage dissociation. The dissociation process generally requires a catalyst and the best catalysts for a given species have been studied.</para>
+      <para id="id1169873255310">Some elements, such as silicon, have low enough vapor pressure that more direct heating techniques such as electron bombardment or laser radiation heating are used. The electron beam is bent using electromagnetic focusing to prevent any impurities in the electron source from contaminating the silicon to be used in MBE. Because the heat is concentrated on the surface to be evaporated, interactions with and contamination from the crucible walls is reduced. In addition, this design does not require a shutter, so there is no problem with transients. Modulation of the beam can produce very sharp interfaces on the substrate. In laser radiation heating, the electron beam is replaced by a laser beam. The advantages of localized heating and rapid modulation are also maintained without having to worry about contamination from the electron source or stray electrons.</para>
+      <para id="id6531811">Some of the II-VI (12-16) compounds have such high vapor pressure that a Knudson cell cannot be used. For example, the mercury source must be kept cooler than the substrate to keep the vapor pressure low enough to be feasible. The Hg source must also be sealed off from the growth chamber to allow the chamber to be pumped down.</para>
+      <para id="id1169868243234">Two other methods of obtaining the elements for use in epitaxy are gas-source epitaxy and chemical beam epitaxy (CBE). Both of these methods use gas sources, but they are distinguished by the use of elemental beams in gas source epitaxy, while organometallic beams are used in CBE. For the example of III-V (13-15) semiconductors, in gas epitaxy, the group III material may come from an effusion cell while the group V material is the hydride, such as AsH<sub>3</sub> or PH<sub>3</sub>, which is cracked before entering the growth chamber. In CBE, the group V material is an organometallic, such as triethylgallium [Ga(C<sub>2</sub>H<sub>5</sub>)<sub>3</sub>] or trimethylaluminum [Al(CH<sub>3</sub>)<sub>3</sub>], which adsorbs on the surface, where it dissociates. </para>
+      <para id="id7350144">The gas sources have several advantages. Gas lines can be run into the chamber, which allows the supply to be replenished without opening the chamber. When making alloys, such as Al<sub>x</sub>Ga<sub>1-x</sub>As, the gases can be premixed for the correct stochiometry or even have their composition gradually changed for making graded structures. For abrupt structures, it is necessary to be able to switch the gas lines with speeds of 1 second or less. However, the gas lines increase the complexity of the process and can be hard on the pumping system. </para>
+    </section>
+    <section id="id1169869186710">
+      <title>Substrate choice and preparation</title>
+      <para id="id1169880096841">Materials can be grown on substrates of different structure, orientation, and chemistry. In deciding which materials can be grown on a particular substrate, a primary consideration was expected to be lattice mismatch, i.e., differences in spacing between atoms. However, while lattice mismatch can cause strain in the grown layer, considerable accommodation between materials of different sizes can take place during growth. A greater source of strain can be differences in thermal expansion characteristics because the layer is grown at high temperature. On cooling to room temperature, dislocation defects can be formed at the interface or in severe cases, the device may break. Chemical considerations, such as whether the layer's elements will dissolve in the substrate or form compounds with the substrate, must also be considered.</para>
+      <para id="id1169870066432">Different orientations of the substrate can also affect growth. Close-packed planes have the lowest surface energy, which allows atoms to desorb from the surface, resulting in slower growth rates. Growth is favored where bonds can be made in several directions at the same time. Therefore, the substrate is often cut off-axis by a 2 - 4° to provide a rougher growth surface. For compound semiconductors, some orientations result in the number of loose bonds changing between layers. This results in changes of surface energy with each layer, which slows growth down.</para>
+      <para id="id5142840"> The greatest cause of defects in the epitaxial layer is defects on the substrate's surface. In general, any dislocations on the substrate are replicated or even multiplied in the epitaxial growth, which is what makes the cleaning of the substrate so important.</para>
+    </section>
+    <section id="id5538474">
+      <title>Materials grown</title>
+      <para id="id1169868461903">MBE is commercially used primarily for GaAs devices. This is partly because the high speed microwave devices made from GaAs required the superior electrical quality of epitaxial layers. Taking place at lower temperature and under better controlled conditions, MBE generally results in layers of better quality than melt-grown. </para>
+      <para id="id1169871663513">From solid Ga and As sources, elemental Ga and tetrameric As<sub>4</sub> are evaporated. For a GaAs substrate, the Ga flux has a sticking coefficient very close to 1 (almost certain to adsorb). The As is much less likely to adsorb, so an excess is usually supplied. Cracker cells are often used on the As<sub>4</sub> in order to obtain As<sub>2</sub> instead, which results in faster growth and more efficient utilization of the source beam.</para>
+      <para id="id1169869909745">For nominally undoped GaAs grown by MBE, the residual impurities are usually carbon, from substrate contamination and residual gas after the growth chamber is pumped down, and sulphur, from the As source. The most common surface defects are "oval" defects, which seem to form when Ga manages to form metallic droplets during the growth process, which can particularly occur if the substrate was not cleaned properly. These defects can also be reduced by carefully controlling the Ga flux.</para>
+      <para id="id1169868412292">During MBE growth, dopants can be introduced by having a separate effusion cell or gas source for each dopant. To achieve a desired dopant concentration in the film, not only must the rate of dopants striking the substrate be controlled, but the characteristics of how the dopant behaves on the surface must be known. Low-vapor pressure dopants tend to desorb from the surface and their behavior is very temperature dependent and so are avoided when possible. Slow diffusing dopants adsorb to surface sites and are eventually covered as more GaAs is grown. Their incorporation depends linearly on the partial pressure of the dopant present in the growth chamber. This is the behavior exhibited by most n-type dopants in GaAs and most dopants of both types in Si. If the dopant, like most p-type GaAs dopants, is able to diffuse through the surface of the substrate into the crystal below, then there will be higher incorporation efficiency, which will depend on the square root of the dopant partial pressure for reasonable concentrations. Due to increasing lattice strain, all dopants will saturate at very high concentrations. They may also tend to form clusters. Dopant behavior depends on many factors and is actively studied.</para>
+      <para id="id1169877863386">The growth of GaAs epitaxial layers on silicon substrates has also been investigated. Silicon substrates are grown in larger wafers, have better thermal conductivity allowing more devices/chip to be grown on them, and are cheaper. However, because Si is nonpolar and GaAs is polar, the GaAs tends to form islands on the surface with different phase (what should be a Ga site based on a neighboring domain's pattern will actually be an As site). There is also a fairly large lattice mismatch, leading to may dislocations. However, FETs, LEDs, and lasers have all been made in laboratories.</para>
+      <para id="id4328012">Many devices require abrupt junctions between layers of different materials. One group, studying how to make high quality, abrupt GaAs and AlAs layers, found that rapid movement of the Ga or Al on the surface was required. This migration was enhanced at high temperatures, but unfortunately, diffusion into the substrate also increased. However, they also discovered that migration of Ga or Al increased if the As supply was turned off. By alternating the Ga and As supplies, the Ga was able to reach the substrate and migrate to provide more even monolayer coverage before the As atoms arrived to react. </para>
+      <para id="id6615106">Besides GaAs, most other III-V semiconductors have also been grown using MBE. Structures involving very thin layers (only a few atomic layers thick), often called superlattices or strained superlattices if there is a large lattice mismatch, are routinely grown. Because different materials have different energy levels for electrons and holes, it is possible to trap carriers in one of these thin layers, forming a quantum well. This type of confinement structure is particularly popular for LEDs or lasers, including blue light lasers. The strained superlattice structure actually shifts and splits the energy levels of the materials in some cases making devices possible for such applications as infrared light detection, which requires very small band gaps.</para>
+      <para id="id1169872923065">Thin films of many other materials have also been grown using MBE methods. Silicon technology has cheaper methods of growth and so Si layers are not very popular. However, possible devices made of Si-Ge alloys have been grown. The II-VI compounds, have also been grown. Magnetic materials, such as Co-Pt and Fe-Pt alloys, have been grown in the hopes of providing better magnetic storage.</para>
+    </section>
+    <section id="id1169871432896">
+      <title>Analysis techniques</title>
+      <para id="id1169874621810">The most popular in-situ analysis technique for MBE-grown layers is reflection high energy diffraction (RHEED), see <link target-id="id93335"/>. Electrons of energy 5 - 40 keV are directed towards the sample. They reflect from the surface at a very small angle (less than 3°) and are directed onto a screen. These electrons interact with only the top few atomic layers and thus provide information about the surface. <link target-id="id93336"/> shows a typical pattern on the screen for electrons reflected from a smooth surface, in which constructive interference between some of the electrons reflected from the lattice structure results in lines. If the surface is rough, spots will appear on the screen, also. By looking at the total intensity of the reflected electron pattern, an idea of the number of monolayers deposited and how epilayers grow can be obtained. The island-type growth shown in this figure is an area of intense interest. These oscillations in intensity are gradually damped as more layers are grown, because the overall roughness of the surface increases.</para>
+      
+
+<figure id="id93335"><media id=" id93335_media" alt="">
+            <image mime-type="image/jpg" src="../../media/MBE 3.jpg" id=" id93335__onlineimage" width="400" print-width="3.5in"/>
+          </media>
+        <caption>Schematic illustrating the formation of a RHEED pattern. </caption></figure>
+
+
+
+
+<figure id="id93336"><media id=" id93336_media" alt="">
+            <image mime-type="image/jpg" src="../../media/MBE 4.jpg" id=" id93336__onlineimage" width="300" print-width="2.5in"/>
+          </media>
+        <caption>RHEED diffraction pattern of a GaAs surface. Adapted from images by the MBE Laboratory in the Institute of Physics of the ASCR (http://www.fzu.cz/departments/surfaces/mbe/index.html). </caption></figure>
+
+
+<para id="id1169873267262">Phase locked epitaxy takes advantage of the patterns of the oscillations to grow very abrupt layers. By sending the oscillation information to a computer, it can decide when to open or close the shutters of the effusion cell based on the location in the oscillation cycle. This technique self-adjusts for fluctuations in beam flux when the shutters are opened and can grow very abrupt layers.</para>
+      <para id="id1169869750964"> Another analysis technique that can be used to study surface smoothness during growth is ellipsometry. Polarized laser light is reflected from the surface at a small angle. The polarization of the light changes, depending on the roughness of the surface.</para>
+      <para id="id1169868258927"> Improved growth characteristics also require that the actual flux from the sources is measured. This is typically done with an ion gauge flux monitor, which is either used to measure residual beam that misses the substrate or is moved into the beam path for calibration when a new source is used. Because of the importance of clean substrate surfaces for low-defect growth, Auger spectroscopy is used following cleaning by sputtering. Auger spectroscopy takes place by ionizing an inner shell electron from an atom. When an outer shell electron then deexcites to the inner shell, the energy released can prompt the emission of another outer shell electron. The energy at which this occurs is characteristic of the atom involved and the signal can be used to detect impurities as small as 0.1%. </para>
+    </section>
+    <section id="id3068456">
+      <title>Bibliography</title>
+      <list id="id4304735" list-type="bulleted"><item>K. J. Bachmann, <emphasis effect="italics">The Materials Science of Microelectronics</emphasis>, VCH (1995).</item>
+
+<item>S. K. Ghandhi, <emphasis effect="italics">VLSI Fabrication Principles: Silicon and Gallium Arsenide</emphasis>, 2nd Edition, Wiley-Interscience, NY (1994).</item>
+
+      <item>M. A. Herman and H. Sitter, <emphasis effect="italics">Molecular Beam Epitaxy: Fundamentals and Current Status</emphasis>, Springer-Verlag (1989).</item>
+
+  <item>Y. Horikoshi, M. Kawashima, and H. Yamaguchi, <emphasis effect="italics">Jpn. J. Appl. Phys.</emphasis>, 1986, <emphasis effect="bold">25</emphasis>, L868.</item>
+
+        <item>J. H. McFee, B. I. Miller, and K. J. Bachmann, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1977, <emphasis effect="bold">124</emphasis>, 259.</item>
+
+        <item>T. Sakamoto, H. Funabashi, K. Ohta, T. Nakagawa, N. J. Kawai, and T. Kojima, <emphasis effect="italics">Jpn. J. Appl. Phys.</emphasis>, 1984, <emphasis effect="bold">23</emphasis>, L657.</item>
+
+    <item>W. T. Tsang, <emphasis effect="italics">J. Crystal Growth</emphasis>, 1987, <emphasis effect="bold">81</emphasis>, 261.</item>
+  
+ </list>
+      
+  
+    </section>
+  </content>
+</document>

@@ -1,0 +1,121 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Atomic Layer Deposition</title>
+  <metadata>
+  <md:content-id>m25737</md:content-id><md:title>Atomic Layer Deposition</md:title>
+  <md:abstract/>
+  <md:uuid>ae29812b-5c71-4740-ac36-6809c5282026</md:uuid>
+</metadata>
+
+<content>
+    <para id="id5464604">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Julie A. Francis.</para>
+    <section id="id6209683">
+      <title>Introduction</title>
+      <para id="id4979388"> The growth of thin films has had dramatic impact on technological progress. Because of the various properties and functions of these films, their applications are limitless especially in microelectronics. These layers can act as superconductors, semiconductors, conductors, insulators, dielectric, or ferroelectrics. In semiconductor devices, these layers can act as active layers and dielectric, conducting, or ion barrier layers. Depending on the type of film material and its applications, various deposition techniques may be employed. For gas-phase deposition, these include vacuum evaporation, reactive sputtering, chemical vapor deposition (CVD), especially metal organic CVD (MOCVD), and molecular beam epitaxy (MBE). Atomic layer deposition (ALD), originally called atomic layer epitaxy (ALE), was first reported by Suntola et al. in 1980 for the growth of zinc sulfide thin films to fabricate electroluminescent flat panel displays. </para>
+      <para id="id5561086">ALD refers to the method whereby film growth occurs by exposing the substrate to its starting materials alternately. It should be noted that ALE is actually a sub-set of ALD, in which the grown film is epitaxial to the substrate; however, the terms are often used interchangeably. Although both ALD and CVD use chemical (molecular) precursors, the difference between the techniques is that the former uses self limiting chemical reactions to control in a very accurate way the thickness and composition of the film deposited. In this regard ALD can be considered as taking the best of CVD (the use of molecular precursors and atmospheric or low pressure) and MBE (atom-by-atom growth and a high control over film thickness) and combining them in single method. A selection of materials deposited by ALD is given in <link target-id="id5770061"/>. </para>
+      <table id="id5770061" summary="Examples of thin ﬁlm materials deposited by ALD.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Compound class</emphasis></entry>
+              <entry><emphasis effect="bold">Examples</emphasis></entry>
+            </row>
+            <row>
+              <entry>II–VI compounds</entry>
+              <entry>ZnS, ZnSe, ZnTe, ZnS<sub>1−x</sub>Se<sub>x</sub>, CaS, SrS, BaS, SrS<sub>1−x</sub>Se<sub>x</sub>, CdS, CdTe, MnTe, HgTe, Hg<sub>1−x</sub>Cd<sub>x</sub>Te, Cd<sub>1−x</sub>Mn<sub>x</sub>Te </entry>
+            </row>
+            <row>
+              <entry>II–VI based thin-film electroluminescent (TFEL) phosphors</entry>
+              <entry>ZnS:M (M = Mn, Tb, Tm), CaS:M (M = Eu, Ce, Tb, Pb), SrS:M (M = Ce, Tb, Pb, Mn, Cu)</entry>
+            </row>
+       
+            <row>
+              <entry>III–V compounds </entry>
+              <entry>GaAs, AlAs, AlP, InP, GaP, InAs, Al<sub>x</sub>Ga<sub>1−x</sub>As, Ga<sub>x</sub>In<sub>1−x</sub>As, Ga<sub>x</sub>In<sub>1−x</sub>P </entry>
+            </row>
+            <row>
+              <entry>Semiconductors/dielectric nitrides </entry>
+              <entry>AlN, GaN, InN, SiN<sub>x</sub></entry>
+            </row>
+            <row>
+              <entry>Metallic nitrides </entry>
+              <entry>TiN, TaN, Ta<sub>3</sub>N<sub>5</sub>, NbN, MoN </entry>
+            </row>
+            <row>
+              <entry>Dielectric oxides </entry>
+              <entry>Al<sub>2</sub>O<sub>3</sub>, TiO<sub>2</sub>, ZrO<sub>2</sub>, HfO<sub>2</sub>, Ta<sub>2</sub>O<sub>5</sub>, Nb<sub>2</sub>O<sub>5</sub>, Y<sub>2</sub>O<sub>3</sub>, MgO, CeO<sub>2</sub>, SiO<sub>2</sub>, La<sub>2</sub>O<sub>3</sub>, SrTiO<sub>3</sub>, BaTiO<sub>3</sub></entry>
+            </row>
+            <row>
+              <entry>Transparent conductor oxides</entry>
+              <entry>In<sub>2</sub>O<sub>3</sub>, In<sub>2</sub>O<sub>3</sub>:Sn, In<sub>2</sub>O<sub>3</sub>:F, In<sub>2</sub>O<sub>3</sub>:Zr, SnO<sub>2</sub>, SnO<sub>2</sub>:Sb, ZnO, </entry>
+            </row>
+            <row>
+              <entry>Semiconductor oxides</entry>
+              <entry>ZnO:Al, Ga<sub>2</sub>O<sub>3</sub>, NiO, CoO<sub>x</sub></entry>
+            </row>
+            <row>
+              <entry>Superconductor oxides </entry>
+              <entry>YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7-x</sub></entry>
+            </row>
+            <row>
+              <entry>Fluorides </entry>
+              <entry>CaF<sub>2</sub>, SrF<sub>2</sub>, ZnF<sub>2</sub></entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Examples of thin ﬁlm materials deposited by ALD including ﬁlms deposited in epitaxial, polycrystalline or amorphous form. Adapted from M. Ritala and M. Leskel, <emphasis effect="italics">Nanotechnology</emphasis>, 1999, <emphasis effect="bold">10</emphasis>, 19.</caption>
+</table>
+      
+    </section>
+    <section id="id6167461">
+      <title>How ALD works</title>
+      <para id="id5844882">The premise behind the ALD process is a simple one. The substrate (amorphous or crystalline) is exposed to the first gaseous precursor molecule (elemental vapor or volatile compound of the element) in excess and the temperature and gas flow is adjusted so that only one monolayer of the reactant is chemisorbed onto the surface (<link target-id="id5094678"/>a). The excess of the reactant, which is in the gas phase or physisorbed on the surface, is then purged out of the chamber with an inert gas pulse before exposing the substrate to the other reactant (<link target-id="id5094678"/>b). The second reactant then chemisorbs and undergoes an exchange reaction with the first reactant on the substrate surface (<link target-id="id5094678"/>c). This results in the formation of a solid molecular film and a gaseous side product that may then be removed with an inert gas pulse (<link target-id="id5094678"/>d). </para>
+
+        <figure id="id5094678"><media id="id5094678_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-730c.jpg" id="id5094678__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Schematic representation of an ALD process. </caption></figure>
+      
+      <para id="id5377727">The deposition may be defined as self-limiting since one, and only one, monolayer of the reactant species remains on the surface after each exposure. In this case, one complete cycle results in the deposition of one monolayer of the compound on the substrate. Repeating this cycle leads to a controlled layer-by-layer growth. Thus the film thickness is controlled by the number of precursor cycles rather than the deposition time, as is the case for a CVD processes. This self-limiting behavior is the fundamental aspect of ALD and understanding the underlying mechanism is necessary for the future exploitation of ALD. </para>
+      <para id="id6211925"> One basic condition for a successful ALD process is that the binding energy of a monolayer chemisorbed on a surface is higher than the binding energy of subsequent layers on top of the formed layer; the temperature of the reaction controls this. The temperature must be kept low enough to keep the monolayer on the surface until the reaction with the second reactant occurs, but high enough to re-evaporate or break the chemisorption bond. The control of a monolayer can further be influenced with the input of extra energy such as UV irradiation or laser beams. The greater the difference between the bond energy of a monolayer and the bond energies of the subsequent layers, the better the self-controlling characteristics of the process. </para>
+      <para id="id5938344"> Basically, the ALD technique depends on the difference between chemisorption and physisorption. Physisorption involves the weak van der Waal's forces, whereas chemisorption involves the formation of relatively strong chemical bonds and requires some activation energy, therefore it may be slow and not always reversible. Above certain temperatures chemisorption dominates and it is at this temperature ALD operates best. Also, chemisorption is the reason that the process is self-controlling and insensitive to pressure and substrate changes because only one atomic or molecular layer can adsorb at the same time. </para>
+    </section>
+    <section id="id5650183">
+      <title>Equipment for the ALD process</title>
+      <para id="id4666138"> Equipment used in the ALD process may be classified in terms of their working pressure (vacuum, low pressure, atmospheric pressure), method of pulsing the precursors (moving substrate or valve sources) or according to the types of sources. Several system types are discussed.</para>
+      <para id="id5552548">In a typical moving substrate ALD growth system (<link target-id="id5496054"/>) the substrate, located in the recess part of the susceptor, is continuously rotated and cuts through streams of the gaseous precursors, in this case, trimethylgallium [TMG, Ga(CH<sub>3</sub>)<sub>3</sub>] and arsine (AsH<sub>3</sub>). These gaseous precursors are introduced through separate lines and the gases come in contact with the substrate only when it revolves under the inlet tube. This cycle is repeated until the required thickness of GaAs is achieved. The exposure time to each of the gas streams is about 0.3 s. </para>
+ 
+
+        <figure id="id5496054"><media id="id5496054_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-1ef1.jpg" id="id5496054__onlineimage" width="472" print-width="4in"/>
+          </media>
+        <caption>A typical moving substrate ALD growth system used to grow GaAs films. Adapted from M. A. Tischler and S. M. Bedair, <emphasis effect="italics">Appl. Phys. Lett</emphasis>., 1986, <emphasis effect="bold">48</emphasis>, 1681. </caption></figure>
+      
+      <para id="id4648086"> ALD may be carried out in a vacuum system using an ultra-high vacuum with a movable substrate holder and gaseous valving. In this manner it may be also equipped with an in-situ LEED system for the direct observation of surface atom configurations and other systems such as XPS, UPS, and AES for surface analysis. </para>
+      <para id="id5275248"> A lateral flow system may also be employed for successful ALE deposition. This uses an inert gas flow for several functions; it transports the reactants, it prevents pump oil from entering the reaction zone, it valves the sources and it purges the deposition site between pulses. Inert gas valving has many advantages as it can be used at ultra high temperatures where mechanical valves may fail and it does not corrode as mechanical valves would in the presence of halides. This method is based on the fact that as the inert gas is flowing through the feeding tube from the source to the reaction chamber, it blocks the flow of the sources. Although in this system the front end of the substrate receives a higher flux density than the down-stream end, a uniform growth rate occurs as long as the saturation layer of the monoformation predominates. This lateral flow system effectively utilizes the saturation mechanism of a monolayer formation obtained in ALE. Depending on the properties of the precursors used, and on the growth temperature, various growth systems may be used for ALE. </para>
+    </section>
+    <section id="id5099760">
+      <title>Requirements for ALD growth</title>
+      <para id="id6888484"> Several parameters must be taken into account in order to assure successful ALD growth. These include the physical and chemical properties of the source materials, their pulsing into the reactor, their interaction with the substrate and each other, and the thermodynamics and volatility of the film itself. </para>
+      <para id="id5139423">Source molecules used in ALD can be either elemental or an inorganic, organic, or organometallic compound. The chemical nature of the precursor is insignificant as long as it possesses the following properties. It must be a gas or must volatilize at a reasonable temperature producing sufficient vapor pressure. The vapor pressure must be high enough to fill the substrate area so that the monolayer chemisorption can occur in a reasonable length of time. Note that prolonged exposure to the substrate can cause the precursor to condense on the surface hindering the growth. Chemical interaction between the two precursors prior to chemisorption on the surface is also undesired. This may be overcome by purging the surface with an inert gas or hydrogen between the pulses. The inert gas not only separates the reactant pulses but also cleans out the reaction area by removing excess molecules. Also, the source molecules should not decompose on the substrate instead of chemisorbing. The decomposition of the precursor leads to uncontrolled growth of the film and this defeats the purpose of ALD as it no longer is self-controlled, layer-by-layer growth and the quality of the film plummets. </para>
+      <para id="id4936672"> In general, temperature remains the most important parameter in the ALD process. There exists a processing window for ideal growth of monolayers. The temperature behavior of the rate of growth in monolayer units per cycle gives a first indication of the limiting mechanisms of an ALD process. If the temperature falls too low, the reactant may condense or the energy of activation required for the surface reaction may not be attained. If the temperature is too high, then the precursor may decompose or the monolayer may evaporate resulting in poor ALD growth. In the appropriate temperature window, full monolayer saturation occurs meaning that all bonding sites are occupied and a growth rate of one lattice unit per cycle is observed. If the saturation density is below one, several factors may contribute to this. These include an oversized reactant molecule, surface reconstruction, or the bond strength of an adsorbed surface atom is higher when the neighboring sites are unoccupied. Then the lower saturation density may be thermodynamically favored. If the saturation density is above one, then the undecomposed precursor molecules form the monolayer. Generally, ideal growth occurs when the temperature is set where the saturation density is one. </para>
+    </section>
+    <section id="id5731731">
+      <title>Advantages of ALD</title>
+      <para id="id5767995">Atomic layer deposition provides an easy way to produce uniform, crystalline, high quality thin films. It has primarily been directed towards epitaxial growth of III-V (13-15) and II-V (12-16) compounds, especially to layered structures such as superlattices and superalloys. This application is due to the greatest advantage of this method, it is controllable to an accuracy of a single atomic layer because of saturated surface reactions. Not only that, but it produces epitaxial layers that are uniform over large areas, even on non-planar surfaces, at temperatures lower than those used in conventional epitaxial growth. </para>
+      <para id="id5711150"> Another advantage to this method that may be most important for future applications, is the versatility associated with the process. It is possible to grow different thin films by choosing suitable starting materials among the thousands of available chemical compounds. Provided that the thermodynamics are favorable, the adjustment of the reaction conditions is a relatively easy task because the process is insensitive to small changes in temperature and pressure due to its relatively large processing window. There are also no limits in principle to the size and shape of the substrates.</para>
+      <para id="id5708705"> One advantage that is resultant from the self-limiting growth mechanism is that the final thickness of the film is dependent only upon the number of deposition cycles and the lattice constant of the material, and can be reproduced and controlled. The thickness is independent of the partial pressures of the precursors and growth temperature. Under ideal conditions, the uniformity and the reproducibility of the films are excellent. ALE also has the potential to grow very abrupt heterostructures and very thin layers and these properties are in demand for some applications such as superlattices and quantum wells.</para>
+    </section>
+    <section id="id5547103">
+      <title>Bibliography</title>
+      <list id="id4835527" list-type="bulleted">
+        <item>D. C. Bradley, <emphasis effect="italics">Chem. Rev</emphasis>., 1989, <emphasis effect="bold">89</emphasis>, 1317. </item>
+        <item>M. Ritala and M. Leskel, <emphasis effect="italics">Nanotechnology</emphasis>, 1999, <emphasis effect="bold">10</emphasis>, 19. </item>
+        <item>M. Pessa, P. Huttunen, and M. A. Herman, <emphasis effect="italics">J. Appl. Phys</emphasis>., 1983, <emphasis effect="bold">54</emphasis>, 6047. </item>
+        <item>T. Suntola and J. Antson, <emphasis effect="italics">Method for producing compound thin films</emphasis>, U.S. Patent 4,058,430 (1977). </item>
+        <item>M. A. Tischler and S. M. Bedair, <emphasis effect="italics">Appl. Phys. Lett</emphasis>., 1986, <emphasis effect="bold">48</emphasis>, 1681.</item>
+      </list>
+    </section>
+  </content>
+</document>

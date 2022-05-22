@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Selecting a Molecular Precursor for Chemical Vapor Deposition</title>
+  <metadata>
+  <md:content-id>m27846</md:content-id><md:title>Selecting a Molecular Precursor for Chemical Vapor Deposition</md:title>
+  <md:abstract/>
+  <md:uuid>e7867d54-eb3b-4481-b99c-e8ac02483095</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1164509513675">
+      <title>Introduction</title>
+      <para id="id8591202"> The proven utility of chemical vapor deposition (CVD) in a wide range of electronic materials systems (semiconductors, conductors, and insulators) has driven research efforts to investigate the potential for thin film growth of other materials, including: high temperature superconducting metal oxides, piezoelectric material, etc. Moreover, CVD potentially is well suited for the preparation of thin films on a wide range of substrates, including those of nonplanar geometries. CVD offers the advantages of mild process conditions (i.e., low temperatures), control over microstructure and composition, high deposition rates, and possible large scale processing. As with any CVD process, however, the critical factor in the deposition process has been the selection of precursors with suitable transport properties. </para>
+    </section>
+    <section id="id1164509367715">
+      <title>Factors in selecting a CVD precursor molecule</title>
+      <para id="id1164509366107">The following properties are among those that must be considered when selecting suitable candidates for a CVD precursor:</para>
+      <list id="id1164520819559" list-type="enumerated" number-style="arabic">
+        <item>The precursor should be either a liquid or a solid, with sufficient vapor pressure and mass transport at the desired temperature, preferably below 200 °C. Liquids are preferred over solids, due to the difficulty of maintaining a constant flux of source vapors over a non-equilibrium percolation (solid) process. Such non-bubbling processes are a function of surface area, a non-constant variable with respect both to time and particle size. The upper temperature limit is not dictated by chemical factors; rather, it is a limitation imposed by the stability of the mass flow controllers and pneumatic valves utilized in commercial deposition equipment. It must be stressed that while the achievement of an <emphasis effect="italics">optimum</emphasis> vapor pressure for efficient utilization as an industrially practicable source providing high film growth rates (&gt;10 Torr at 25 °C) is a worthy goal, the usable pressure regimes are those in which evaluation can be carried out on compounds which exhibit vapor pressures exceeding 1 Torr at 100 °C.</item>
+        <item>The precursor must be chemically and thermally stable in the region bordered by the evaporation and transport temperatures, even after prolonged use. Early workers were plagued by irreproducible film growth results caused by premature decomposition of source compounds in the bubbler, in transfer lines, and, basically everywhere <emphasis effect="italics">except</emphasis> on the substrate. Such experiences are to be avoided! </item>
+        <item>By its very nature, CVD demands a decomposable precursor. This generally is accomplished thermally; however, the plasma-enhanced growth regime has seen much improvement. In addition, photolytic processes have tremendous potential. Nevertheless, the precursor must be thermally robust <emphasis effect="italics">until deposition conditions are employed</emphasis>.</item>
+        <item>The precursor should be relatively easy to synthesize, ensuring sufficient availability of material for testing and fabrication. It also is important that the synthesis of the compound be reproducible. It should be simple to prepare and purify to a relatively high level of purity. It should be non-toxic and <emphasis effect="italics">environmentally friendly</emphasis> (i.e., as low a toxicity as can be attained, given the fundamental toxicity of particular elements such as mercury, thallium, barium, etc.). It should be routine to reproduce and scale-up the preparation for further developmental studies. It should utilize readily available starting reagents, and proceed by a minimum number of chemical transformations in order to minimize the cost.</item>
+        <item>Due to handling considerations, the source should be oxidatively, hydrolytically, thermally and photochemically stable under normal storage conditions, in addition the precusor should resist oligomerization (in the solid, liquid, or gaseous states). It is worth noting that practitioners of metal organic CVD (MOCVD), especially for 13-15 materials have of necessity become expert in the handling of very toxic, highly air sensitive materials. </item>
+      </list>
+      <para id="id1164520278670">Historically, researchers were limited in their choices of precursors to those that were readily known and commercially available. It must be emphasized that <emphasis effect="italics">none</emphasis> of these previously known compounds had been designed specifically to serve as vapor phase transport molecules for the associated element. Thus, the scope was often limited to what was commercially available. However, as new compounds have now been made with the specific goal of providing ideal CVD precursors the choice to academia and industry has increased. </para>
+    </section>
+    <section id="id1164515119245">
+      <title>Bibliography</title>
+      <list id="id8807087" list-type="bulleted">
+        <item>G. B. Stringfellow, <emphasis effect="italics">Organometallic Vapor Phase Epitaxy: Theory and Practice</emphasis>, Academic Press, New York (1989).</item>
+      </list>
+    </section>
+  </content>
+</document>

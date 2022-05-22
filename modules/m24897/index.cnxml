@@ -1,0 +1,650 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chemical Vapor Deposition of Silica Thin Films</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m24897</md:content-id>
+  <md:title>Chemical Vapor Deposition of Silica Thin Films</md:title>
+  <md:abstract/>
+  <md:uuid>8e16e1c8-aa30-436b-b22d-c7704a1b7b76</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id8782257">
+      <title>General considerations</title>
+      <para id="id8460345"> Before describing individual chemical vapor deposition (CVD) systems for the deposition of silica thin films, it is worth outlining general considerations to be taken into account with regard to the growth by CVD of any insulating film: the type of CVD method, deposition variables, and limitations of the precursor. </para>
+      <section id="id4578474">
+        <title>Deposition methods </title>
+        <para id="id2352773"> In regard to the CVD of insulating films in general, and silica films in particular, three general reactors are presently used: atmospheric pressure CVD (APCVD), low and medium temperature low pressure CVD (LPCVD), and plasma-enhanced CVD (PECVD). LPCVD is often further divided into low and high temperatures. </para>
+        <para id="id6020988">APCVD systems allow for high throughput and even continuous operation, while LPCVD provides for superior conformal step coverage and better film homogeneity. PECVD has been traditionally used where low temperatures are required, however, film quality is often poor. As compared to PECVD, photo-assisted CVD has the additional advantage of highly selective deposition, although it has been little used in commercial systems. <link target-id=" id6416152"/> summarizes the advantages and disadvantages of each type of CVD system commercially used for SiO<sub>2</sub> films. </para>
+        <table id="id6416152" summary="Comparison of different deposition methods for silica thin films.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry/>
+                <entry><emphasis effect="bold">Atmospheric pressure CVD</emphasis> </entry>
+                <entry><emphasis effect="bold">Low temperature LPCVD</emphasis> </entry>
+                <entry><emphasis effect="bold">Medium temperature LPCVD</emphasis> </entry>
+                <entry><emphasis effect="bold">Plasma enhanced CVD</emphasis> </entry>
+              </row>
+              <row>
+                <entry>Temperature (°C)</entry>
+                <entry>300 - 500</entry>
+                <entry>300 - 500</entry>
+                <entry>500 - 900</entry>
+                <entry>100 - 350</entry>
+              </row>
+              <row>
+                <entry>Throughput</entry>
+                <entry>high</entry>
+                <entry>high</entry>
+                <entry>high</entry>
+                <entry>low</entry>
+              </row>
+              <row>
+                <entry>Step coverage</entry>
+                <entry>poor</entry>
+                <entry>poor</entry>
+                <entry>conformal</entry>
+                <entry>poor</entry>
+              </row>
+              <row>
+                <entry>Film properties</entry>
+                <entry>good</entry>
+                <entry>good</entry>
+                <entry>excellent</entry>
+                <entry>poor</entry>
+              </row>
+              <row>
+                <entry>Uses</entry>
+                <entry>passivation, insulation</entry>
+                <entry>passivation, insulation</entry>
+                <entry>insulation</entry>
+                <entry>passivation, insulation</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Comparison of different deposition methods for SiO<sub>2</sub> thin films. </caption>
+</table>
+        
+        
+      </section>
+      <section id="id1169190102951">
+        <title>Deposition variables</title>
+        <para id="id1169193555691"> The requirements of CVD films for electronic device applications have become increasingly more stringent as device sizes are continually reduced. Film thickness must be uniform across an entire wafer, i.e., better than ±1%. The structure of the film and its composition must be controlled and reproducible, both on a single wafer, as well as between wafer samples. It is also desirable that the process is safe, inexpensive, and easily automated. </para>
+        <para id="id8311362"> A number of variables determine the quality and rate of film growth for any material. In general, the deposition rate increases with increased temperature and follows the Arrhenius equation, <link target-id="eip-30"/>, where R is the deposition rate, E<sub>a</sub> is the activation energy, T is the temperature (K), A is the frequency factor, and <emphasis effect="italics">k</emphasis> is Boltzmann's constant (1.381 x 10<sup>-23</sup> J/K).</para>
+
+
+<equation id="eip-30"><media id="id30_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq30.jpg" id="id30__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+        <para id="id1169193262714"> At the high temperatures the rate of deposition becomes mass transport limited. Meaning, the rate of surface reaction is faster than the rate at which precursors are transported to the surface. In multiple source systems, the film growth rate is dependent on the vapor phase concentration (or partial pressure) of each of the reactants, but in certain cases the ratio of reactants is also important, e.g., the SiH<sub>4</sub>/O<sub>2</sub> growth of SiO<sub>2</sub>. Surface catalyzed reactions can also alter the deposition rate. Such as the non-linear dependence of the deposition rate of SiO<sub>2</sub> on the partial pressure of Si(OEt)<sub>4</sub>. Gas depletion may also be significant requiring either a thermal ramp in the chamber and/or special reactor designs. The necessary incorporation of dopants usually lowers deposition rates, due to competitive surface binding. </para>
+        <para id="id1169199990455">For the applications of insulating materials as isolation layers, an important consideration is step coverage: whether a coating is uniform with respect to the surface. <link target-id=" id1169193270898"/>a shows a schematic of a completely uniform or conformal step coverage of a trench (such as occurs between isolated devices) where the film thickness along the walls is the same as the film thickness at the bottom of the step. Uniform step coverage results when reactants or reactive intermediates are able to migrate rapidly along the surface before reacting. When the reactants adsorb and react without significant surface migration, deposition is dependent on the mean free path of the gas. <link target-id=" id1169193270898"/>b shows an example of minimal surface migration and a short mean free path. For SiO<sub>2</sub> film growth LPCVD has highly uniform coverage (<link target-id=" id1169193270898"/>a) and PECVD poor step coverage (<link target-id=" id1169193270898"/>b). </para>
+        <figure id="id1169193270898"><media id="id1169193270898_media" alt="">
+            <image mime-type="image/jpg" src="../../media/step.jpg" id="id1169193270898__onlineimage" width="497" print-width="4in"/>
+          </media>
+        <caption>Step coverage of deposited films with (a) uniform coverage resulting from rapid surface migration and (b) nonconformal step coverage due to no surface migration. </caption></figure>
+        
+      </section>
+      <section id="id8762491">
+        <title>Precursor considerations</title>
+        <para id="id1169188113162">The general requirements for any CVD precursor have been adequately reviewed elsewhere, and will not be covered here. However, many of the gases and organometallics used to deposit dielectric films are hazardous. The safety problems are more severe for LPCVD because the process often uses no diluent gas such as argon or nitrogen. <link target-id=" id7612532"/> lists the boiling point and hazards of common inorganic and organometallic precursor sources for CVD of SiO<sub>2</sub> and doped silica. Many of the precursors react with air to form solid products, thus leaks can cause particles to form in the chamber and gas lines. </para>
+        
+        <table id="id7612532" summary="Physical and hazard properties of common gaseous sources for CVD of dielectric materials.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Gas</emphasis> </entry>
+                <entry><emphasis effect="bold">Formula</emphasis> </entry>
+                <entry><emphasis effect="bold">Bpt (°C)</emphasis> </entry>
+                <entry><emphasis effect="bold">Hazard</emphasis> </entry>
+              </row>
+              <row>
+                <entry>ammonia</entry>
+                <entry>NH<sub>3</sub></entry>
+                <entry>-33.35</entry>
+                <entry>toxic, corrosive</entry>
+              </row>
+              <row>
+                <entry>argon</entry>
+                <entry>Ar</entry>
+                <entry>-185.7</entry>
+                <entry>inert</entry>
+              </row>
+              <row>
+                <entry>arsine</entry>
+                <entry>AsH<sub>3</sub></entry>
+                <entry>-55</entry>
+                <entry>toxic</entry>
+              </row>
+              <row>
+                <entry>diborane</entry>
+                <entry>B<sub>2</sub>H<sub>6</sub></entry>
+                <entry>-92.5</entry>
+                <entry>toxic, flammable</entry>
+              </row>
+              <row>
+                <entry>dichlorosilane</entry>
+                <entry>SiCl<sub>2</sub>H<sub>2</sub></entry>
+                <entry>8.3</entry>
+                <entry>toxic, flammable</entry>
+              </row>
+              <row>
+                <entry>hydrogen</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>-252.8</entry>
+                <entry>flammable</entry>
+              </row>
+              <row>
+                <entry>nitrogen</entry>
+                <entry>N<sub>2</sub></entry>
+                <entry>-209.86</entry>
+                <entry>inert</entry>
+              </row>
+              <row>
+                <entry>nitrous oxide</entry>
+                <entry>N<sub>2</sub>O</entry>
+                <entry>-88.5</entry>
+                <entry>oxidizer</entry>
+              </row>
+              <row>
+                <entry>oxygen</entry>
+                <entry>O<sub>2</sub></entry>
+                <entry>-182.962</entry>
+                <entry>oxidizer</entry>
+              </row>
+              <row>
+                <entry>phosphine</entry>
+                <entry>PH<sub>3</sub></entry>
+                <entry>-87.7</entry>
+                <entry>toxic, P<sub>2</sub>H<sub>4</sub> impurities, flammable</entry>
+              </row>
+              <row>
+                <entry>silane</entry>
+                <entry>SiH<sub>4</sub></entry>
+                <entry>-111.8</entry>
+                <entry>flammable, toxic</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Physical and hazard properties of common gaseous sources for CVD of dielectric materials. </caption>
+</table>
+        
+        <para id="id1169193278762"> In principle, the deposition of a SiO<sub>2</sub>, or silica, thin film by CVD requires two chemical sources: the element (or elements) in question, and an oxygen source. While dioxygen (O<sub>2</sub>) is suitable for many applications, its reactions may be too fast or too slow for optimum film growth, requiring that alternative oxygen sources be used, e.g., nitrous oxide (N<sub>2</sub>O) and ozone (O<sub>3</sub>). A common non-oxidizing oxygen source is water. A more advantageous approach is to incorporate oxygen into the ligand environment of the precursor, and endeavor to preserve such an interaction intact from the source molecule into the ultimate film; such a source is often termed a "single-source" precursor. </para>
+      </section>
+    </section>
+    <section id="id8890535">
+      <title>CVD silica (SiO<sub>2</sub>)</title>
+      <para id="id1169185041697">The processing sequence for silicon dioxide (SiO<sub>2</sub>) used depends on its specific use. CVD processes for SiO<sub>2</sub> films can be characterized by either the chemical reaction type, the growth pressure, or the deposition temperature. The choice of route is often dictated by requirements of the thermal stability of the substrate or the conformality. <link target-id=" id2434122"/> summarizes selected properties of SiO<sub>2</sub> grown by various CVD methods, in comparison to that of thermally grown silica. In general, silica grown at high temperatures resemble thermally grown “native” SiO<sub>2</sub>. However, the use of aluminum metallization requires low temperature deposition of silica. </para>
+      <table id="id2434122" summary="Comparison of physical properties of silica grown by commercial CVD methods.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Deposition</emphasis> </entry>
+              <entry><emphasis effect="bold">Plasma</emphasis> </entry>
+              <entry>
+                <emphasis effect="bold">SiH<sub>4</sub></emphasis>
+                <emphasis effect="bold"> + O<sub>2</sub></emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Si(OEt)<sub>4</sub></emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">SiCl<sub>2</sub>H<sub>2</sub> + N<sub>2</sub>O</emphasis>
+              </entry>
+              <entry><emphasis effect="bold">Thermal</emphasis> </entry>
+            </row>
+            <row>
+              <entry>Temperature (°C)</entry>
+              <entry>200</entry>
+              <entry>450</entry>
+              <entry>700</entry>
+              <entry>900</entry>
+              <entry>1000</entry>
+            </row>
+            <row>
+              <entry>Composition</entry>
+              <entry>SiO<sub>1.9</sub>(H)</entry>
+              <entry>SiO<sub>2</sub>(H)</entry>
+              <entry>SiO<sub>2</sub></entry>
+              <entry>SiO<sub>2</sub>(Cl)</entry>
+              <entry>SiO<sub>2</sub></entry>
+            </row>
+            <row>
+              <entry>Step coverage</entry>
+              <entry>non-conformal</entry>
+              <entry>non-conformal</entry>
+              <entry>conformal</entry>
+              <entry>conformal</entry>
+              <entry>conformal</entry>
+            </row>
+            <row>
+              <entry>Thermal stability</entry>
+              <entry>loses H</entry>
+              <entry>densifies</entry>
+              <entry>stable</entry>
+              <entry>loses Cl</entry>
+              <entry>stable</entry>
+            </row>
+            <row>
+              <entry>Refractive idex</entry>
+              <entry>1.47</entry>
+              <entry>1.44</entry>
+              <entry>1.46</entry>
+              <entry>1.46</entry>
+              <entry>1.46</entry>
+            </row>
+            <row>
+              <entry>Dielectric constant</entry>
+              <entry>4.9</entry>
+              <entry>4.3</entry>
+              <entry>4.0</entry>
+              <entry>4.0</entry>
+              <entry>3.9</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Comparison of physical properties of SiO<sub>2</sub> grown by commercial CVD methods. </caption>
+</table>
+      
+      <section id="id1169193076504">
+        <title>CVD from hydrides</title>
+        <para id="id1169199898814">The most widely used method for SiO<sub>2</sub> thin film CVD is the oxidation of silane (SiH<sub>4</sub>), first developed in 1967 for APCVD. Nonetheless, LPCVD systems have since become increasingly employed, and exceptionally high growth rates (30,000 Å/min) have been obtained by the use of rapid thermal CVD. </para>
+
+        <para id="id1169199979734"> The chemical reaction for SiO<sub>2</sub> deposition from SiH<sub>4</sub> is: </para>
+
+
+
+<equation id="eip-31"><media id="id31_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq31.jpg" id="id31__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+        <para id="id2329388">At high oxygen partial pressures an alternative reaction occurs, resulting in the formation of water. </para>
+
+
+<equation id="eip-32"><media id="id32_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq32.jpg" id="id32__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+        <para id="id3396225">While these reactions appears simple, the detailed mechanism involves a complex branching-chain sequence of reactions. The apparent activation energy is low (&lt; 41 kJ/mol) as a consequence of its heterogeneous nature, and involves both surface adsorption and surface catalysis. </para>
+        <para id="id6885469">Nitrous oxide (N<sub>2</sub>O) can be used as an alternative oxygen source to O<sub>2</sub>, according to the overall reaction, <link target-id="eip-33"/>. </para>
+
+<equation id="eip-33"><media id="id33_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq33.jpg" id="id33__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+        <para id="id4575706">A simple kinetic scheme has been developed to explain many of the observed aspects of SiH<sub>4</sub>-N<sub>2</sub>O growth. It was suggested that the reaction is initiated by decomposition of N<sub>2</sub>O, <link target-id="eip-34"/>, generating an oxygen radical which can abstract hydrogen from silane forming a hydroxyl radical, <link target-id="eip-35"/>, that can react further with silane, <link target-id="eip-36"/>.</para>
+
+
+<equation id="eip-34"><media id="id34_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq34.jpg" id="id34__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-35"><media id="id35_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq35.jpg" id="id35__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-36"><media id="id36_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq36.jpg" id="id36__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+
+
+        <para id="id7133744">Evidence for the reaction of the OH radical to form water is the formation of a small quantity of water observed during the oxidation of SiH<sub>4</sub>. Silyl radicals are oxidized by N<sub>2</sub>O to form siloxy radicals, <link target-id="eip-37"/>, which provide a suitable propagation step, <link target-id="eip-38"/>. </para>
+
+<equation id="eip-37"><media id="id37_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq37.jpg" id="id37__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-38"><media id="id38_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq38.jpg" id="id38__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+
+
+
+
+        <para id="id4523484">It has been proposed that the silanol (SiH<sub>3</sub>OH) is the penultimate film precursor.</para>
+        <para id="id8746475">The SiH<sub>4</sub>-O<sub>2</sub> and SiH<sub>4</sub>-N<sub>2</sub>O routes to SiO<sub>2</sub> thin films are perhaps the most widely studied photochemical CVD system of all dielectrics. Photo-CVD of SiO<sub>2</sub> provides a suitable route to deposition at low substrate temperatures, thereby avoiding potential thermal effects of wafer warpage and deleterious dopant redistribution. In addition, unlike other low temperature methods such as APCVD and PECVD, photo-CVD often provides good purity of films. </para>
+        <para id="id891125">A summary of common silane CVD systems is given in <link target-id="id1169185439587"/>. </para>
+        
+        <table id="id1169185439587" summary="Precursors and deposition conditions for silica CVD using silane">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Oxygen source</emphasis> </entry>
+                <entry><emphasis effect="bold">Carrier gas (diluent)</emphasis> </entry>
+                <entry><emphasis effect="bold">CVD method</emphasis> </entry>
+                <entry><emphasis effect="bold">Deposition temp. (°C)</emphasis> </entry>
+                <entry><emphasis effect="bold">Growth rate (Å/min)</emphasis> </entry>
+              </row>
+              <row>
+                <entry>O<sub>2</sub></entry>
+                <entry>N<sub>2</sub></entry>
+                <entry>APCVD</entry>
+                <entry>350 - 475</entry>
+                <entry>100 - 14,000</entry>
+              </row>
+              <row>
+                <entry>O<sub>2</sub></entry>
+                <entry>Ar</entry>
+                <entry>LPCVD</entry>
+                <entry>100 - 550</entry>
+                <entry>100 - 30,000</entry>
+              </row>
+              <row>
+                <entry>O<sub>2</sub></entry>
+                <entry>Ar/N<sub>2</sub></entry>
+                <entry>LPCVD</entry>
+                <entry>25 - 500</entry>
+                <entry>10 - 450</entry>
+              </row>
+              <row>
+                <entry>O<sub>2</sub></entry>
+                <entry>Ar</entry>
+                <entry>PECVD</entry>
+                <entry>25 - 200</entry>
+                <entry>200 - 900</entry>
+              </row>
+              <row>
+                <entry>N<sub>2</sub>O</entry>
+                <entry>N<sub>2</sub></entry>
+                <entry>APCVD</entry>
+                <entry>490 - 690</entry>
+                <entry>200 - 1,200</entry>
+              </row>
+              <row>
+                <entry>N<sub>2</sub>O</entry>
+                <entry>N<sub>2</sub></entry>
+                <entry>LPCVD</entry>
+                <entry>700 - 860</entry>
+                <entry><emphasis effect="italics">ca</emphasis>. 50</entry>
+              </row>
+              <row>
+                <entry>N<sub>2</sub>O</entry>
+                <entry>N<sub>2</sub></entry>
+                <entry>LPCVD</entry>
+                <entry>25 - 350</entry>
+                <entry>7 - 180</entry>
+              </row>
+              <row>
+                <entry>N<sub>2</sub>O</entry>
+                <entry>Ar</entry>
+                <entry>PECVD</entry>
+                <entry>100 - 200</entry>
+                <entry>80 - 800</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Precursors and deposition conditions for SiO<sub>2</sub> CVD using silane (SiH<sub>4</sub>). </caption>
+</table>
+      </section>
+      <section id="id1169190097510">
+        <title>CVD from halides</title>
+        <para id="id4713488"> The most widely used process of the high temperature growth of SiO<sub>2</sub> by LPCVD involves the N<sub>2</sub>O oxidation of dichlorosilane, SiCl<sub>2</sub>H<sub>2</sub>, <link target-id="eip-39"/>. </para>
+
+<equation id="eip-39"><media id="id39_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq39.jpg" id="id39__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+        <para id="id1169197627114">Deposition at 900 - 915 °C allows for growth of SiO<sub>2</sub> films at <emphasis effect="italics">ca</emphasis>. 120 Å/min; however, these films are contaminated with Cl. Addition of small amounts of O<sub>2</sub> is necessary to remove the chlorine. </para>
+        <para id="id4742546"> While PECVD has been employed utility halide precursors, the ability of small quantities of fluorine to improve the electrical properties of SiO<sub>2</sub> has prompted investigation of the use of SiF<sub>4</sub> as a suitable source. </para>
+      </section>
+      <section id="id6756971">
+        <title>CVD from tetraethoxylsilane (TEOS)</title>
+        <para id="id8923156">The first CVD process to be introduced into semiconductor technology in 1961 was that involving the pyrolysis of tetraethoxysilane, Si(OEt)<sub>4</sub> (commonly called TEOS from tetraethylorthosilicate). Deposition occurs at an optimum temperature around 750 °C. However, under LPCVD conditions, the growth temperature can be significantly lowered (&gt; 600 °C). The high temperature growth of SiO<sub>2</sub> from TEOS involves no external oxygen source. Dissociative adsorption studies indicate that decomposition of the TEOS-derived surface bound di- and tri-ethoxysiloxanes is the direct source of the ethylene.</para>
+        <para id="id1169189931096">PECVD significantly lowers deposition temperatures using TEOS, but requires the addition of O<sub>2</sub> to remove carbon contamination, via the formation of gaseous CO and CO<sub>2</sub>, which are subsequently not incorporated within the film. Although deposition as low as 100 °C may be obtained, the film resistivity increases by three orders of magnitude by depositing at 200 °C; being 10<sup>16</sup> Ω.cm, with a breakdown strength of 7 x 10<sup>6</sup> V/cm.</para>
+        <para id="id8758713">Addition of O<sub>2</sub> for APCVD growth does not decrease the deposition temperature, however, if ozone (O<sub>3</sub>) is used as the oxidation source, deposition temperatures as low as 300 °C may be obtained for uniform crack-free films. It has been postulated that the ozone traps the TEOS molecule on the surface as it reacts with the ethoxy substituent, providing a lower energy pathway (TEOS-O<sub>3</sub> @ 55 kJ/mol versus TEOS-O<sub>2</sub> @ 230 kJ/mol and TEOS only @ 190 kJ/mol). </para>
+        <para id="id1169188228549"> There are significant advantages of the TEOS/O<sub>3</sub> system, for example the superior step coverage it provides. Furthermore, films have low stress and low particle contamination. On this basis the TEOS/O<sub>3</sub> system has become widely used for silica, as well as silicate glasses. </para>
+      </section>
+      <section id="id2532189">
+        <title>CVD from other organosilicon precursors</title>
+        <para id="id6809060"> A wide range of alternative silicon sources has been investigated, especially with regard to either lower temperature deposition and/or precursors with greater ambient stability.</para>
+        <para id="id6197785">Diethylsilane (Et<sub>2</sub>SiH<sub>2</sub>), 1,4-dislabutane (DBS, H<sub>3</sub>SiCH<sub>2</sub>CH<sub>2</sub>SiH<sub>3</sub>), 2,4,6,8-tetramethylcyclotetrasiloxane (TMCTS, <link target-id=" id4548725"/>a, where R = CH<sub>3</sub>), and 2,4,6,8-tetraethylcyclotetrasiloxane (TECTS, <link target-id=" id4548725"/>a, where R = C<sub>2</sub>H<sub>5</sub>), have been used in conjunction with O<sub>2</sub> over deposition temperatures of 100 - 600 °C, depending on the precursor. Diacetoxydi-<emphasis effect="italics">tert</emphasis>-butyl silane (DADBS, <link target-id=" id4548725"/>b) has been used without additional oxidation sources. High quality silicon oxide has been grown at 300 °C by APCVD using the amido precursor, Si(NMe<sub>2</sub>)<sub>4</sub> (<link target-id=" id4548725"/>c). </para>
+        <figure id="id4548725"><media id="id4548725_media" alt="">
+            <image mime-type="image/jpg" src="../../media/precursors.jpg" id="id4548725__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Alternative organometallic silicon sources that have been investigated for the growth of silica thin films. </caption></figure>
+        
+        <para id="id1169188117567">An interesting concept has been to preform the -Si-O-Si- framework in the precursor. In this regard, the novel precursor T<sub>8</sub>-hydridospherosiloxane (H<sub>8</sub>Si<sub>8</sub>O<sub>12</sub>, <link target-id=" id4548725"/>d) gives smooth amorphous stoichiometric SiO<sub>2</sub> at 450 - 525 °C by LPCVD. The decomposition mechanism in the presence of added oxygen involves the loss of water, <link target-id="eip-40"/>. IR studies indicate that the Si-O-Si bonds are preserved during deposition. While films are of high quality, the present synthesis of H<sub>8</sub>Si<sub>8</sub>O<sub>12</sub> is of low yield (<emphasis effect="italics">ca</emphasis>. 21%), making it currently impractical for large scale processing.</para>
+
+<equation id="eip-40"><media id="id40_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq40.jpg" id="id40__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+      </section>
+    </section>
+    <section id="id1872318">
+      <title>CVD silicate glasses</title>
+      <para id="id1169193556238">Borosilicate glasses (BSG), phosphosilicate glasses (PSG) and borophosphosilicate glasses (BPSG) are frequently used as insulating layers separating conducting layers. These glasses have lower intrinsic stress, lower melting temperatures and better dielectric properties than SiO<sub>2</sub> itself. PSG and BPSG have the added property of gettering and immobilizing dopants. Particularly important is the gettering of sodium ions, which are a source of interface traps. The low temperature molten properties of BSG, PSG, and BPSG glasses allow for the smoothing of the device topography by viscous thermal fusion to convert abrupt steps to more gradually tapered steps (<link target-id=" id1169187405289"/>a) as well as planarization of complex topologies (<link target-id=" id1169187405289"/>b), enabling deposition of continuous metal layers. This process is commonly called P-glass flow. The boron and phosphorous contents of the silicate glasses vary, depending on the application, typically being from 2 to 8 weight per cent. </para>
+      <figure id="id1169187405289"><media id="id1169187405289_media" alt="">
+          <image mime-type="image/jpg" src="../../media/BPSG.jpg" id="id1169187405289__onlineimage" width="549" print-width="4in"/>
+        </media>
+      <caption>Schematic cross section of BPSG as deposited (a) and after annealing (b), showing the flow causing a decrease in the angle of the BPSG going over the step. </caption></figure>
+      
+      <para id="id6999184"> The advantage of BPSG over PSG is that flow occurs over the temperature range of 750 - 950 °C, depending on the relative P and B content (as opposed to 950 - 1110 °C for PSG). Lowering of the flow temperature is required to minimize dopant migration in VLSI devices. Conversely, the disadvantages of BPSG versus PSG include the formation of bubbles of volatile phosphorous oxides and crystallites of boron-rich phases. If, however, the dopant concentration is controlled, these effects can be minimized. </para>
+      <para id="id2466698"> Arsenosilicates (AsSG) were employed originally in silicon device technology as an arsenic dopant source for planar substrates prior to the advent of large scale ion implantation which has largely removed the need for AsSG in doping applications. However, with ULSI silicon circuit fabrication, the requirement for doping of deep trenches (inaccessible to ion implantation) has witnessed the re-emergence of interest in AsSG films. </para>
+      <para id="id6623999">The CVD growth of silicate glasses follows that of SiO<sub>2</sub>, with SiH<sub>4</sub> and TEOS being the most commonly employed silicon precursors. A summary of common CVD precursor systems for silicate glasses is given in <link target-id=" id8627276"/>. </para>
+      <table id="id8627276" summary="Precursors and deposition conditions for CVD of borosilicate glass (BSG), phososilicate glass (PSG), borophosphosilicate glass (BPSG) and arsenosilicates (AsSG) thin films.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Precursors</emphasis> </entry>
+              <entry><emphasis effect="bold">CVD method</emphasis> </entry>
+              <entry><emphasis effect="bold">Deposition temp. (°C)</emphasis> </entry>
+              <entry><emphasis effect="bold">Applications</emphasis> </entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/B<sub>2</sub>H<sub>6</sub></entry>
+              <entry>APCVD</entry>
+              <entry>300 - 450</entry>
+              <entry>good step coverage</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/B<sub>2</sub>H<sub>6</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>350 - 400</entry>
+              <entry>-</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/PH<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>300 - 450</entry>
+              <entry>-</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/PH<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>350 - 400</entry>
+              <entry>flow glass</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/B<sub>2</sub>H<sub>6</sub>/PH<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>300 - 450</entry>
+              <entry>-</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/B<sub>2</sub>H<sub>6</sub>/PH<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>350 - 400</entry>
+              <entry>-</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub>/AsH<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>500 - 700</entry>
+              <entry>-</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OMe)<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>650 - 730</entry>
+              <entry>diffusion source</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OMe)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>500 - 750 </entry>
+              <entry>trench filling</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OEt)<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>475 - 800 </entry>
+              <entry>diffusion source</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OEt)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>500 - 750 </entry>
+              <entry>diffusion source</entry>
+            </row>
+            <row>
+              <entry>TEOS/PH<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>650</entry>
+              <entry>flow glass</entry>
+            </row>
+            <row>
+              <entry>TEOS/O=P(OMe)<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>300 - 800</entry>
+              <entry>flow glass</entry>
+            </row>
+            <row>
+              <entry>TEOS/P(OMe)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>500 - 750</entry>
+              <entry>diffusion source</entry>
+            </row>
+            <row>
+              <entry>TEOS/O=P(OMe)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>500 - 800</entry>
+              <entry>flow glass</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OMe)<sub>3</sub>/PH<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>620 - 800</entry>
+              <entry>trench filling</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OMe)<sub>3</sub>/P(OMe)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>675 - 750</entry>
+              <entry>flow glass</entry>
+            </row>
+            <row>
+              <entry>TEOS/B(OMe)<sub>3</sub>/O=P(OMe)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>680</entry>
+              <entry>flow glass</entry>
+            </row>
+            <row>
+              <entry>TEOS/AsCl<sub>3</sub></entry>
+              <entry>APCVD</entry>
+              <entry>500 - 700</entry>
+              <entry>diffusion source</entry>
+            </row>
+            <row>
+              <entry>TEOS/As(OEt)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>700 - 730</entry>
+              <entry>trench doping</entry>
+            </row>
+            <row>
+              <entry>TEOS/O=As(OEt)<sub>3</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>700 - 730</entry>
+              <entry>trench doping</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Precursors and deposition conditions for CVD of borosilicate glass (BSG), phososilicate glass (PSG), borophosphosilicate glass (BPSG) and arsenosilicates (AsSG) thin films. </caption>
+</table>
+      
+      <section id="id1169193360717">
+        <title>CVD from hydrides</title>
+        <para id="id1169187220884">Films of BSG, PSG, and BPSG may all be grown from SiH<sub>4</sub>, O<sub>2</sub> and B<sub>2</sub>H<sub>6</sub> and/or PH<sub>3</sub>, at 300 - 650 °C. For APCVD, the reactants are diluted with an inert gas such as nitrogen, and the O<sub>2</sub>/hydride molar ratio is carefully controlled to maximize growth rate and dopant concentration (values of 1 to 100 are used depending on the application). Ordinarily, the dopant concentration for both BSG and PSG decreases with increased temperature. However, some reports indicate an increase in boron content with increased temperature. Film growth of BPSG was found to occur in two temperature regions. Deposition at low temperature (270 - 360 °C) occurred via a surface reaction rate limiting growth (E<sub>a</sub> = 39 kcal/mol), while at higher temperature (350 - 450 °C), a mass-transport rate limited reaction region is observed (E<sub>a</sub> = 7.6 kcal/mol).</para>
+        <para id="id6867269">LPCVD of BSG and PSG is conducted at 450 - 550 °C with an O<sub>2</sub>:hydride ratio of 1:1.5. Conversely, an O<sub>2</sub>:hydride ratio of 1.5:1 provides the optimum growth conditions for BPSG over the same temperature range. The phosphorous in PSG films was found to exist as a mixture of P<sub>2</sub>O<sub>5</sub> and P<sub>2</sub>O<sub>3</sub>, however, the latter can be minimized under the correct deposition conditions. Some difficulties have been reported for the use of B<sub>2</sub>H<sub>6</sub> due to its thermal instability. Substitution of B<sub>2</sub>H<sub>6</sub> with BCl<sub>3</sub> obviates this problem, although the resulting films are invariably contaminated with 1 weight per cent chloride.</para>
+        <para id="id6594539"> Arsenosilicate glass (AsSG) thin films are generally grown by APCVD using arsine (AsH3); the use of which is being limited due to its high toxicity. However, arsine inhibits the gas phase reactions between SiH<sub>4</sub> and O<sub>2</sub>, such that film grown from SiH<sub>4</sub>/AsH<sub>3</sub>/O<sub>2</sub> show improved step coverage at high deposition rates.</para>
+      </section>
+      <section id="id8584045">
+        <title>CVD from metal organic precursors</title>
+        <para id="id913939">As with SiO<sub>2</sub> deposition, see above, there has been a trend towards the replacement of SiH<sub>4</sub> with TEOS on account of its ability to produce highly conformal coatings. This is particularly attractive with respect to trench filling. Furthermore, films of doped SiO<sub>2</sub> glasses have been obtained using both APCVD and LPCVD (typically below 3 Torr), with a wide variety of dopant elements including: boron, phosphorous, and arsenic, including antimony, tin, and zinc.</para>
+        <para id="id1169197512061"> Boron-containing glasses are generally grown using either trimethylborate, B(OMe)<sub>3</sub>, or triethylborate, B(OEt)<sub>3</sub>, although the multi-element source, <emphasis effect="italics">tris</emphasis>(trimethylsilyl)borate, B(OSiMe<sub>3</sub>)<sub>3</sub>, has been employed for both silicon and boron in BPSG thin film growth. Similarly, whereas PH<sub>3</sub> may be used as the phosphorous source, trimethylphosphite, P(OMe)<sub>3</sub>, and trimethylphosphate, O=P(OMe)<sub>3</sub>, are preferred. Likewise, triethoxyarsine, As(OEt)<sub>3</sub>, and triethylarsenate, O=As(OEt)<sub>3</sub>, have been employed for AsSG growth.</para>
+        <para id="id1169197627182"> The co-reaction of TEOS with organoboron and organophosphorous compounds allows for deposition at lower temperatures (500 - 650 °C) than for hydride growth of comparable rates. However, LPCVD, using an all organometallic approach, requires P(OMe)<sub>3</sub> because the low reactivity of O=P(OMe)<sub>3</sub> prevents significant phosphorus incorporation. Although premature decomposition of P(OMe)<sub>3</sub> occurs at 600 °C (leading to non-uniform growth), deposition at 550 °C results in high film uniformity at reasonable deposition rates. </para>
+      </section>
+    </section>
+    <section id="id1169189074707">
+      <title>Bibliography</title>
+      <list id="id7757531" list-type="bulleted"><item>W. Kern and V. S. Ban, in <emphasis effect="italics">Thin Film Processes</emphasis>, Eds. J. L. Vossen, W. Kern, Academic Press, New York (1978).</item>
+        <item>M. L. Hammod, <emphasis effect="italics">Sold State Technol.</emphasis>, 1980, <emphasis effect="bold">23</emphasis>, 104. </item>
+        <item>A. R. Barron and W. S. Rees, Jr., <emphasis effect="italics">Adv. Mater. Optics Electron.</emphasis>, 1993, <emphasis effect="bold">2</emphasis>, 271.</item>
+        <item>N. Goldsmith and W. Kern, <emphasis effect="italics">RCA Rev.,</emphasis> 1967, <emphasis effect="bold">28</emphasis>, 153.</item>
+        <item>C. Pavelescu, J. P. McVittie, C. Chang, K. C. Saraswat, and J. Y. Leong, <emphasis effect="italics">Thin Solid Films</emphasis>, 1992, <emphasis effect="bold">217</emphasis>, 68. </item>
+        <item>J. D. Chapple-Sokol, C. J. Giunta, and R. G. Gordon, <emphasis effect="italics">J. Electrochem. Soc</emphasis>., 1987, <emphasis effect="bold">136</emphasis>, 2993. </item>
+        <item>P. González, D. Fernández, J. Pou, E. García, J. Serra, B. León, and M. Pérez-Amor, <emphasis effect="italics">Thin Solid Films</emphasis>, 1992, <emphasis effect="bold">218</emphasis>, 170. </item>
+        <item>E. L. Jordan, <emphasis effect="italics">J. Electrochem. Soc</emphasis>., 1961, <emphasis effect="bold">108</emphasis>, 478. </item>
+        <item>K. Fujino, Y. Nishimoto, N. Tokumasu, and K. Maeda, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1990, <emphasis effect="bold">137</emphasis>, 2883. </item>
+        <item>R. A. Levy and K. Nassau,<emphasis effect="italics"> J. Electrochem. Soc.</emphasis>, 1986, <emphasis effect="bold">133</emphasis>, 1417.</item>
+        <item>L. K. White, J. M. Shaw, W. A. Kurylo, and N. Miszkowski, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1990, <emphasis effect="bold">137</emphasis>, 1501.</item>
+      </list>
+    </section>
+  </content>
+</document>

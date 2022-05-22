@@ -1,0 +1,250 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Piezoelectric Materials Synthesis</title>
+  <metadata>
+  <md:content-id>m25441</md:content-id><md:title>Piezoelectric Materials Synthesis</md:title>
+  <md:abstract/>
+  <md:uuid>b931dc36-bdf5-439b-b7f0-5bfccb9acbf6</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168161196993">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Ilse Y. Guzman-Jimenez. </para>
+    <section id="id1838994">
+      <title>Introduction</title>
+      <para id="id8632975">Piezoelectricity is the generation of an electric moment by a change of stress applied to a solid. The word piezoelectricity literally means “pressure electricity”; the prefix piezo is derived from the Greek word <emphasis effect="italics">piezein</emphasis>, “to press”. The piezoelectric effect was discovered in 1880 by the brothers Jacques and Pierre Curie. Not only did they demonstrate the phenomenon, but they also established the criteria for its existence in a given crystal. Of the thirty-two crystal classes, twenty-one are non-centrosymmetric (not having a centre of symmetry), and of these, twenty exhibit direct piezoelectricity. </para>
+      <para id="id6649357">The first practical application of the piezoelectric effect was developed when ground quartz crystals were placed between the plates of a tuning capacitor in order to stabilize oscillating circuits in radio transmitters and receivers; however, the phenomenon of piezoelectricity was not well exploited until World War I, when Langevin used piezoelectrically excited quartz plates to generate sounds waves in water for use in submarine detection.</para>
+      <para id="id1168158595688">Piezoelectricity can also occur in polycrystalline or amorphous substances which have become anisotropic by external agents. Synthetic piezoelectric materials became available near the end of World War II, with the accidental discovery of the fact that materials like barium titanate and rare earth oxides become piezoelectric when they are polarized electrically. During the postwar years, when germanium and silicon were revolutionizing the electronics industry, piezoceramics appeared for a while to be joining the revolution, but the limited availability of materials and components, made the piezoelectric phenomenon failed to lead mature applications during the 1950s. It is only now that a variety of piezoelectric materials are being synthesized and optimized. As a consequence piezoelectric-based devices are undergoing a revolutionary development, specially for medicine and aerospace applications. </para>
+    </section>
+    <section id="id8287908">
+      <title>Piezoelectric ceramics</title>
+      <para id="id8871470">Most piezoelectric transducers are made up of ceramic materials for a broad range of electromechanical conversion tasks as transmitters, ranging from buzzers in alarm clocks to sonars, and as receivers, ranging from ultra high frequency (UHF) filters to hydrophones. </para>
+      <para id="id7126097">Most of the piezoelectric materials in usage are from the lead zirconate titanate (PZT) family, because of their excellent piezoelectric parameters, thermal stability, and dielectric properties. Additionally the properties of this family can be modified by changing the zirconium to titanium ratio or by addition of both metallic and non-metallic elements. PZT (PbZr<sub>1-x</sub>Ti<sub>X</sub>O<sub>3</sub>) ceramics and their solid solutions with several complex perovskite oxides have been studied; among the various complex oxide materials, niobates have attracted special attention. Ternary ceramic materials, lead metaniobate, as well as, barium and modified lead titanates complete the list of piezoceramic materials.</para>
+      <para id="id8364501">Selective parameters for piezoceramic materials are given in <link target-id=" id6290121"/>, where Q<sub>m</sub> is the mechanical quality factor, T<sub>c</sub> is the Curie point, d<sub>31</sub> is the the transverse charge coefficient, and k<sub>p</sub>, k<sub>t</sub> and k<sub>31</sub> are the electromechanical coupling factors for planar, thickness, and transversal mode respectively.</para>
+      
+      <table id="id6290121" summary="Selective parameters for illustrative piezoceramic materials.">
+<tgroup cols="8"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Material property</emphasis> </entry>
+              <entry><emphasis effect="bold">PZT modified</emphasis> </entry>
+              <entry><emphasis effect="bold">Lead metaniobate</emphasis> </entry>
+              <entry><emphasis effect="bold">PSZNT 31/40/29</emphasis> </entry>
+              <entry><emphasis effect="bold">PZT, x = 0.5</emphasis> </entry>
+              <entry><emphasis effect="bold">PSN-PLT</emphasis> </entry>
+              <entry><emphasis effect="bold">TsTS-42-1 50/50</emphasis> </entry>
+              <entry><emphasis effect="bold">PZT, x = 0.48</emphasis> </entry>
+            </row>
+            <row>
+              <entry>Q<sub>m</sub></entry>
+              <entry>350</entry>
+              <entry>40</entry>
+              <entry>222</entry>
+              <entry>74</entry>
+              <entry>41</entry>
+              <entry>887</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>T<sub>c</sub> (°C)</entry>
+              <entry>290</entry>
+              <entry>462</entry>
+              <entry/>
+              <entry>369</entry>
+              <entry>152</entry>
+              <entry/>
+              <entry>355</entry>
+            </row>
+            <row>
+              <entry>d<sub>31</sub><sub/>(x10<sup>-12</sup> C/N)</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry>-79</entry>
+              <entry>50</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>k<sub>p</sub></entry>
+              <entry>0.5</entry>
+              <entry/>
+              <entry>60</entry>
+              <entry>0.428</entry>
+              <entry>30.7</entry>
+              <entry>46.5</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>k<sub>t</sub></entry>
+              <entry/>
+              <entry>0.32</entry>
+              <entry/>
+              <entry>0.438</entry>
+              <entry>-</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>k<sub>31</sub></entry>
+              <entry/>
+              <entry>0.21</entry>
+              <entry/>
+              <entry>0.263</entry>
+              <entry>17.9</entry>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Selective parameters for illustrative piezoceramic materials. </caption>
+</table>
+      
+      
+      
+      <para id="id8261759">Recently, sol-gel processing has been used to prepare ceramics, making possible the preparation of materials that are difficult to obtain by conventional methods. Both, inorganic and organic precursor have been reported. Additionally, new techniques for the production of ceramic fibers have been developed. Better processing and geometrical and microestructural control are the main goals in the production of fibers. </para>
+ 
+
+      <para id="id8380286">The latest development in piezoceramic fibers is the modification of the viscous-suspension-spinning process (VSSP) for the production of continuos piezoelectric ceramic fibers for smart materials and active control devices, such as transducers, sensor/actuators and structural-control devices. The VSSP utilizes conventional synthesized ceramic powders and cellulose, as the fugitive carrier, to produce green ceramic fiber at a reasonable cost. <link target-id=" id4660308"/> shows the schematic representation of the VSSP.</para>
+
+     <figure id="id4660308"><media id="id4660308_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-060a.jpg" id="id4660308__onlineimage" width="598" print-width="5.5in"/>
+        </media>
+      <caption>The viscous-suspension-spinning process (VSSP) for the production of continuous piezoceramic fiber.</caption></figure><para id="eip-653">Synthesis of reactive PZT precursor powder by the oxalate coprecipitation technique has also been developed. The precursor transforms to phase pure PZT at or above 850 °C the PZT obtained by this technique showed a Curie temperature of 355 °C. The advantages of the coprecipitation technique are the lack of moisture sensitive and special handling precursors.</para><para id="eip-285">Although new materials have been investigated with the purpose of create replacements for ceramics, there has been a great improvement in their properties and, current research is focused in the development of new techniques for both synthesis and processing. </para>
+      
+
+
+      
+    </section>
+    <section id="id6730928">
+      <title>Piezoelectric single crystals.</title>
+      <para id="id7406138">The recent progress of the electronic technology requires new piezoelectric crystals with a high thermal stability and large electromechanical coupling factors. Single-crystal materials have been considered as replacements for polycrystalline ceramics. Ideally single-crystals of lead zirconate titanate (PZT) itself would be the main choice as it is the most prevailing piezoelectric material, but it is difficult to grow large single crystals. On the other hand, the fact that single-crystals offer many advantages over polycrystalline systems has been recognized. Materials such as lithium niobate present essentially no aging, no mechanical creep and excellent performance in high temperature conditions. </para>
+      <para id="id8969662">New piezoelectric single crystals grown by conventional RF-heating Czochralski (CZ) technique have been synthesized. High purity starting materials, mainly oxides powders, and Ar atmosphere are required. La<sub>3</sub>Ga<sub>5</sub>SiO<sub>14</sub>, La<sub>3</sub>Nb<sub>0.5</sub>Ga<sub>5.5</sub>O<sub>14</sub> and La<sub>3</sub>Ta<sub>0.5</sub>Ga<sub>5.5</sub>O<sub>14</sub> single crystals have been grown by using this method. However, the CZ technique can be applied only to materials that can be synthesized by ordinary solid-state reaction and can undergo the pulling method.</para>
+      <para id="id2015753">BaBe<sub>2</sub>Si<sub>2</sub>O<sub>7</sub> (barylite) has been known as material with a strong piezoelectricity, however, it can not be obtained by solid-state reaction and CZ technique therefore is not applicable. As an alternative for piezoelectric crystals growth hydrothermal synthesis has been developed. <link target-id=" id2078026"/> shows the experimental apparatus for the growth of barylite. Eventhough, crystals can be obtained using this technique, high pressure (500 - 1000 bar) and a solvent for the raw materials are required. </para>
+      <figure id="id2078026"><media id="id2078026_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-1d81.jpg" id="id2078026__onlineimage" width="200" print-width="2.5in"/>
+        </media>
+      <caption>Experimental apparatus for the hydrothermal synthesis of barylite. H = heater, F = furnace, S = specimen vessel, G = growth capsule, P = pressure gauge, and T = thermocouples. Adapted from M. Maeda, T. Uehara, H. Sato and T. Ikeda, <emphasis effect="italics">Jpn. J. Appl. Phys.</emphasis>, 1991, <emphasis effect="bold">30</emphasis>, 2240. </caption></figure>
+      
+      <para id="id6730229">While the piezoceramics dominate the single crystal materials in usage, single crystals piezoelectrics continue to make important contributions both in price-conscious consumer market and in performance-driven defense applications. Areas such as frequency stabilized oscillators, surface acoustic wave devices and filters with a wide pass band, are still dominated by single crystals.</para>
+    </section>
+    <section id="id7377471">
+      <title>Piezoelectric thin films</title>
+      <para id="id8126055">Recently, there has been great interest in the deposition of piezoelectric thin films, mainly for microelectronical systems (MEMS) applications; where the goal is to integrate sensors and actuators based on PZT films with Si semiconductor-based signal processing; and for surface acoustic wave (SAW) devices; where the goal is to achieve higher electromechanical coupling coefficient and temperature stability. Piezoelectrical microcantilevers, microactuators, resonators and SAW devices using thin films have been reported.</para>
+      <para id="id7491693">Several methods have been investigated for PZT thin films. In the metallo-organic thin film deposition, alkoxides are stirred during long periods of time (up to 18 hours). After pyrolisis, PZT amorphous films are formed and then calcination between 400 – 600 °C for 80 hours leads to PZT crystallization (perovskita phase) by a consecutive phase transformation process, which involves a transitional pyrochlore phase. </para>
+      <para id="id1168157484818">A hybrid metallorganic decomposition (MOD) route has also been developed to prepare PZT thin films. Lead and titanium acetates and, zirconium acetylacetonate are used. The ferroelectric piezoelectric and dielectric properties indicate that the MOD route provides PZT films of good quality and comparable to literature values. In addition to being simple, MOD has several advantages which include: homogeneity at molecular level and ease composition control. </para>
+      <para id="id7880360">Metalorganic chemical vapor deposition (MOCVD) has been applied to PZT thin films deposition also. It has been proved that excellent quality PZT films can be grown by using MOCVD, but just recently the control of microstructure the deposition by varying the temperature, Zr to Ti ratio and precursors flow has been studied. Recent progress in PZT films deposition has led to lower temperature growth and it is expected that by lowering the deposition temperature better electrical properties can be achieved. Additionally, novel techniques such as KrF excimer laser ablation and, ion and photo-assisted depositions, have also been used for PZT films synthesis. </para>
+      <para id="id7263269">On the other hand, a single process to deposit PZT thin film by a hydrothermal method has been reported recently. Since the sol-gel method, sputtering and chemical vapor deposition techniques are useful only for making flat materials, the hydrothermal method offers the advantage of making curved shaped materials. The hydrothermal method utilizes the chemical reaction between titanium and ions melted in solution. A PZT thin film has been successfully deposited directly on a titanium substrate and the optimum ion ratio in the solution is being investigated to improve the piezoelectric effect. </para>
+      <para id="id3513896">Among the current reported piezoelectric materials, the Pb(Ni<sub>1/3</sub>Nb<sub>2/3</sub>)<sub>0.2</sub>Zr<sub>0.4</sub>Ti<sub>0.4</sub>O<sub>3</sub> (PNNZT, 2/4/4) ferroelectric ceramic has piezoelectric properties that are about 60 and 3 times larger than the reported values for ZnO and PZT. A sol-gel technique has been developed for the deposition of a novel piezoelectric PNNZT thin film. A 2-methoxyethanol based process is used. In this process precursors are heated at lower temperature than the boiling point of the solvent, to distill off water. Then prior high temperature annealing, addition of excess Pb precursor in the precursor solution is required to compensate the lead loss. The pure perovskite phase is then obtained at 600 <sup>o</sup>C, after annealing. </para>
+      <para id="id4668208">Thin films of zinc oxide (ZnO), a piezoelectric material and n-type wide-bandgap semiconductor, have been deposited. ZnO films are currently used in SAW devices and in electro-optic modulators. ZnO thin films have been grown by chemical vapor deposition and both d.c. and r.f. sputtering techniques. Recently, optimization of ZnO films by r.f. magnetron sputtering has been developed. However, homogeneity is one of the main problems when using this technique, since films grown by this optimized method, showed two regions with different piezoelectric properties.</para>
+      <para id="id7876458">DC magnetron sputtering is other technique for piezoelectric thin film growth, recently aluminum nitride, a promising material for use in thin-film bulk acoustic wave resonators for applications in RF bandpass filters, has been grown by this method. The best quality films are obtained on Si substrates. In order to achieve the highest resonator coupling, the AlN must be grown directly on the electrodes. The main problem in the AlN growth is the oxygen contamination, which leads to the formation of native oxide on the Al surface, preventing crystalline growth of AlN.</para>
+    </section>
+    <section id="id8914852">
+      <title>Piezoelectric polymers</title>
+      <para id="id4951833">The discovery of piezoelectricity in polymeric materials such as polyvinylidene difluoride (PVF), was considered as an indication of a renaissance in piezoelectricity. Intensive research was focused in the synthesis and functionalization of polymers. A potential piezoelectric polymer has to contain a high concentration of dipoles and also be mechanically strong and film-forming. The degree of crystallinity and the morphology of the crystalline material have profound effects on the mechanical behavior of polymers. Additionally, in order to induce a piezoelectric response in amorphous systems the polymer is poled by application of a strong electric field at elevated temperature sufficient to allow mobility of the molecular dipoles in the polymer. Recent approaches have been focused in the development of cyano-containing polymers, due to the fact that cyano polymers could have many dipoles which can be aligned in the same direction.</para>
+      <para id="id6760761">Phase transfer catalyzed reaction has been used for piezoelectric polymer preparation from malonitrile, however this method leads to low molecular weight, and low yield of impure vinylidene cyanide units containing material. The use of solid K<sub>2</sub>CO<sub>3</sub> and acetonitrile without added phase transfer catalyst shows excellent yields for polyester possessing backbone gem-dinitriles and for polyamide synthesis. The polyester and polyamide obtained contained a dinitrile group net dipole which can be align in the same direction as the carbonyl groups. </para>
+      <para id="id7105272">The pursuit for better piezoelectric polymers has led to molecular modeling which indicates that one cyano substituent should be almost as effective as two geminal cyano substituents, opening a new area of potential materials having an acrylonitrile group as the basic building block. However, polyacrilonitrile itself is not suitable because it forms a helix. Thus acrylonitrile copolymers have been investigated.</para>
+      <para id="id9014614">Most of the piezoelectric polymers available are still synthesized by conventional methods such as polycondensation and radical polymerization. Therefore piezoelectric polymer synthesis has the same problems as the commercial polymer preparation, such as controlling the degree of polymerization and crystallinity. </para>
+      <para id="id6459862">A novel technique of vapor deposition polymerization has been reported as an alternative method to copolymeric thin films. Aliphatic polyurea 9 was synthesized by evaporating monomers of 1,9-diaminononano and 1,9-diisocyanatononano onto glass substrate in vacuum. Deposition rates were improved at temperatures below 0 <sup>o</sup>C. After poling treatment films showed fairly large piezoelectric activities. Additionally, a completely novel approach to piezoelectric polymers has been presented. This approach, consists in the synthesis of ordered piezoelectric polymer networks via crosslinking of liquid-crystalline monomers. The main goal in this approach is to achieve a polymer network which combines the long term stability of piezoelectric single-crystals with the ease of processability and fabrication of conventional polymers. <link target-id=" id1783981"/> shows the schematic representation of this approach. </para>
+      <figure id="id1783981"><media id="id1783981_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-3ef9.jpg" id="id1783981__onlineimage" width="597" print-width="5.5in"/>
+        </media>
+      <caption>Scheme of a ordered piezoelectric networks via a liquid-crystalline monomer strategy. Adapted from D. L. Gin and B. C. Baxter, <emphasis effect="italics">Polymer Preprints</emphasis>, 1996, <emphasis effect="bold">38</emphasis>, 211. </caption></figure>
+      
+      <para id="id8814338">Piezoelectric polymers are becoming increasingly important commercially because of their easier processability, lower cost, and higher impact resistance than ceramics, but the lack of high temperature stability and the absence of a solid understanding of the molecular level basis for the electrical properties are limitations. The requirements for strong piezoelectricity in a polymer are: the polymer chain has a larger resultant dipole moment normal to the chain axis; polymer crystallizes into a polar crystal with the polar axis perpendicular to the chain axis, has a high crystallinity and finally the polymer polar axis aligns easily in the thickness direction during poling. </para>
+    </section>
+    <section id="id7873033">
+      <title>Piezoelectric composites</title>
+      <para id="id6291942">Piezocomposites have been obtained by the combination of piezoelectric ceramics and polymers, the resulting material posses both the high piezoelectric properties of ceramics and the processability of polymers. 1-3 type piezocomposites have found wide applications as medical and industrial ultrasonic transducers.</para>
+      <para id="id4904856">The current method for piezocomposite production is the dice-and-fill technique, which consists in cutting two sets of grooves in a block of piezoceramic at right angles each other, then a polymer is cast into these grooves and the solid ceramic base is ground off. Polishing and poling are the following steps in order to achieve the final thickness and properties. This method is expensive, time consuming and size limited.</para>
+      <para id="id8020565">As an alternative for the dice-and-fill technique, continuos green fibers obtained by the modified viscous-suspension-spinning process, can be bundled into a cottonball-like shape, then burned and sintered. The sintered bundle impregnated with epoxy resin can be sliced into discs and then polarized. Recent results have yielded 1-3 type composites with excellent piezoelectric properties.</para>
+      <para id="id7258174">On the other hand, an innovative process has been developed for Sr<sub>2</sub>(Nb<sub>0.5</sub>Ta<sub>0.5</sub>)<sub>2</sub>O<sub>7</sub>/PVDF composites, in this new fabrication method, appropriate amounts of oxides are mixed, pressed and sintered. The porous resulting material is subsequently infiltrated with PVDF solution and then poled. This new method for composites preparation is simple and offers a lead-free alternative smart material. </para>
+      <para id="id1788404">Another kind of piezocomposites can be achieved by spinning films of piezoceramic onto metal alloys, such as TiNi. The resulting materials is a hybrid composite that can utilize the different active and adaptive properties of the individual bulk materials. Due to the shape memory nature of TiNi, a possible application for this new heterostructures could be smart active damping of mechanical vibrations. DC sputtering and spin coating are the techniques necessary for the smart thin film TiNi/piezoelectric heterostructures fabrication. However, eventhough the films had a fine grain structure and high mechanical qualities, the ferroelectric properties were poor compared to literature values. </para>
+      <para id="id8516446">In the future, the properties of piezocomposites will be tailored, by varying the ceramic, the polymer and their relative proportions. Adjustments in the material properties will lead to fulfillment of the requirements for a particular device. <link target-id=" id1168157790869"/> shows a comparison among piezoelectric ceramics, polymers and composites parameters where Z is the impedance, ε<sup>t</sup><sub>33</sub> is the dielectrical constant, and ρ is the density.</para>
+      <table id="id1168157790869" summary="Parameter ranges for piezoelectric ceramics, polymers and composites.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Material parameter</emphasis> </entry>
+              <entry><emphasis effect="bold">Piezoceramics</emphasis> </entry>
+              <entry><emphasis effect="bold">Piezopolymers</emphasis> </entry>
+              <entry><emphasis effect="bold">Piezocomposites</emphasis> </entry>
+            </row>
+            <row>
+              <entry>k<sub>t</sub> (%)</entry>
+              <entry>45 - 55</entry>
+              <entry>20 - 30</entry>
+              <entry>60 - 75</entry>
+            </row>
+            <row>
+              <entry>Z (10<sup>6</sup> Rayls)</entry>
+              <entry>20 - 30</entry>
+              <entry>1.5 - 4</entry>
+              <entry>4 - 20</entry>
+            </row>
+            <row>
+              <entry>ε<sup>t</sup><sub>33</sub>/ε<sub>0</sub></entry>
+              <entry>200 - 5000</entry>
+              <entry>~10</entry>
+              <entry>50 - 2500</entry>
+            </row>
+            <row>
+              <entry>tan γ (%)</entry>
+              <entry>&lt;1</entry>
+              <entry>1.5 - 5</entry>
+              <entry>&lt;1</entry>
+            </row>
+            <row>
+              <entry>Q<sub>m</sub></entry>
+              <entry>10 - 1000</entry>
+              <entry>5 - 10</entry>
+              <entry>2 - 50</entry>
+            </row>
+            <row>
+              <entry>ρ (10<sup>3</sup> kg/m<sup>3</sup>)</entry>
+              <entry>5.5 - 8</entry>
+              <entry>1 - 2</entry>
+              <entry>2 - 5</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Parameter ranges for piezoelectric ceramics, polymers and composites. </caption>
+</table>
+      
+    </section>
+    <section id="id7893169">
+      <title>Piezoelectric coatings.</title>
+      <para id="id8162838">Many potential applications exist which require film thickness of 1 to 30 μm. Some examples of these macroscopic devices include ultrasonic high frequency transducers, fiber optic modulators and for self controlled vibrational damping systems.</para>
+      <para id="id1168160033044">ZnO and PZT have been used for piezoelectric fiber optic phase modulators fabrication. The piezoelectric materials have been sputter deposited using dc magnetron source and multimagnetron sputtering systems. Coatings of 6 µm thick of ZnO and 0.5 µm of PZT are possible to achieve using these systems. However, thickness variation of approximately 15% occurs between the center and the end of ZnO coatings, results on affected modulation performance. Although PZT coatings achieved by sputtering posses uniformity and do not exhibit cracking, the PZT is only partially crystallized and it is actually a composite structure consisting of crystalline and amorphous material, diminishing the piezoelectric properties. </para>
+      <para id="id6266966">Sol-gel technique for thick PZT films have been developed. It is now possible to fabricate PZT sol-gel films of up to 60 µm. The electrical and piezoelectrical properties of the thick films reported are comparable with ceramic PZT. </para>
+      <para id="id5340265">Piezoelectric polymer coatings for high-frequency fiber-optic modulators have been also investigated. Commercial vinylidene fluoride and tetrafluoroethylene copolymer has been used. The advantage of using polymer coatings is that the polymer jacket (coating) can be easily obtained by melt extrusion on a single-mode fiber. Thus, uniformity is easily achieved and surface roughness is not present. Furthermore, if annealing of the polymer is made prior poling, a high degree of crystallinity is enhanced, leading to better piezoelectric properties. </para>
+    </section>
+    <section id="id8954482">
+      <title>Bibliography</title>
+      <list id="id1168160079998" list-type="bulleted"><item>R. N. Kleiman, <emphasis effect="italics">Mat. Res. Soc. Symp. Proc.</emphasis>, 1996, <emphasis effect="bold">406</emphasis>, 221.</item>
+        <item>T. Yamamoto, <emphasis effect="italics">Jpn. J. Appl. Phys.</emphasis>, 1996, <emphasis effect="bold">35</emphasis>, 5104.</item>
+        <item>Y. Yamashita, Y. Hosono, and N. Ichinose, <emphasis effect="italics">Jpn. J. Appl. Phys.</emphasis>, 1997, <emphasis effect="bold">36</emphasis>, 1141.</item>
+        <item>I. Akimov and G. K. Savchuk, <emphasis effect="italics">Inorg. Mater.</emphasis>, 1997, <emphasis effect="bold">33</emphasis>, 638.</item>
+        <item>L. Del Olmo and M. L. Calzada, <emphasis effect="italics">J. Non-Cryst. Solids</emphasis>, 1990, <emphasis effect="bold">121</emphasis>, 424.</item>
+        <item>T. Nishi, K. Igarashi, T. Shimizu, K. Koumoto, and H. Yanagida, <emphasis effect="italics">J. Mater. Sci. Lett.</emphasis>, 1989, <emphasis effect="bold">8</emphasis>, 805.</item>
+
+        <item>K. R. M. Rao, A. V. P. Rao, and S. Komarneni, <emphasis effect="italics">Mater. Lett.</emphasis>, 1996, <emphasis effect="bold">28</emphasis>, 463.</item>
+        <item>K. Shimamura, H. Takeda, T. Kohno, and T. Fukuda, <emphasis effect="italics">J. Cryst. Growth</emphasis>, 1996, <emphasis effect="bold">163</emphasis>, 388.</item>
+        <item>H. Takeda, K. Shimamura, T. Kohno, and T. Fukuda, <emphasis effect="italics">J. Cryst. Growth</emphasis>, 1996, <emphasis effect="bold">169</emphasis>, 503.</item>
+        <item>Lee, T. Itoh and T. Suga, <emphasis effect="italics">Thin Solid Films</emphasis>, 1997, <emphasis effect="bold">299</emphasis>, 88.</item>
+        <item>L. J. Mathias, D. A. Parrish, and S. Steadman, <emphasis effect="italics">Polymer</emphasis>, 1994, <emphasis effect="bold">35</emphasis>, 659.</item>
+        <item>G. R. Fox, N. Setter, and H.G. Limberger, <emphasis effect="italics">J. Mater. Res.</emphasis>, 1996, <emphasis effect="bold">11</emphasis>, 2051.</item>
+        <item>L. Gin and B. C. Baxter, <emphasis effect="italics">Polymer Preprints</emphasis>, 1996, <emphasis effect="bold">38</emphasis>, 211.</item>
+      </list>
+    </section>
+  </content>
+</document>

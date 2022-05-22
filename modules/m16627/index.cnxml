@@ -1,0 +1,539 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Formation of Silicon and Gallium Arsenide Wafers</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16627</md:content-id>
+  <md:title>Formation of Silicon and Gallium Arsenide Wafers</md:title>
+  <md:abstract>Integrated circuits (ICs) and discrete solid state devices are manufactured on semiconductor wafers. The following focuses on the general principles and methods with regard to wafer formation.</md:abstract>
+  <md:uuid>ecf00d82-a47a-47fd-8980-207a74c9f4a9</md:uuid>
+</metadata>
+
+<content>
+
+      
+      <section id="id-0860273498181">
+        <title>Introduction</title>
+        <para id="id13575424">Integrated circuits (ICs) and discrete solid state devices are manufactured on semiconductor wafers. Silicon based devices are made on silicon wafers, while III-V (13-15) semiconductor devices are generally fabricated on GaAs wafers, however, for certain optoelectronic applications InP wafers are also used. The electrical and chemical properties of the wafer surface must be well controlled and therefore the preparation of starting wafers is a crucial portion of IC and device manufacturing. In order to obtain high fabrication yields and good device performance, it is very important that the starting wafers be of reproducibly high quality. For example, the front surface must be smooth and flat on both a macro- and microscale, because high-resolution patterns (lithography) are optically formed on the wafer. In principle, cutting a crystal into thin slices and polishing one side until all saw marks are removed and the surface appears smooth and glossy could produce a suitable wafer. However, due in part to the brittleness of Si and GaAs crystals, as well as the increasing requirements of wafer cleanliness and surface defect reduction with ever decreasing device geometries, a very complex series of processing steps are required to produce analytically clean, flat and damage-free wafer surfaces. </para>
+        <para id="id12546250">The following focuses on the general principles and methods with regard to wafer formation. Detailed formulas, recipes, and specific process parameters are not given as they vary considerably among different wafer producers. However, in general, techniques for fabrication of Si wafers have generally become standardized within the semiconductor industry. In contrast, GaAs wafer technology is less standardized, possibly due to either (a) the similarity to silicon practices or (b) the lower production volume of GaAs wafers. There are two general classes of processes in the methodology of making wafers: mechanical and chemical. As both Si and GaAs are brittle materials, the mechanical processes for their wafer fabrication are similar. However, the different chemistry of Si and GaAs require that the chemical processes be dealt with separately. </para>
+      </section>
+      <section id="id-473867526249">
+        <title>Wafer formation procedures </title>
+        <para id="id12495917">Each of the processing steps in the conversion of a semiconductor ingot (formed by Czochralski or Bridgeman growth) into a polished wafer ready for device fabrication, results in the removal of material from the original ingot; between <sup>1</sup>/<sub>3</sub> and <sup>1</sup>/<sub>2</sub> of the original ingot is sacrificed during processing. Methods for the removal of material from a crystal ingot are classified depending on the size of the particles being removed during the process. If the removed particles are much larger than atomic or molecular dimensions the process is described as being macro-scale. Conversely, if the material is removed atom-by-atom or molecule-by-molecule then the process is termed micro-scale. A further distinction between various types of processes is whether the removal occurs as a result of mechanical or chemical processes. The formation of a finished wafer from a semiconductor ingot normally requires six machining (mechanical) operations, two chemical operations, and at least one polishing (chemical-mechanical) operation. Additionally, multiple inspection and evaluation steps are included in the overall process. A summary of the individual steps, and their functions, involved in wafer production is shown in <link target-id="id12864013"/>. </para>
+        <table id="id12864013" summary="Summary of the process steps involved in semiconductor wafer production.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Process</emphasis> </entry>
+                <entry><emphasis effect="bold">Type</emphasis> </entry>
+                <entry><emphasis effect="bold">Function</emphasis> </entry>
+              </row>
+              <row>
+                <entry>cropping</entry>
+                <entry>mechanical</entry>
+                <entry>removal of conical shaped ends and impure portions</entry>
+              </row>
+              <row>
+                <entry>grinding</entry>
+                <entry>mechanical</entry>
+                <entry>obtain precise diameter</entry>
+              </row>
+              <row>
+                <entry>orientation flatting</entry>
+                <entry>mechanical</entry>
+                <entry>identification of crystal orientation and dopant type</entry>
+              </row>
+              <row>
+                <entry>etching</entry>
+                <entry>chemical</entry>
+                <entry>removal of surface damage</entry>
+              </row>
+              <row>
+                <entry>wafering</entry>
+                <entry>mechanical</entry>
+                <entry>formation of individual wafers by cutting</entry>
+              </row>
+              <row>
+                <entry>heat treatment</entry>
+                <entry>thermal</entry>
+                <entry>annihilation of undesirable electronic donors</entry>
+              </row>
+              <row>
+                <entry>edge contouring</entry>
+                <entry>mechanical</entry>
+                <entry>provide radius on the edge of the wafer</entry>
+              </row>
+              <row>
+                <entry>lapping</entry>
+                <entry>mechanical</entry>
+                <entry>provides requisite flatness of the wafer</entry>
+              </row>
+              <row>
+                <entry>etching</entry>
+                <entry>chemical</entry>
+                <entry>removal of surface damage</entry>
+              </row>
+              <row>
+                <entry>polishing</entry>
+                <entry>mechano-chemical</entry>
+                <entry>provides a smooth (specular) surface</entry>
+              </row>
+              <row>
+                <entry>cleaning</entry>
+                <entry>chemical</entry>
+                <entry>removal of organics, heavy metals, and particulates</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Summary of the process steps involved in semiconductor wafer production. </caption>
+</table>
+      </section>
+      <section id="id-456193925288">
+        <title>Crystal shaping </title>
+        <para id="id13361610">Although an as-grown crystal ingot is of high purity (99.9999%) and crystallinity, it does not have the sufficiently precise shape required for ready wafer formation. Thus, prior to slicing an ingot into individual wafers, several steps are needed. These operations required to prepare the crystal for slicing are referred to as crystal shaping, and are shown in <link target-id="id12710585"/>. </para>
+        <figure id="id12710585"><media id="id1166170120528" alt=""><image src="../../media/graphics1-4ce0.jpg" mime-type="image/jpeg" width="492" print-width="4in"/></media><caption>Schematic representation of crystal shaping operations: (a) remove crown and taper, (b) grind to required diameter, (c) grind flat, and (d) slice sample for measurements. Shaded area represents material removed. </caption></figure>
+        <section id="id-344090349993">
+          <title>Cropping</title>
+          <para id="id13060802">The as-grown ingots have conical shaped seed (top) and tang (bottom) ends that are removed using a circular diamond saw for ease of further manipulation of the ingot (<link target-id="id12710585"/>a). The cuttings are sufficiently pure that they are cleaned and the recycled in the crystal growth operation. Portions of the ingot that fail to meet specifications of resistivity are also removed. In the case of silicon ingots these sections may be sold as metallurgical-grade silicon (MGS). Conversely, portions of the crystal that meet desired resistivity specifications may be preferentially selected. A sample slice is also cut to enable oxygen and carbon content to be determined; usually this is accomplished by Fourier transform infrared spectroscopic measurements (FT-IR). Finally, cropping is used to cut crystals to a suitable length to fit the saw capacity. </para>
+        </section>
+        <section id="id-384305675404">
+          <title>Grinding </title>
+          <para id="id13300540">The primary purpose of crystal grinding is to obtain wafers of precise diameter because the automatic diameter control systems on crystal growth equipment are not capable of meeting the tight wafer diameter specifications. In addition, crystals are seldom grown perfectly round in cross section. Thus, ingots are usually grown with a 1 - 2 mm allowance and reduced to the proper diameter by grinding <link target-id="id12710585"/>b. </para>
+          <para id="id12550264">Crystal grinding is a straightforward process using an abrasive grinding wheel, however, it must be well controlled in order to avoid problems in subsequent operations. Exit chipping in wafering and lattice slip in thermal processing are problems often resulting from improper crystal grinding. Two methods are used for crystal grinding: (a) grinding on center and (b) centerless grinding. </para>
+          <para id="id13327717"><link target-id="id12263488"/> shows a schematic of the general set-up for grinding a crystal ingot on center. The crystal is supported at each end in a lathe-like machine. The rotating cutting tool, employing a water-based coolant, makes multiple passes down the rotating ingot until the requisite diameter is obtained. The center grinder can also be used for grinding the identification flats as well as providing a uniform ingot diameter. However, grinding the crystal on centers requires that the operator locate the crystal axis in order to obtain the best yield. </para>
+          <figure id="id12263488"><media id="id1166170120610" alt=""><image src="../../media/graphics2-80d6.jpg" mime-type="image/jpeg" width="300" print-width="3in"/></media><caption>Schematic representation of grinding on center. </caption></figure>
+          <para id="id13422374">Centerless grinding eliminates the problems associated with locating the crystal center. The centerless method is superior for long crystals; however, a centerless grinder is much larger than a center grinder of the same diameter capacity. In centerless grinding the ingot is supported between two wheels, a grinding wheel and a drive wheel. A schematic of the centerless grinder is shown in <link target-id="id13435978"/>. The axis of the drive wheel is canted with respect to that of the crystal ingot and the grinding wheel pushing the crystal ingot past the stationary (but rotating) grinding wheel, see <link target-id="id13435978"/>b. </para>
+          <figure id="id13435978"><media id="id1166170120651" alt=""><image src="../../media/graphics3-d4fc.jpg" mime-type="image/jpeg" width="500" print-width="5in"/></media><caption>Schematic representation of centerless grinding viewed (a) along and (b) perpendicular to the crystal axis. </caption></figure>
+        </section>
+        <section id="id-476246133707">
+          <title>Orientation/identification flats </title>
+          <para id="id13008473">Following grinding of the ingot to the desired diameter, one or two flats are ground along the length of the ingot. The identification flats (one or two) are ground lengthwise along the crystal according to the orientation and the dopant type. After grinding the crystal on centers the crystal is rotated to the proper orientation, then the wheel is positioned with its axis of rotation perpendicular to the crystal axis and moved along the crystal from end to end until the appropriate flat size is obtained. An optical or X-ray orientation fixture may be used in conjunction with the crystal mounting to facilitate the proper orientation of the crystal on the grinder. </para>
+          <para id="id13413176">The largest flat is called the primary flat (<link target-id="id12710585"/>c) and is parallel to one of the crystal planes, as determined by X-ray diffraction. The primary flat is used for automated positioning of the wafer during subsequent processing steps, e.g., lithographic patterning and dicing. Other smaller flats are called "secondary flats" and are used to identify the crystal orientation (&lt;111&gt; versus &lt;100&gt;) and the material (n-type versus p-type). Secondary flats provide a quick and easy manner by which unknown wafers can be sorted. The flats shown schematically in <link target-id="id12978513"/> are located according to a Semiconductor Equipment and Materials Institute (SEMI<sup>®</sup>) standard and are ground to specific widths, depending upon crystals diameter. Notches are also used in place of the secondary flat; however, the relative orientations of the notch and primary flat with regard to crystal orientation and dopant are maintained. </para>
+          <figure id="id12978513"><media id="id1166170120750" alt=""><image src="../../media/graphics4-cd44.jpg" mime-type="image/jpeg" width="500" print-width="5in"/></media><caption>SEMI locations for orientation/identification flats.</caption></figure>
+        </section>
+        <section id="id-367927639061">
+          <title>Etching </title>
+          <para id="id13293381">The cropping and grinding processes are performed with relatively coarse abrasive and consequently a great deal of subsurface damage results. Pits, chips, and cracks all contribute to stress in the cut wafer and provide nuclei for crack propagation at the edges of the finished wafer. If regions of stress are removed then cracks will no longer propagate, reducing exit chipping and wafer breakage during subsequent fabrication steps. </para>
+          <para id="id13420542">The general method for removing surface damage is to etch the crystal in a hot solution. The most common etchants for Si are based on the HNO<sub>3</sub>-HF system, in which etchant modifiers such as acetic acid also commonly used. In the case of GaAs HCl-HNO<sub>3</sub> is the appropriate system. These etchants selectively attack the crystal at the damaged regions. After etching, the crystal is transferred to the slicing preparation area. </para>
+        </section>
+      </section>
+      <section id="id-609985008104">
+        <title>Wafering </title>
+        <para id="id10613863">The purpose of wafering is to saw the crystal into thin slices with precise geometric dimensions. By far, the most common method of wafering semiconductor crystals is the use of an annular, or inner diameter (ID), diamond saw blade. A schematic diagram of ID slicing technology is shown in <link target-id="id9715271"/>. </para>
+        <figure id="id9715271"><media id="id1166170120916" alt=""><image src="../../media/graphics5-c335.jpg" mime-type="image/jpeg" width="350" print-width="3in"/></media><caption>Schematic diagrams of ID slicing process.</caption></figure>
+        <para id="id11913502">The crystal, when it arrives at the sawing area, has been ground to diameter, flatted, and etched. In order to slice it, the crystal must be firmly mounted in such a way that it can be completely converted to wafers with minimum waste. The crystal is attached with wax or epoxy to a mounting block, which is usually cylindrical in shape and of the same diameter as the ingot. Also, a mounting beam (or strip) is attached along the length of the crystal at the breakout point of the saw blade. This reduces exit chipping (breakage that occurs as the blade exits the crystal at the end of a cut) and also provides support for the sawn wafer until it is retrieved. Graphite or phenolic resins are common materials for the mounting block and beams, although some success has been obtained in mounting ingots using hydraulic pressure. The saw blade is a thin sheet of stainless steel (325 μm), with diamond bonded to its inner edge. This blade is mounted on a drum that rotates at <foreign>ca</foreign>. 2000 rpm. Saw blades 58 cm (≈23 inches) in diameter with a 20 cm (8 inches) opening are common, however, as wafer sizes increase larger blades are employed: 30 cm (12 inches) wafers are now common for Si. The blade moves relative to the stationary crystal at a speed of 0.05 cm/s, and the cutting process is water-cooled. Thus, considering that wafers are sliced sequentially (one at a time), the overall process is very slow. A further problem is that the kerf loss (loss due to the width of the blade) results in approximately 1/3 of the material being lost as saw dust. Finally, the depth of the drum onto which the blade is attached limits the length of the ingot section that is accessible. In order to overcome this problem, another style of ID blade saw was developed in which the blade is mounted on an air bearing and is rotated by a belt drive. This allows the entire length of the crystal ingot to be sliced. </para>
+        <para id="id13185822">Both silicon and GaAs crystals are grown with either the crystallographic &lt;100&gt; or &lt;111&gt; direction parallel to the cylindrical axis of the crystal. Wafers may be cut either exactly perpendicular to the crystallographic axis or deliberately off-axis by several degrees. In order to obtain the proper wafer orientation, the crystal must be properly oriented on the saw. All production slicing machines have adjustments for orientation of the crystal; however, it is usually necessary to check the orientation of the first slice in order to assure that all subsequent slices will be properly oriented. </para>
+        <para id="id11848029">Obvious variables introduced during the wafering process include: cutting rate, wheel speed, and coolant flow rate. However, the condition of the machines, such as alignment and vibration, is the most important variable followed by the condition of the blade. A deviated blade rim may cause taper, bow, or warp. <link target-id="id13299887"/> summarizes the types of deformations that can occur during wafering, their physical appearance and their characteristics. </para>
+        <table id="id13299887" summary="Deformed wafers and their characteristics.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Type of bow and warp</emphasis></entry>
+                <entry><emphasis effect="bold">Surface appearance</emphasis></entry>
+                <entry><emphasis effect="bold">Lattice curvature</emphasis></entry>
+                <entry><emphasis effect="bold">Comments</emphasis> </entry>
+              </row>
+              <row>
+                <entry>
+                  <media id="id1166170121142" alt=""><image src="../../media/graphics6-3653.jpg" mime-type="image/jpeg" print-width="1in"/></media>
+                </entry>
+                <entry>flat</entry>
+                <entry>flat</entry>
+                <entry>ideal</entry>
+              </row>
+              <row>
+                <entry>
+                  <media id="id1166170121186" alt=""><image src="../../media/graphics7-395d.jpg" mime-type="image/jpeg" print-width="1in"/></media>
+                </entry>
+                <entry>curved</entry>
+                <entry>flat</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <media id="id1166170121229" alt=""><image src="../../media/graphics8-9084.jpg" mime-type="image/jpeg" print-width="1in"/></media>
+                </entry>
+                <entry>curved</entry>
+                <entry>curved</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <media id="id1166170121272" alt=""><image src="../../media/graphics9-3f80.jpg" mime-type="image/jpeg" print-width="1in"/></media>
+                </entry>
+                <entry>flat</entry>
+                <entry>curved</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <media id="id1166170121315" alt=""><image src="../../media/graphics10-17fe.jpg" mime-type="image/jpeg" print-width="1in"/></media>
+                </entry>
+                <entry>curved</entry>
+                <entry>flat</entry>
+                <entry>slips</entry>
+              </row>
+            </tbody>
+          
+
+
+
+</tgroup><caption>Deformed wafers and their characteristics.</caption>
+</table>
+      </section>
+      <section id="id-545911580214">
+        <title>Heat treatment </title>
+        <para id="id12260097">As-produced Czochralski grown crystals often have a level of oxygen impurity that may exceed the concentration of dopant in the semiconductor material (i.e., Si or GaAs). This oxygen impurity has a deleterious effect on the semiconductor properties, especially upon subsequent thermal processing, e.g., thermal oxide growth or epitaxial film growth by metal organic chemical vapor deposition (MOCVD). For example, when silicon crystals are heated to about 450 °C the oxygen undergoes a transformation that causes it to behave as an electron donor, much like an n-type dopant. These oxygen donors, or "thermal donors", mask the true resistivity of the semiconductor because they either add additional carrier electrons to a n-type crystal or compensate for the positive holes in a p-type crystal. Fortunately, these thermal donors can be "annihilated" by heat treating the materials briefly in the range of 500 - 800 °C and then cooling quickly through the 450 °C region before donors can reform. In principle thermal donor annihilation can be performed on wafers at any time during their fabrication; however, it is usually best to perform the heat treatment immediately after wafering since sub-standard wafers may be rejected before additional processing steps are undertaken and thus limiting additional cost. Donor annihilation is a bulk effect, and therefore the thermal treatment can be performed in air, since any surface oxide that may form will be removed in subsequent lapping and polishing steps. </para>
+      </section>
+      <section id="id-00566250630222">
+        <title>Lapping or grinding </title>
+        <para id="id13369318">The as-cut wafers vary sufficiently in thickness to require an additional operation, the slicing operation does not consistently produce the required flatness and parallelism required for many wafer specifications, see <link target-id="id13299887"/>. Since conventional polishing does not correct variations in flatness or thickness, a mechanical two-sided lapping operation is performed. Lapping is capable of achieving very precise thickness uniformity, flatness and parallelism. Lapping also prepares the surface for polishing by removing the sub-surface sawing damage, replacing it with a more uniform and smaller lapping damage. </para>
+        <para id="id10597322">The process used for lapping semiconductor wafers evolved from the optical lens manufacturing industry using principles developed over several hundred years. However, as the lens has a curved surface and the wafers are flat, the equipment for lapping wafers is mechanically simpler than lens processing machines. The simplest double-side lapping machine consists of two very flat counter-rotating plates, carriers to hold and move the wafers between the plates, and a device to feed abrasive slurry steadily between the plates. The abrasive is typically a 9 μm Al<sub>2</sub>O<sub>3</sub> grit. Commercial abrasives are suspended in water or glycerin with proprietary additives to assist in suspension and dispersion of the particles, to improve the flow properties of the slurry, and to prevent corrosion of the lapping machine. Hydraulics or an air cylinder applies lapping pressure with low starting pressure for 2 to 5 minutes, which is then increased through most of the process. The completion of lapping may be determined by elapsed time or by an external thickness sensing device. The finished process gives a wafer with a surface uniform to within 2 μm. Approximately 20 μm per side is removed during the lapping process. </para>
+        <para id="id13300130">Although lapping would appear to be simple in concept, the successful implementation of a production lapping operation requires the development of a technique and experience to achieve acceptable quality with good yields. Small adjustments to the rotation rates of the plates and carriers will cause the plates to wear concave, convex or flat. </para>
+        <para id="id13299946">As lapping is a messy process, various efforts have been made to avoid it or to substitute an alternative process. The most likely approach at present is grinding, in which the wafer is held on a vacuum chuck and a series of progressively finer diamond wheels is moved over the wafer while it is rotated on a turn table. Grinding gives a clearer surface than lapping, however, only one side may be ground at a time and the resulting flatness is not as good as that obtained by lapping. </para>
+      </section>
+      <section id="id-993999288815">
+        <title>Edge contouring </title>
+        <para id="id13008666">The rounding of the edge of the wafer to a specific contour is a fairly recent development in the technology of wafer preparation. It was known by the early seventies that a significant number of device yield problems could be traced to the physical condition of the wafer edge. An acute edge affects the strength of the wafer due to: stress concentration, and a lowering of its resistance to thermal stress, as well as being the source of particle chip, breakage, and lattice damage. In addition, the particles originating from the chipped edges can, if present on the wafer surface, add to the defect density (D<sub>0</sub>) of the IC process reducing fabrication yield. Further problems associated with a square edge include the build-up of photoresist at the wafer edge. The solution to these process problems is to provide a contoured edge with a defined radius (r). </para>
+        <para id="id13261056">Chemical etching of wafers results in a degree of edge rounding, but it is difficult to control. Thus, mechanical edge contouring has been developed and the result has been a dramatic improvement in yields in downstream wafer processing. Losses due to wafer breakage are also reduced. The edge contouring process is usually performed in cassette-fed high speed equipment, in which each wafer is rotated rapidly against a shaped cutting tool (<link target-id="id10600084"/>). </para>
+        <figure id="id10600084"><media id="id1166170121671" alt=""><image src="../../media/graphics11-ff2e.jpg" mime-type="image/jpeg" width="400" print-width="4in"/></media><caption>Schematic illustration of edge contouring.</caption></figure>
+      </section>
+      <section id="id-590218998583">
+        <title>Etching </title>
+        <para id="id10649725">The mechanical processes described above to shape the wafer leave the surface and edges damaged and contaminated. The depth of the work damage depends on the specific process, however, 10 μm is typical. Such damage is readily removed by chemical etching. Etching is used at multiple points during the fabrication of a semiconductor device. The discussion below is limited to etches suitable for wafer fabrication, i.e., non-selective etching of the entire wafer surface. </para>
+        <section id="id-468786252191">
+          <title>Wet chemical etching </title>
+          <para id="id12909303">The wet chemical etching of any material can be considered to involve three steps: (a) transportation of the reactants to the surface, (b) reaction at the surface, and (c) movement of the reaction products into the etchant solution (<link target-id="id7257969"/>). Each of these may be the rate limiting step and thus control the etch rate and uniformity. This effect is summarized in <link target-id="id12063324"/>. </para>
+          <figure id="id7257969"><media id="id1166170121776" alt=""><image src="../../media/New etch.jpg" mime-type="image/jpeg" width="450" print-width="3in"/></media><caption>Schematic representation of the three steps involved in wet chemical etching: (i) diffusion of the chemical etch reagents through the boundary layer, (ii) chemical reaction at the surface, and (iii) diffusion of the reaction products into the etch solution through the boundary layer.</caption></figure>
+          <table id="id12063324" summary="Effects of rate limiting step in semiconductor etching.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry><emphasis effect="bold">Rate limiting step</emphasis> </entry>
+                  <entry><emphasis effect="bold">Etching rate</emphasis></entry>
+                  <entry><emphasis effect="bold">Results</emphasis> </entry>
+                  <entry><emphasis effect="bold">Comments</emphasis> </entry>
+                </row>
+                <row>
+                  <entry>Diffusion of reagent to the surface</entry>
+                  <entry>slow</entry>
+                  <entry>etching(anisotropic)</entry>
+                  <entry>enhanced surface roughness</entry>
+                </row>
+                <row>
+                  <entry>Reaction at semiconductor surface</entry>
+                  <entry>fast</entry>
+                  <entry>polishing(isotropic)</entry>
+                  <entry>ideal</entry>
+                </row>
+                <row>
+                  <entry>Diffusion of reaction products from the surface</entry>
+                  <entry>slow</entry>
+                  <entry>polishing(isotropic)</entry>
+                  <entry>reaction product remains on surface</entry>
+                </row>
+              </tbody>
+            
+
+</tgroup><caption>Effects of rate limiting step in semiconductor etching.</caption>
+</table>
+          <para id="id13301692">An etchant that is limited by the rate of reaction at the surface will tend to enhance any surface features and promote surface roughness due to preferential etching at defects (anisotropic). In contrast, if the etch rate is limited by the diffusion of the etchant reagent through a stagnant (dead) boundary layer near the surface, then the etch will result in uniform polishing and the surface will become smooth (isotropic). If removal of the reaction products is rate limiting then the etch rate will be slow because the etch equilibrium will be shifted towards the reactants. In the case of an individual etchant reaction, the rate determining step may be changed by rapid stirring to aid removal of reaction products, or by increasing the temperature of the etch solution, see <link target-id="id12549796"/>. The exact etching conditions are chosen depending on the application. For example, dilute high temperature etches are often employed where the etch damage must be minimized, while cooled etches can be used where precise etch control is required. </para>
+          <figure id="id12549796"><media id="id1166170122044" alt=""><image src="../../media/graphics13-1d67.jpg" mime-type="image/jpeg" width="400" print-width="3in"/></media><caption>Typical etch rate versus temperature plot for a mixture of HF (20%), nitric acid (45%), and acetic acid (35%). </caption></figure>
+          <para id="id13261409">Traditionally mixtures of hydrofluoric acid (HF), nitric acid (HNO<sub>3</sub>) and acetic acid (MeCO<sub>2</sub>H) have been used for silicon, but alkaline etches using potassium hydroxide (KOH) or sodium hydroxide (NaOH) solutions are increasingly common. Similarly, gallium arsenide etches may be either acidic or basic, however, in both cases the etches are oxidative due to the use of hydrogen peroxide. A wide range of chemical reagents are commercially available in "transistor grade" purity and these are employed to minimize contamination of the semiconductor. Deionized water is commonly used as a diluent for each of these reagents and the concentration of commonly used aqueous reagents is given in <link target-id="id12879543"/>. </para>
+          
+          <table id="id12879543" summary="Weight percent concentration of commonly used concentrated aqueous reagents.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry><emphasis effect="bold">Reagent</emphasis> </entry>
+                  <entry><emphasis effect="bold">Weight %</emphasis> </entry>
+                  <entry><emphasis effect="bold">Reagent</emphasis> </entry>
+                  <entry><emphasis effect="bold">Weight %</emphasis> </entry>
+                </row>
+                <row>
+                  <entry>HCl</entry>
+                  <entry>37</entry>
+                  <entry>HF</entry>
+                  <entry>49</entry>
+                </row>
+                <row>
+                  <entry>
+
+H<sub>2</sub>SO<sub>4</sub>       
+           </entry>
+                  <entry>98</entry>
+                  <entry>
+         
+H<sub>3</sub>PO<sub>4</sub>
+
+         </entry>
+                  <entry>85</entry>
+                </row>
+                <row>
+                  <entry>
+
+HNO<sub>3</sub>          
+
+        </entry>
+                  <entry>79</entry>
+                  <entry>
+
+HClO<sub>4</sub>                
+
+  </entry>
+                  <entry>70</entry>
+                </row>
+                <row>
+                  <entry>
+
+MeCO<sub>2</sub>H 
+                 </entry>
+                  <entry>99</entry>
+                  <entry>
+
+H<sub>2</sub>O<sub>2</sub>
+
+                  </entry>
+                  <entry>30</entry>
+                </row>
+                <row>
+                  <entry>
+NH<sub>4</sub>OH
+
+                  </entry>
+                  <entry>29</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+              </tbody>
+            
+
+
+</tgroup><caption>Weight percent concentration of commonly used concentrated aqueous reagents. </caption>
+</table><para id="eip-403">The equipment used for a typical etchant process includes an acid (or alkaline) resistant tank, which contains the etchant solution and one or more positions for rinsing the wafers with deionized water. The process is batch in nature involving tens of wafers and the best equipment provides a means of rotating the wafers during the etch step to maintain uniformity. In order to assure the removal of all surface damage, substantial over-etching is performed. Thus, the removal of 20 μm from each side of the wafer is typical. Etch times are usually several minutes per batch. </para>
+        </section>
+        <section id="id-512871816182">
+          <title>Etching silicon </title>
+          <para id="id12977840">The most commonly used etchants for silicon are mixtures of hydrofluoric acid (HF) and nitric acid (HNO<sub>3</sub>) in water or acetic acid (MeCO<sub>2</sub>H). The etching involves a reduction-oxidation (redox) reaction, followed by dissolution of the reaction products. In the HF-HNO<sub>3</sub> system the 
+HNO<sub>3</sub> oxidizes the silicon and the HF removes the reaction products from the surface. The overall reaction is:
+</para>
+          <equation id="eip-900"><media id="id11111111_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq 1.jpg" id=" id11111111__onlineimage" width="300" print-width="3in"/>
+      </media>
+</equation>
+          <para id="id13421612">The oxidation reaction involves the oxidation of Si<sup>0</sup> to Si<sup>4+</sup>, and it is auto-catalytic in that the reaction product promotes the reaction itself. The initial step involves trace impurities of HNO<sub>2</sub> in the HNO<sub>3</sub> solution, <link target-id="eip-234"/>, which react to liberate nitrogen dioxide (NO<sub>2</sub>), <link target-id="eip-954"/>. </para>
+          <equation id="eip-234"><media id="id11111112_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq 2.jpg" id=" id11111112__onlineimage" width="300" print-width="3in"/>
+      </media>
+</equation>
+          <equation id="eip-954"><media id="id11111113_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq 3a.jpg" id=" id11111113__onlineimage" width="300" print-width="3in"/>
+      </media>
+</equation>
+          <para id="id12496867">The nitrogen dioxide oxidizes the silicon surface in the presence of water, resulting in the formation of Si(OH)<sub>2</sub> and the reformation of HNO<sub>2</sub>, <link target-id="eip-825"/>. The Si(OH)<sub>2</sub> decomposes to give SiO<sub>2</sub>, <link target-id="eip-53"/>. Since the reaction between HNO<sub>2</sub> and HNO<sub>3</sub>, <link target-id="eip-234"/>, is rate limiting, an induction period is observed. However, this is overcome by the addition of NO<sub>2</sub><sup>-</sup> ions in the form of [NH<sub>4</sub>][NO<sub>2</sub>]. 
+
+</para>
+          <equation id="eip-825"><media id="id11111114_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq 4.jpg" id=" id11111114__onlineimage" width="300" print-width="3in"/>
+      </media>
+</equation>
+          <equation id="eip-53"><media id="id11111115_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq 5.jpg" id=" id11111115__onlineimage" width="300" print-width="3in"/>
+      </media>
+</equation>
+          <para id="id12447807">The final step of the etch process is the dissolution of the 
+SiO<sub>2</sub> by HF, <link target-id="eip-367"/>. Stirring serves to remove the soluble products from the reaction surface. The role of the HF is to act as a complexing reagent, and thus the reaction shown in <link target-id="eip-367"/> is known as a complexing reaction. The formation of water as a reaction product requires that acetic acid be used as a diluent (solvent) to ensure better control.</para>
+          <equation id="eip-367"><media id="id11111116_media" alt="">        <image mime-type="image/jpg" src="../../media/Eq 6.jpg" id=" id11111116__onlineimage" width="300" print-width="3in"/></media></equation>
+          <para id="id13293092">The etching reaction is highly dependent on the relative ratios of the etchant reagents. Thus, if an HF-rich solution is used, the reaction is limited by the oxidation step, <link target-id="eip-825"/>, and the etching is anisotropic, since the oxidation reaction is sensitive to doping, crystal orientation, and defects. In contrast, the use of a HNO<sub>3</sub>-rich solution produces isotropic etching since the dissolution process is rate limiting (<link target-id="id12063324"/>). The reaction of HNO<sub>3</sub>-rich solutions has been found to be diffusion-controlled over the temperature range 20 - 50 °C (<link target-id="id12549796"/>), and is therefore commonly employed for removing work damage produced during wafer fabrication. The boundary layer thickness (<link target-id="id7257969"/>) and therefore the dimensional control over the wafer is controlled by the rotation rate of the wafers. A common etch formulation is a 4:1:3 mixture of HNO<sub>3</sub> (79%), HF (49%), and MeCO<sub>2</sub>H (99%). There are some etchant formulations that are based on alternative (or additional) oxidizing agents, such as: 
+Br<sub>2</sub>, I<sub>2</sub>, and KMnO<sub>4</sub>. </para>
+          <para id="id12710662">Alkaline etching (KOH/H<sub>2</sub>O or NaOH/H<sub>2</sub>O) is by nature anisotropic and the etch rate depends on the number of dangling bonds which in turn are dependent on the surface orientation. Since etching is reaction rate limited no rotation of the wafers is necessary and excellent uniformity over large wafers is obtained. Alkaline etchants are used with large wafers where dimensional uniformity is not maintained during lapping. A typical formulation uses KOH in a 45% weight solution in H<sub>2</sub>O at 90 °C. </para>
+        </section>
+        <section id="id-129429962673">
+          <title>Etching gallium arsenide </title>
+          <para id="id13060769">Although a wide range of etches have been investigated for GaAs, few are truly isotropic. This is because the surface activity of the (111) Ga and (111) As faces are very different. The As rich face is considerably more reactive than the Ga rich face, thus under identical conditions it will etch faster. As a result most etches give a polished surface on the As face, but the Ga face tends to appear cloudy or frosted due to the highlighting of surface features and crystallographic defects. </para>
+          <para id="id13060774">As with silicon the etch systems involve oxidation and complexation. However, in the case of GaAs the gallium is already fully oxidized (formally Ga<sup>3+</sup>), thus, it is the arsenic (formally the arsenide ion, As<sup>3-</sup> that is oxidized by a suitable oxidizing agent (e.g., H<sub>2</sub>O<sub>2</sub>) to the soluble oxide, As<sub>2</sub>O<sub>3</sub>, <link target-id="eip-892"/>. The gallium ions form the oxide Ga<sub>2</sub>O<sub>3</sub> via the hydroxide, <link target-id="eip-965"/>. Both oxides are soluble in acid solutions, resulting in their removal from the surface. </para>
+          <equation id="eip-892"><media id="id11111117_media" alt="">        <image mime-type="image/jpg" src="../../media/Eq 7.jpg" id=" id11111117__onlineimage" width="300" print-width="3in"/></media></equation><equation id="eip-965"><media id="id11111118_media" alt="">        <image mime-type="image/jpg" src="../../media/Eq 8.jpg" id=" id11111118__onlineimage" width="300" print-width="3in"/></media></equation>
+          
+          <para id="id10599095">The peroxide based oxidative etches for GaAs are divided into acidic and basic etches. The composition and application of some of these systems are summarized in <link target-id=" id13465923 "/>. The most widely used of these is H<sub>2</sub>SO<sub>4</sub>/H<sub>2</sub>O<sub>2</sub>/H<sub>2</sub>O and is referred to as Caro's acid. The high viscosity of H<sub>2</sub>SO<sub>4</sub> results in diffusion-limited etching with high acid concentrations. Etches with low acid concentrations tend to be anisotropic. Phosphoric acid (H<sub>3</sub>PO<sub>4</sub>) or citric acid (<link target-id="id13301134"/>) may be exchanged for sulfuric acid (H<sub>2</sub>SO<sub>4</sub>). Replacement of the acid component with bases such as NH<sub>4</sub>OH or NaOH can result in near to truly isotropic etchants, although certain combinations can result in strong anisotropy.</para>
+          <table id="id13465923" summary="The composition and application of selected etch systems for GaAs.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <tbody>
+             
+                <row>
+
+                  <entry><emphasis effect="bold">Formulation</emphasis> </entry>
+                  <entry><emphasis effect="bold">Volume ratio</emphasis> </entry>
+                  <entry><emphasis effect="bold">(100) etch rate (μm/min)</emphasis> </entry>
+                  <entry><emphasis effect="bold">(110) etch rate (μm/min)</emphasis> </entry>
+                  <entry><emphasis effect="bold">(111)As etch rate (μm/min)</emphasis> </entry>
+                  <entry><emphasis effect="bold">(111)Ga etch rate (μm/min)</emphasis> </entry>
+                </row>
+                <row>
+                  <entry>
+H<sub>2</sub>SO<sub>4</sub>/ H<sub>2</sub>O<sub>2</sub>/ H<sub>2</sub>O 
+</entry>
+                  <entry>8:1:1</entry>
+                  <entry>1.5</entry>
+                  <entry>1.5</entry>
+                  <entry>1.5</entry>
+                  <entry>0.8</entry>
+                </row>
+                <row>
+                  <entry>
+H<sub>2</sub>SO<sub>4</sub>/ H<sub>2</sub>O<sub>2</sub>/ H<sub>2</sub>O </entry>
+                  <entry>1:8:1</entry>
+                  <entry>8.0</entry>
+                  <entry>8.0</entry>
+                  <entry>12.0</entry>
+                  <entry>3.0</entry>
+                </row>
+                <row>
+                  <entry>
+
+H<sub>2</sub>SO<sub>4</sub>/ H<sub>2</sub>O<sub>2</sub>/ H<sub>2</sub>O </entry>
+                  <entry>3:1:50</entry>
+                  <entry>0.8</entry>
+                  <entry>0.8</entry>
+                  <entry>0.8</entry>
+                  <entry>0.4</entry>
+                </row>
+                <row>
+                  <entry>citric acid/ H<sub>2</sub>O<sub>2</sub>/ H<sub>2</sub>O</entry>
+                  <entry>1:1:1</entry>
+                  <entry>0.6</entry>
+                  <entry>0.6</entry>
+                  <entry>0.6</entry>
+                  <entry>0.4</entry>
+                </row>
+                <row>
+                  <entry>
+
+
+NH<sub>4</sub>OH/ H<sub>2</sub>O<sub>2</sub>/ H<sub>2</sub>O
+
+</entry>
+                  <entry>1:700</entry>
+                  <entry>0.3</entry>
+                  <entry>0.3</entry>
+                  <entry>0.3</entry>
+                  <entry>0.3</entry>
+                </row>
+                <row>
+                  <entry>NaOH/ H<sub>2</sub>O<sub>2</sub>/ H<sub>2</sub>O</entry>
+                  <entry>1:0.76</entry>
+                  <entry>0.2</entry>
+                  <entry>0.2</entry>
+                  <entry>0.2</entry>
+                  <entry>0.2</entry>
+                </row>
+</tbody>
+            
+
+
+
+
+
+
+
+
+</tgroup><caption>The composition and application of selected etch systems for GaAs. </caption>
+</table>
+          <figure id="id13301134"><media id="id1166171522640" alt=""><image src="../../media/graphics14-4c5c.jpg" mime-type="image/jpeg" width="200" print-width="2in"/></media><caption>Structure of citric acid.</caption></figure>
+          <para id="id13301158">One of the earliest etching systems for GaAs is based on the use of a dilute (ca. 0.05 vol.%) solution of bromine (Br<sub>2</sub>) in ethanol. The Br<sub>2</sub> acts as the oxidant, resulting in the formation of soluble bromides. The etch rate of this system is different for different crystallographic planes, i.e., the etch rates for the (111) As, (100), and (111) Ga faces are in the ratio 6:5:1, although more uniform etch rates are observed with high Br<sub>2</sub> concentrations (ca. 10 vol.%). These higher concentration solutions are used for the removal of damage due to cutting with the saw. </para>
+        </section>
+      </section>
+      <section id="id-810973633871">
+        <title>Polishing </title>
+        <para id="id11876770">The purpose of polishing is to produce a smooth, specular surface on which device features can be defined by lithography. In order to allow for very large scale integration (VLSI) or ultra large scale integration (ULSI) fabrication the wafer must have a surface with a high degree of flatness. Variations less than 5 to 10 μm across the wafer diameter are typical flatness specifications. In addition, given the preceding steps, wafer polishing must not leave residual contamination or surface damage. The techniques of wafer polishing are derived from the glass lens industry, with some important modifications that have been developed to meet the special requirements of the microelectronics industry. </para>
+        <section id="id-129374391523">
+          <title>Differences between polishing and lapping </title>
+          <para id="id11876809">If the surface of a wafer that has undergone lapping (or grinding) is examined with an electron microscope, cracks, ridges and valleys are observed. The top "relief layer" consists of peaks and valleys. Below this layer is a damaged layer characterized by microcracks, dislocations, slip and stress. <link target-id=" id10599956"/> shows a schematic representation of the abraded surface. Both of these layers must be removed completely prior to further fabrication. Decreasing the particle size of the abrasive during lapping only decreases the scale of the damage, but does not eliminate it entirely. In fact this surface damage is a characteristic of the brittle fracture of single crystal Si and GaAs, and occurs because during lapping the abrasive grains are moved across the surface under a pressure beyond that of the fracture strength of the wafer materials (Si or GaAs). In contrast to the mechanical abrasion employed in lapping, polishing is a mechano-chemical process during which brittle fracture does not occur. A polished wafer does not display any evidence of a relief surface such as that produced by lapping, even at highest resolution electron microscope. </para>
+          <figure id="id10599956"><media id="id8133814" alt=""><image src="../../media/graphics15-ee99.jpg" mime-type="image/jpeg" width="500" print-width="4in"/></media><caption>Schematic representation of a cross sectional view of an abraded wafer surface prior to polishing.</caption></figure>
+        </section>
+        <section id="id-118939924155">
+          <title>Process of Polishing </title>
+          <para id="id10599988"><link target-id="id13362530"/> shows a schematic of the polishing process. Polishing may be conducted on single wafers or as a batch process depending on the equipment employed. Single wafer polishing is preferred for larger wafers and allows for better surface flatness. In both processes, wafers are mounted onto a fixture, by either wax or a composite Felx-Mount™, and pressed against the polishing pad. The polishing pad is usually made from an artificial fabric such as polyester felt-polyurethane laminate. Polishing is accomplished by a mechano-chemical process in which aqueous polishing slurry is dripped onto the polishing pad, see <link target-id="id13362530"/>. The polishing slurry performs both a chemical and mechanical process, and consists of fine silica (SiO<sub>2</sub>) particles (100 Å diameter) and an oxidizing agent. Aqueous sodium hydroxide (NaOH) is used for Si, while aqueous sodium chlorate (NaOCl) is preferred for GaAs. Suspending agents are usually added to prevent settling of the silica particles. Under the heat caused by the friction of the wafer on the polishing pad the wafer surface is oxidized, which is the chemical step, while in the mechanical step the silica particles in the slurry abrade the oxidized surface away. </para><figure id="id13362530"><media id="id5346418" alt=""><image src="../../media/graphics16-7ab5.jpg" mime-type="image/jpeg" width="350" print-width="3in"/></media><caption>Schematic representation of the wafer polishing process.</caption></figure>
+          <para id="id13362554">In order to achieve a reasonable rate of removal of the relief and damaged layers and still obtain the highest quality surface, the polishing is done in two steps, stock removal and haze removal. The former is carried out with a higher concentration slurry and may proceed for about 30 minutes at a removal rate of 1 μm/min. Haze removal is performed with a very dilute slurry, a softer pad with a reaction time of about 5 to 10 minutes, during which the total amount of material removed is only about 1 μm. Due to the active chemical reaction between the wafer and the polishing agent, the wafers must be rinsed in deionized water immediately after polishing to prevent haze or stains from reforming. </para>
+          <para id="id13362582">There are many variables that will influence the rate and quality of polishing. High pressure results in a higher polishing rate, but excessive pressure may cause non-uniform polishing, excessive heat generation and fast pad wear. The rate of polishing is increased with higher temperatures but this may also lead to haze formation. High wheel speeds accelerate the polishing rate but can raise the temperature and also results in problems in maintaining a uniform flow of slurry across the pad. Dense slurry concentrations increase the polishing rate but are more costly. The pH of the slurry solution can also affect the polishing rate, for example the polishing rate of Si gradually increases with increased pH (higher basicity) until a pH of about 12 where a dramatic decrease is observed. In general, the optimum polishing process for a given facility depends largely upon the interplay of product specification, yields, cost, and quality considerations and must be developed uniquely. The wafer polishing process does not improve the wafer flatness and, at best, polishing will not degrade the wafer flatness achieved in the lapping operation. </para>
+        </section>
+      </section>
+      <section id="id-539491042307">
+        <title>Cleaning </title>
+        <para id="id13362616">During the processes described above, semiconductor wafers are subjected to physical handling that leads to significant contamination. Possible sources of physical contamination include: </para>
+        <list id="eip-680" list-type="enumerated" number-style="lower-alpha"><item>airborne bacteria, </item>
+<item>grease and wax from cutting oils and physical handling, </item>
+<item>abrasive particulates (usually, silica, silicon carbide, alumina, or diamond dust) from lapping, grinding or sawing operations,</item>
+<item>plasticizers which are derived from containers and wrapping in which the wafers are handled and shipped. </item></list><para id="eip-903">Chemical contamination may also occur as a result of improper cleaning after etch steps. Light-metal (especially sodium and potassium) species may be traced to impurities in etchant solutions and are chemisorbed on to the surface where they are particularly problematical for metal oxide semiconductor (MOS) based devices, although higher levels of such impurities are tolerable for bipolar devices. Heavy metal impurities (e.g., Cu, Au, Fe, and Ag) are usually caused by electrodeposition from etchant solutions during fabrication. While wafers are cleaned prior to shipping, contamination accumulated during shipping and storage necessitates that all wafers be subjected to scrupulous cleaning prior to fabrication. Furthermore, cleaning is required at each step during the fabrication process. Although wafer cleaning is a vital part of each fabrication step, it is convenient to discuss cleaning within the general topic of wafer fabrication. </para><section id="id-624598870767">
+          <title>Cleaning silicon </title>
+          <para id="id12712193">The first step in cleaning a Si wafer is removal of all physical contaminants. These contaminates are removed by rinsing the wafer in hot organic solvents such as 1,1,1-trichloroethane (Cl<sub>3</sub>CH<sub>3</sub>) or xylene (C<sub>6</sub>H<sub>4</sub>Me<sub>2</sub>), accompanied by mechanical scrubbing, ultrasonic agitation, or compressed gas jets. Removal of the majority of light metal contaminants is accomplished by rinsing in hot deionized water, however, complete removal requires a further more aggressive cleaning process. The most widely used cleaning method in the Si semiconductor industry is based on a two step, two solution sequence known as the “RCA Cleaning Method”. </para>
+          <para id="id13009278">The first solution consists of H<sub>2</sub>O-H<sub>2</sub>O<sub>2</sub>-NH<sub>4</sub>OH in a volume ratio of 5:1:1 to 7:2:1, which is used to remove organic contaminants and heavy metals. The oxidation of the remaining organic contaminants by the hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) produces water soluble products. Similarly, metal contaminants such as cadmium, cobalt, copper, mercury, nickel, and silver are solubilized by the NH<sub>4</sub>OH through the formation of soluble amino complexes, e.g., <link target-id="eip-293"/>. </para>
+          <equation id="eip-293"><media id="id11111119_media" alt="">        <image mime-type="image/jpg" src="../../media/Eq 9.jpg" id=" id11111119__onlineimage" width="300" print-width="3in"/></media></equation>
+          <para id="id13008949">The second solution consists of H<sub>2</sub>O-H<sub>2</sub>O<sub>2</sub>-HCl in a 6:1:1 to 8:2:1 volume ratio and removes the Group I(1), II(2) and III(13) metals. In addition, the second solution prevents re-deposition of the metal contaminants. Each of the washing steps is carried out for 10 - 20 min. at 75 - 85 °C with rapid agitation. Finally, the wafers are blown dry under a stream of nitrogen gas. </para>
+        </section>
+        <section id="id-844248616477">
+          <title>Cleaning GaAs </title>
+          <para id="id12725113">In principle GaAs wafers may be cleaned in a similar manner to silicon wafers. The first step involves successive cleaning with hot organic solvents such as 1,1,1-trichloroethane, acetone, and methanol, each for 5-10 minutes. GaAs wafers cleaned in this manner may be stored under methanol for short periods of time. </para>
+          <para id="id12725124">Most cleaning solutions for GaAs are actually etches. A typical solution is similar to the second RCA solution and consists of an 80:10:1 ratio of H<sub>2</sub>O-H<sub>2</sub>O<sub>2</sub>-HCl. This solution is generally used at elevated temperatures (70 °C) with short dip times since it has a very fast etch rate (4.0 μm/min). </para>
+        </section>
+      </section>
+      <section id="id-466444384947">
+        <title>Measurements, inspections and packaging </title>
+        <para id="id12724863">Quality control measurements of the semiconductor crystal and subsequent wafer are performed throughout the process as an essential part of the fabrication of wafers. From crystal and wafer shaping through the final wafer finishing steps, quality control measurements are used to ensure that the materials meets customer specifications, and that problems can be corrected before they create scrap material and thus avoid further processing of reject material. Quality control measurements can be broadly classified into mechanical, electrical, structural, and chemical. </para>
+        <para id="id12724868">Mechanical measurements are concerned with the physical dimensions of the wafer, including: thickness, flatness, bow, taper and edge contour. Electrical measurements usually include: resistivity and lateral resistivity gradient, carrier type and lifetime. Measurements giving information on the perfection of the semiconductor crystal lattice are classified in the structural category and include: testing for stacking faults, and dislocations. Routine chemical measurements are limited to the measurement of dissolved oxygen and carbon by Fourier transform infrared spectroscopy (FT-IR). Finished wafers are individually marked for the purpose of identification and traceability. Packaging helps protect the finished wafers from contamination during shipping and storage. </para>
+        <para id="id12469354">Industry standards defining in detail how quality control measurements are to be made and determining the acceptable ranges for measured values have been developed by the American Society of Testing Materials (ASTM) and the Semiconductor Equipment and Materials Institute (SEMI). </para>
+      </section>
+      <section id="id-299942941558">
+        <title>Bibliography</title>
+        <list id="eip-6"><item>A. C. Bonora, <emphasis effect="italics">Silicon Wafer Process Technology: Slicing, Etching, Polishing</emphasis>, Semiconductor Silicon 1977, Electrochem. Soc., Pennington, NJ (1977). </item>
+<item>L. D. Dyer, in <emphasis effect="italics">Proceeding of the low-cost solar array wafering workshop 1981</emphasis>, DoE-JPL-21012-66, Jet Propulsion Lab., Pasadena CA (1982). </item>
+<item>J. C. Dyment and G. A. Rozgonyi, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1971, <emphasis effect="bold">118</emphasis>, 1346.</item>
+<item>H. Gerischer and W. Mindt, <emphasis effect="italics">Electrochem. Acta</emphasis>, 1968, <emphasis effect="bold">13</emphasis>, 1329.</item>
+<item>P. D. Green, <emphasis effect="italics">Solid State Electron.</emphasis>, 1976, <emphasis effect="bold">19</emphasis>, 815.</item>
+<item>C. A. Harper and R. M. Sompson, <emphasis effect="italics">Electronic Materials &amp; Processing Handbook</emphasis>, McGraw Hill, New York, 2nd Edition.</item>
+<item>S. Iida and K. Ito, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1971, <emphasis effect="bold">118</emphasis>, 768. </item>
+<item>W. Kern, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1990, <emphasis effect="bold">137</emphasis>, 1887.</item>
+<item>Y. Mori and N. Watanabe, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1978, <emphasis effect="bold">125</emphasis>, 1510.</item>
+<item>D. L. Partin, A. G. Milnes, and L. F. Vassamillet, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1979, <emphasis effect="bold">126</emphasis>, 1581.</item>
+<item>D. W. Shaw, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1966, <emphasis effect="bold">113</emphasis>, 958.</item>
+<item>F. Snimura, <emphasis effect="italics">Semiconductor Silicon Crystal Technology</emphasis>, Academic Press, New York (1989). </item>
+<item>D. R. Turner, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1960, <emphasis effect="bold">107</emphasis>, 810.</item>
+
+
+
+</list>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    </section>
+  </content>
+</document>

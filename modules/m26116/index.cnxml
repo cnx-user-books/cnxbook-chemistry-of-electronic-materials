@@ -1,0 +1,72 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Metal Organic Chemical Vapor Deposition of Calcium Fluoride</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m26116</md:content-id>
+  <md:title>Metal Organic Chemical Vapor Deposition of Calcium Fluoride</md:title>
+  <md:abstract/>
+  <md:uuid>d3cf81dd-c8ed-4455-99c0-b1e3340a2d5a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167953347303"> The chemical vapor deposition (CVD) of metal fluorides has been much less studied than that of oxides, pnictides, or chalgogenides. As may be expected where a volatile fluoride precursor is available then suitable films may be grown. For example, Group 5 (V, Nb, Ta), 6 (Mo, W), and 7 (Re) transition metals are readily deposited from fluoride-hydrogen mixtures. While the use of fluorine is discouraged on safety grounds, many of the fluorinated alkoxide or <emphasis effect="italics">β</emphasis>-diketonate ligands employed for metal oxide metal organic chemical vapor deposition (MOCVD) are predisposed to depositing metal fluorides. The use of fluorine substituted derivatives is because they are often more volatile than their hydrocarbon analogs, and therefore readily used for both atmospheric and low pressure CVD. To minimize the unwanted formation of metal fluorides, water vapor is incorporated in the gas stream, and it is common to perform post-deposition hydrolytic anneals. However, there exist a number of applications where fluorides are required. For example, the highly insulating nature of CaF<sub>2</sub> and SrF<sub>2</sub> has prompted investigations into their use as a gate insulator in GaAs-based metal insulator semiconductor field effect transistor (MISFET) devices. It should be noted that while CaF<sub>2</sub> is a good insulator, the CaF<sub>2</sub>/GaAs interface has a high interface trap density, requiring a passivation buffer layer to be deposited on GaAs prior to CaF<sub>2</sub> growth. </para>
+    <para id="id1167953467337">One of the difficulties with the use of CaF<sub>2 </sub>(and SrF<sub>2</sub>) on GaAs is the lattice mismatch (<link target-id="id1167953571111"/>), but this may be minimized by the use of solid solutions between CaF<sub>2</sub>-SrF<sub>2</sub>. The composition Ca<sub>0.44</sub>Sr<sub>0.56</sub>F<sub>2</sub> is almost perfectly lattice-matched to GaAs. Unfortunately, the thermal expansion coefficient differences between GaAs and CaF<sub>2</sub>-SrF<sub>2</sub> produce strains at the film/substrate interface under high temperature growth conditions. The solution to this latter problem lies in the low temperature deposition of CaF<sub>2</sub>-SrF<sub>2</sub> by CVD. </para>
+    <table id="id1167953571111" summary="Lattice parameters of Group 2 (II) fluorides in comparison with GaAs.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Compound</emphasis></entry>
+            <entry><emphasis effect="bold">Lattice constant (Å)</emphasis></entry>
+          </row>
+          <row>
+            <entry>CaF<sub>2</sub></entry>
+            <entry>5.46</entry>
+          </row>
+          <row>
+            <entry>SrF<sub>2</sub></entry>
+            <entry>5.86</entry>
+          </row>
+          <row>
+            <entry>BaF<sub>2</sub></entry>
+            <entry>6.20</entry>
+          </row>
+          <row>
+            <entry>GaAs</entry>
+            <entry>5.6532</entry>
+          </row>
+        </tbody>
+      
+</tgroup><caption>Lattice parameters of Group 2 (II) fluorides in comparison with GaAs. </caption>
+</table>
+    
+    <para id="id1839870">Polycrystalline CaF<sub>2</sub> may be grown by the pyrolytic decomposition of Ca(C<sub>5</sub>Me<sub>5</sub>)<sub>2</sub> (<link target-id="id1167952524012"/>a) in either SiF<sub>4</sub> or NF<sub>3</sub>. Deposition at 150 °C results in polycrystalline films with high levels of carbon (18%) and oxygen (7%) impurities limiting the films usefulness in electronic applications. However, significantly higher purity films may be grown at 100 ˚C using the photo-assisted decomposition of Ca(hfac)<sub>2</sub> (<link target-id="id1167952524012"/>b). These films were deposited at 30 Å/min and showed a high degree of crystallographic preferred orientation. </para>
+    <figure id="id1167952524012"><media id="id1167952524012_media" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics1-e87a.jpg" id="id1167952524012__onlineimage" width="300" print-width="3in"/>
+      </media>
+    <caption>CaF<sub>2</sub> MOCVD precursors. </caption></figure>
+    
+    <para id="id1167963022086">The mechanism enabeling fluoride transfer to the metal (from the carbon of fluorinated alkoxide ligands) has been investigated. MOCVD employing [Na(OR<sub>f</sub>)]<sub>4</sub> and Zr(OR<sub>f</sub>)<sub>4</sub> [OR<sub>f</sub> = OCH(CF<sub>3</sub>)<sub>2</sub> and OCMe<sub>3-n</sub>(CF<sub>3</sub>)<sub>n</sub>, n = 1 - 3] gives NaF and ZrF<sub>4</sub> films, respectively, with volatile fluorocarbon side-products. Analysis of the organic side-products indicated that decomposition occurs by transfer of fluorine to the metal in conjunction with a 1,2-migration of a residual group on the alkoxide, to form a ketone (<link target-id="id6275981"/>). The migration is increasingly facile in the order CF<sub>3</sub> &lt;&lt; CH<sub>3</sub> ≤ H. The initial M-F bond formation has been proposed to be as a consequence of the close M<sup>...</sup>F agostic interactions observed for some fluoroalkoxide and fluoro-<emphasis effect="italics">β</emphasis>-diketonates.</para>
+
+      <figure id="id6275981"><media id="id6275981_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-d966.jpg" id="id6275981__onlineimage" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Proposed mechanism for the decomposition of fluorinated alkoxide compounds. (Adapted from J. A. Samuels, W. -C. Chiang, C. -P. Yu, E. Apen, D. C. Smith, D. V. Baxter, K. G. Caulton, <emphasis effect="italics">Chem. Mater</emphasis>., 1994, <emphasis effect="bold">6</emphasis>, 1684). </caption></figure>
+
+
+    
+    <section id="id1167957118345">
+
+
+      <title>Bibliography</title>
+
+
+      <list id="id2621974" list-type="bulleted"><item>A. R. Barron, in <emphasis effect="italics">CVD of Nonmetals</emphasis>, W. S. Rees, Jr. (ed), Wiley, New York (1996).  </item>
+
+<item>B. D. Fahlman and A. R. Barron, <emphasis effect="italics">Adv. Mater. Opt. Electron.</emphasis>, 2000, <emphasis effect="bold">10</emphasis>, 223. </item>
+        <item>H. Heral. L. Bernard, A. Rocher, C. Fontaine, A. Munoz-Jague, <emphasis effect="italics">J. Appl. Phys</emphasis>., 1987, <emphasis effect="bold">61</emphasis>, 2410. </item>
+        <item>J. A. Samuels, W. -C. Chiang, C. -P. Yu, E. Apen, D. C. Smith, D. V. Baxter, K. G. Caulton, <emphasis effect="italics">Chem. Mater</emphasis>., 1994, <emphasis effect="bold">6</emphasis>, 1684. </item>
+        <item>W. Vere, K. J. Mackey, D. C. Rodway, P. C. Smith, D. M Frigo, D. C. Bradley, <emphasis effect="italics">Angew. Chem. Int. Ed. Engl. Adv. Mater.</emphasis>, 1989, <emphasis effect="bold">28</emphasis>, 1581.</item>
+      </list>
+    </section>
+  </content>
+</document>

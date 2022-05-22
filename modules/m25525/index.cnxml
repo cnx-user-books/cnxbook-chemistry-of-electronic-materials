@@ -1,0 +1,92 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Composition and Photochemical Mechanisms of Photoresists</title>
+  <metadata>
+  <md:content-id>m25525</md:content-id><md:title>Composition and Photochemical Mechanisms of Photoresists</md:title>
+  <md:abstract/>
+  <md:uuid>2997481b-ecd7-4e38-9465-677d8adbe0ad</md:uuid>
+</metadata>
+
+<content>
+    
+    <note id="eip-224">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Angela Cindy Wei. </note><section id="id1167890474740">
+      <title>Photolithography</title>
+      <para id="id2292114">In photolithography, a pattern may be transferred onto a photoresist film by exposing the photoresist to light through a mask of the pattern. In the semiconductor industry, the photolithographic procedure includes the following steps as illustrated in <link target-id="id2243081 "/>: coating a base material with photoresist, exposing the resist through a mask to light, developing the resist, etching the exposed areas of the base, and stripping the remaining resist off. </para>
+      <figure id="id2243081"><media id="id2243081_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-b9a0.jpg" id="id2243081__onlineimage" width="600" print-width="5.5in"/>
+        </media>
+      <caption>Steps in optical printing using photolithography. </caption></figure>
+      
+      <para id="id1167903534233">Upon exposure to light, the photoresist may become more or less soluble depending on the chemical properties of the particular resist material. The photochemical reactions include chain scission, cross-linking, and the rearrangement of molecules. If the exposed areas of the photoresist become more soluble, then it is a positive resist; conversely, if the exposed resist becomes less soluble, then it is a negative resist. In developing the photoresist, the more soluble material is removed leaving a positive or a negative image of the mask pattern. </para>
+    </section>
+    <section id="id1167889266411">
+      <title>Photoresist</title>
+      <para id="id1167894999086"> Photoresists were initially developed for the printing industry. In the 1920s, the application of photoresists spread to the printed circuit board industry. Photoresists for semiconductor use were first developed in the 1950s; Kodak developed commercial negative photoresists and shortly after, Shipley developed a line of positive resists. Several other companies have entered the market since that time in hopes of manufacturing resist products which meet the increasing demands of the semiconductor industry: narrower line widths, fewer defects, and higher production rates. </para>
+      <section id="id1167895960067">
+        <title>Photoresist composition</title>
+        <para id="id6688222"> Several functional requirements must be met for a photoresist to be used in the semiconductor industry. Photoresist polymers must be soluble for easy deposition onto a substrate by spin-coating. Good photoresist-substrate adhesion properties are required to minimize undercutting, to maintain edge acuity, and to control the feature sizes. The photoresist must be chemically resistant to whichever etchants are to be used. Sensitivity of the photoresist to a particular light source is essential to the functionality of a photoresist. The speed at which chemical changes occur in a photoresist is its contrast. The contrast of a resist is dependent on the molecular weight distribution of the polymers: a broad molecular weight distribution results in a low contrast resist. High contrast resists produce higher resolution images.</para>
+        <para id="id1167889157271"> The four basic components of a photoresist are the polymer, the solvent, sensitizers, and other additives. The role of the polymer is to either polymerize or photosolubilize when exposed to light. Solvents allow the photoresist to be applied by spin-coating. The sensitizers control the photochemical reactions and additives may be used to facilitate processing or to enhance material properties. Photochemical changes to polymers are essential to the functionality of a photoresist. Polymers are composed primarily of carbon, hydrogen, and oxygen-based molecules arranged in a repeated pattern. Negative photoresists are based on polyisopreme polymers; negative resist polymers are not chemically bonded to each other, but upon exposure to light, the polymers crosslink, or polymerize. Positive photoresists are formulated from phenol-formaldehyde novolak resins; the positive resist polymers are relatively insoluble, but upon exposure to light, the polymers undergo photosolubilization. </para>
+        <para id="id1167903503441"> Solvents are required to make the photoresist a liquid, which allows the resist to be spun onto a substrate. The solvents used in negative photoresists are non-polar organic solvents such as toluene, xylene, and halogenated aliphatic hydrocarbons. In positive resists, a variety of organic solvents such as ethyl cellosolve acetate, ethoxyethyl acetate, diglyme, or cyclohexanone may be used.</para>
+        <para id="id1167889292438"> Photosensitizers are used to control or cause polymer reactions resulting in the photosolubilization or crosslinking of the polymer. The sensitizers may also be used to broaden or narrow the wavelength response of the photoresist. Bisazide sensitizers are used in negative photoresists while positive photoresists utilize diazonaphthoquinones. One measure of photosensitizers is their quantum efficiencies, the fraction of photons which result in photochemical reactions; the quantum efficiency of positive diazonaphthoquinone photoresist sensitizers has been measured to be 0.2 - 0.3 and the quantum efficiency of negative bis-arylazide sensitizers is in the range of 0.5 - 1.0.</para>
+        <para id="id1167896691617"> Additives are also introduced into photoresists depending on the specific needs of the application. Additives may be used to increase photon absorption or to control light within the resist film. Adhesion promoters such as hexamethyldisilazane and additives to improve substrate coating are also commonly used.</para>
+      </section>
+      <section id="id7339960">
+        <title>Negative photoresist chemistry</title>
+        <para id="id2550673"> The matrix resin material used in the formulation of these (negative) resists is a synthetic rubber obtained by a Ziegler-Natta polymerization of isoprene which results in the formation of poly(cis-isoprene). Acid-catalyzation of poly(cis-isoprene) produces a partially cyclized polymer material; the cyclized polymer has a higher glass transition temperature, better structural properties, and higher density. On the average, microelectronic resist polyisoprenes contain 1-3 rings per cyclic unit, with 5-20% unreacted isoprene units remaining'. The resultant material is extremely soluble in non-polar, organic solvents including toluene, xylene, and halogenated aliphatic hydrocarbons.</para>
+        <para id="id8204221"> The condensation of para-azidobenzaldehyde with a substituted cyclohexanone produces bis-arylazide sensitizers. To maximize the absorption of a particular light source, the absorbance spectrum of the photoresist may be shifted by making structural modifications to the sensitizers; for example, by using substituted benzaldehydes, the absorption peak may be shifted to longer wavelengths. A typical bisazide-cyclized polyisoprene photoresist formulation may contain 97 parts cyclized polyisoprene to 3 parts bisazide in a (10 wt%) xylene solvent.</para>
+        <para id="id8082534">All negative photoresists function by cross-linking a chemically reactive polymer via a photosensitive agent that initiates the chemical cross-linking reaction. In the bisazide-cyclized polyisoprene resists, the absorption of photons by the photosensitive bisazide in the photoresist results in an insoluble crosslinked polymer. Upon exposure to light, the bisazide sensitizers decompose into nitrogen and highly reactive chemical intermediates, called nitrenes <link target-id="eip-513"/>. The nitrines react to produce polymer linkages and three-dimensional cross-linked structures that are less soluble in the developer solution.</para><equation id="eip-513"><media id="id2068553_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics2-a7c9.jpg" id="id2068553__onlineimage" width="400" print-width="4in"/>
+            </media></equation>
+        
+      </section>
+      <section id="id1167895806586">
+        <title>Positive photoresist chemistry</title>
+        <para id="id1167897048093"> Positive photoresist materials originally developed for the printing industry have found use in the semiconductor industry. The commonly used novolac resins (phenol-formaldehyde copolymer) and (photosensitive) diazoquinone both were products of the printing industry. </para>
+        <para id="id1167890153018">The novolak resin is a copolymer of a phenol and formaldehyde (<link target-id="id7861185"/>). Novolak resins are soluble in common organic solvents (including ethyl cellosolve acetate and diglyme) and aqueous base solutions. Commercial resists usually contain meta-cresol resins formed by the acid-catalyzed condensation of meta-cresol and formaldehyde. </para>
+        <figure id="id7861185"><media id="id7861185_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-5040.jpg" id="id7861185__onlineimage" width="300" print-width="2.25in"/>
+          </media>
+        <caption>Structure of a novolak resin. </caption></figure>
+        
+        <para id="id1167903521326"> The positive photoresist sensitizers are substituted diazonaphthoquinones. The choice of substituents affects the solubility and the absorption characteristics of the sensitizers. Common substituents are aryl sulfonates. The diazoquinones are formed by a reaction of diazonaphthoquinone sulfonyl chloride with an alcohol to form sulfonate ester; the sensitizers are then incorporated into the resist via a carrier or bonded to the resin. The sensitizer acts as a dissolution inhibitor for the novalac resin and is base-insoluble. The positive photoresist is formulated from a novolac resin, a diazonaphthoquinone sensitizer, and additives dissolved in a 20 - 40 wt% organic solvent. In a typical resist, up to 40 wt% of the resist may be the sensitizer. </para>
+        <para id="id5530181">The photochemical reaction of quinonediazide is illustrated in <link target-id="eip-961"/>. Upon absorption of a photon, the quinonediazide decomposes through Wolff rearrangement, specifically a Sus reaction, and produces gaseous nitrogen as a by-product. In the presence of water, the decomposition product forms an indene carboxylic acid, which is base-soluble. However, the formation of acid may not be the reason for increased solubility; the release of nitrogen gas produces a porous structure through which the developer may readily diffuse, resulting in increased solubility. </para><equation id="eip-961"><media id="id2622348_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-1470.jpg" id="id2622348__onlineimage" width="400" print-width="3.5in"/>
+          </media>
+        </equation>
+        
+      </section>
+      <section id="id2201581">
+        <title>Image reversal</title>
+        <para id="id1167897088084"> By introducing an additive to the novolac resins with diazonaphthaquiones sensitizers, the resultant photoresist may be used to form a negative image. A small amount of a basic additive such as monazoline, imidazole, and triethylamine is mixed into a positive novolac resist. Upon exposure to light, the diazonaphthaquiones sensitizer forms an indene carboxylic acid. During the subsequent baking process, the base catalyzes a thermal decarboxylation, resulting in a substituted indene that is insoluble in aqueous base. Then, the resist is flood exposed destroying the dissolution inhibitors remaining in the previously unexposed regions of the resist. The development of the photoresist in aqueous base results in a negative image of the mask.</para>
+      </section>
+    </section>
+    <section id="id1167890518373">
+      <title>Comparison of positive and negative photoresists</title>
+      <para id="id1167894774982">Into the 1970s, negative photoresist processes dominated. The poor adhesion and the high cost of positive photoresists prevented its widespread use at the time. As device dimensions grew smaller, the advantages of positive photoresists, better resolution and pinhole protection, suited the changing demands of the semiconductor industry and in the 1980s the positive photoresists came into prominence. A comparison of negative and positive photoresists is given in <link target-id="id2321669"/>. </para>
+   
+
+
+
+        <figure id="id2321669"><media id="id2321669_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-ef04.jpg" id="id2321669__onlineimage" width="600" print-width="5in"/>
+          </media>
+        <caption>A comparison of negative and positive photoresists. </caption></figure>
+
+      
+      <para id="id1167895909625">The better resolution of positive resists over negative resists may be attributed to the swelling and image distortion of negative resists during development; this prevents the formation of sharp vertical walls of negative resist. Disadvantages of positive photoresists include a higher cost and lower sensitivity.</para>
+      <para id="id8791914">Positive photoresists have become the industry choice over negative photoresists. Negative photoresists have much poorer resolution and the positive photoresists exhibit better etch resistance and better thermal stability. As optical masking processes are still preferred in the semiconductor industry, efforts to improve the processes are ongoing. Currently, researchers are studying various forms of chemical amplification to increase the photon absorption of photoresists.</para>
+    </section>
+    <section id="id1167903397674">
+      <title>Bibliography</title>
+      <list id="id1167891599533" list-type="bulleted"><item>W.M. Alvino, <emphasis effect="italics">Plastics For Electronics</emphasis>, McGraw-Hill, Inc, New York (1995).</item>
+        <item>R. W. Blevins, R. C. Daly, and S. R. Turner, in <emphasis effect="italics">Encyclopedia of Polymer Science and Engineering</emphasis>, Ed. J. I. Krocehwitz, Wiley, New York (1985). </item>
+        <item>M. J. Bowden, in <emphasis effect="italics">Materials for Microlithography: Radiation-Sensitive Polymers</emphasis>, Ed. L. F. Thompson, C. G. Willson, and J. M. J. Frechet, American Chemical Society Symposium Series No. 266, Washington, D.C. (1984). </item>
+        <item>S. J. Moss and A. Ledwith, <emphasis effect="italics">The Chemistry of the Semiconductor Industry</emphasis>, Blackie &amp; Son Limited, Glasgow (1987).</item>
+        <item>E. Reichmanis, F. M. Houlihan, O. Nalamasu, and T. X. Neenan, in <emphasis effect="italics">Polymers for Microelectronics</emphasis>, Ed. L. F. Thompson, C. G. Willson, and S. Tagawa, American Chemical Society Symposium Series, No. 537, Washington, D.C. (1994).</item>
+      <item> P. van Zant, <emphasis effect="italics">Microchip Fabrication</emphasis>, 2nd ed., McGraw-Hill Publishing Company, New York (1990).</item>
+<item>C. Grant Willson, in <emphasis effect="italics">Introduction to Microlithography</emphasis>, 2nd ed., Ed. L. F. Thompson, C. G. Willson, M. J. Bowden, American Chemical Society, Washington, D.C. (1983). </item></list>
+      
+      
+      
+    </section>
+  </content>
+</document>

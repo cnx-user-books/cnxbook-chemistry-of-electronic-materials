@@ -1,0 +1,15 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Preface to the Chemistry of Electronic Materials</title>
+  <metadata>
+  <md:content-id>m25528</md:content-id><md:title>Preface to the Chemistry of Electronic Materials</md:title>
+  <md:abstract/>
+  <md:uuid>3f031a4a-83ad-4755-a721-b43ee046ce80</md:uuid>
+</metadata>
+
+<content>
+    <para id="id3488393"> The intention of this text is not to provide a comprehensive reference to all aspects of semiconductor device fabrication or a review of research results that, irrespective of their promise, have not been adopted into mainstream production. Instead it is aimed to provide a useful reference for those interested in the chemical aspects of the electronics industry. </para>
+    <para id="id1170104530652">Given the nature of Connexions, this course is fluid in structure and content. In addition, it contains modules by other authors where appropriate. The content will be updated and expanded with time. If any authors have suitable content, please contact me and I will be glad to assist in transforming the content to a suitable module structure. </para>
+    <para id="id3523685">Andrew R. Barron</para>
+    <para id="id1170104527536">Rice University, Houston, TX 77005. E-mail: <link url="mailto:arb@rice.edu">arb@rice.edu</link></para>
+  </content>
+</document>

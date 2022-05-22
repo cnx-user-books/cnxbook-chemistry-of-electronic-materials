@@ -1,0 +1,168 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Chemical Vapor Deposition</title>
+  <metadata>
+  <md:content-id>m25495</md:content-id><md:title>Chemical Vapor Deposition</md:title>
+  <md:abstract/>
+  <md:uuid>9bbbe39c-a840-4461-882c-e31f8a0125e6</md:uuid>
+</metadata>
+
+<content>
+    <note id="eip-899">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Scott Stokes. </note><section id="id1166487861141">
+      <title>Introduction</title>
+      <para id="id1166477974773"> Chemical vapor deposition (CVD) is a deposition process where chemical precursors are transported in the vapor phase to decompose on a heated substrate to form a film. The films may be epitaxial, polycrystalline or amorphous depending on the materials and reactor conditions. CVD has become the major method of film deposition for the semiconductor industry due to its high throughput, high purity, and low cost of operation. CVD is also commonly used in optoelectronics applications, optical coatings, and coatings of wear resistant parts.</para>
+      <para id="id1166483635574"> CVD has many advantages over physical vapor deposition (PVD) processes such as molecular beam evaporation and sputtering. Firstly, the pressures used in CVD allow coating of three dimensional structures with large aspect ratios. Since evaporation processes are very directional, PVD processes are typically line of sight depositions that may not give complete coverage due to shadowing from tall structures. Secondly, high precursor flow rates in CVD give deposition rates several times higher than PVD. Also, the CVD reactor is relatively simple and can be scaled to fit several substrates. Ultra-high vacuum is not needed for CVD and changes or additions of precursors is an easy task. Furthermore, varying evaporation rates make stoichiometry hard to control in physical deposition. While for CVD stoichiometry is more easily controlled by monitoring flow rates of precursors. Other advantages of CVD include growth of high purity films and the ability to fabricate abrupt junctions.</para>
+      <para id="id1166489159705"> There are, however, some disadvantages of CVD that make PVD more attractive for some applications. High deposition temperatures for some CVD processes (often greater than 600 °C) are often unsuitable for structures already fabricated on substrates. Although with some materials, use of plasma-enhanced CVD or metal-organic precursors may reduce deposition temperatures. Another disadvantage is that CVD precursors are often hazardous or toxic and the by-products of these precursors may also be toxic. Therefore extra steps have to be taken in the handling of the precursors and in the treatment of the reactor exhaust. Also, many precursors for CVD, especially the metal-organics, are relatively expensive. Finally, the CVD process contains a large number of parameters that must be accurately and reproducibly optimized to produce good films.</para>
+    </section>
+    <section id="id1166486003936">
+      <title>Kinetics of CVD</title>
+      <para id="id1166477724036">A normal CVD process involves complex flow dynamics since gases are flowing into the reactor, reacting, and then by-products are exhausted out of the reactor. The sequence of events during a CVD reaction are shown in <link target-id="id1166486120343"/> and as follows: </para>
+      
+      <list id="id1166490046122" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Precursor gases input into the chamber by pressurized gas lines. </item>
+<item>Mass transport of precursors from the main flow region to the substrate through the boundary layer (<link target-id="id1166486120343"/>a);</item>
+        <item>Adsorption of precursors on the substrate (normally heated) (<link target-id="id1166486120343"/>b). </item>
+        <item>Chemical reaction on the surface (<link target-id="id1166486120343"/>c)</item>
+        <item>Atoms diffuse on the surface to growth sites. </item>
+        <item>Desorption of by-products of the reactions (<link target-id="id1166486120343"/>d). </item>
+        <item>Mass transport of by-products to the main flow region (<link target-id="id1166486120343"/>e).</item>
+      </list>
+ 
+
+        <figure id="id1166486120343"><media id="id1166486120343_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-c863.jpg" id="id1166486120343__onlineimage" width="581" print-width="4in"/>
+          </media>
+        <caption>Sequence of events during CVD: (a) diffusion of reactants through boundary layer, (b) adsorption of reactants on substrate, (c) chemical reaction takes place, (d) desorption of adsorbed species, and (e) diffusion out of by-products through boundary layer. Adapted from H. O. Pierson, <emphasis effect="italics">Handbook of Chemical Vapor Deposition</emphasis>, Noyes Publications, Park Ridge (1992). </caption></figure>
+ 
+      
+      <section id="id1166488939159">
+        <title>The boundary layer</title>
+        <para id="id1166489191945">Gas flow in a CVD reactor is generally laminar, although in some cases heating of the chamber walls will create convection currents. The complete problem of gas flow through the system is too complex to be described here; however, assuming we have laminar flow (often a safe assumption) the gas velocity at the chamber walls will be zero. Between the wall (zero velocity) and the bulk gas velocity there is a boundary layer. The boundary layer thickness increases with lowered gas velocity and the distance from the tube inlet (<link target-id="id1166480378515"/>). Reactant gases flowing in the bulk must diffuse through the boundary layer to reach the substrate surface. Often, the susceptor is tilted to partially compensate for the increasing boundary-layer thickness and concentration profile.</para>
+     
+
+          <figure id="id1166480378515"><media id="id1166480378515_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics2-ca3e.jpg" id="id1166480378515__onlineimage" width="400" print-width="4in"/>
+            </media>
+          <caption>Development of boundary layer in a horizontal reactor. Adapted from G. B. Stringfellow, <emphasis effect="italics">Organometallic Vapor-Phase Epitaxy: Theory and Practice</emphasis>, Academic Press, New York (1994). </caption></figure>
+
+        
+      </section>
+      <section id="id1166480591205">
+        <title>Rate limiting steps</title>
+        <para id="id1166489157662">During CVD the growth rate of the film is limited by either surface reaction kinetics, mass transport (diffusion) of precursors to the substrate, or the feed rate of the precursors. </para>
+        <para id="id1166478607910">Surface reaction controls the rate when growth occurs at low temperatures (where the reaction occurs slowly) and also dominates at low pressures (where the boundary layer is thin and reactants easily diffuse to the surface), see <link target-id="id1166487866973"/>. Since reactants easily diffuse through the boundary layer, the amount of reactant at the surface is independent of reactor pressure. Therefore, it is the reactions and motions of the precursors adsorbed on the surface which will determine the overall growth rate of the film. A sign of surface reaction limited growth would be dependence of the growth rate on substrate orientation, since the orientation would certainly not affect the thermodynamics or mass transport of the system. </para>
+
+   
+          <figure id="id1166487866973"><media id="id1166487866973_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics3-d08d.jpg" id="id1166487866973__onlineimage" width="500" print-width="4in"/>
+            </media>
+          <caption>Surface reaction limited growth in CVD. Adapted from H. O. Pierson, <emphasis effect="italics">Handbook of Chemical Vapor Deposition</emphasis>, Noyes Publications, Park Ridge (1992).</caption></figure>
+
+        
+        <para id="id1166478775506">A deposition limited by mass transport is controlled by the diffusion of reactants through the boundary layer and diffusion of by-products out of the boundary layer. Mass transport limits reactions when the temperature and pressure are high. These conditions increases the thickness of the boundary layer and make it harder for gases to diffuse through (<link target-id="id1166488931500"/>). In addition, decomposition of the reactants is typically quicker since the substrate is at a higher temperature. When mass transport limits the growth, either increasing the gas velocity or rotating the substrate during growth will decrease the boundary layer and increase the growth rate. </para>
+        <figure id="id1166488931500"><media id="id1166488931500_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-deca.jpg" id="id1166488931500__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Mass transport limited growth in CVD. Adapted from H. O. Pierson, <emphasis effect="italics">Handbook of Chemical Vapor Deposition</emphasis>, Noyes Publications, Park Ridge (1992).</caption></figure>
+        
+        <para id="id1166486023089"> Feed rate limits the deposition when nearly all the reactant is consumed in the chamber. The feed rate is more important for a hot wall reactor since the heated walls will decompose a large amount of the precursor. Cold wall reactors tend to have higher deposition rates since the reactants are not depleted by the walls.</para>
+        <para id="id1166477524506">A plot of growth rate versus temperature, known as an Arrhenius plot, can be used to determine the rate limiting step of a reaction (<link target-id="id1166489037094"/>). Mass transport limits reactions at high temperatures such that growth rate increases with partial pressures of reactants, but is constant with temperature. Surface reaction kinetics dominates at low temperatures where the growth rate increases with temperature, but is constant with pressures of reactants. Feed rate limited reactions are independent of temperature, since it is the rate of gas delivery that is limiting the reaction. The Arrhenius plot will show where the transition between the mass transport limited and the surface kinetics limited growth occurs in the temperature regime.</para>
+        <figure id="id1166489037094"><media id="id1166489037094_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-176c.jpg" id="id1166489037094__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Dependence of CVD deposition rate on temperature. Adapted from J. G. Eden, in <emphasis effect="italics">Thin Film Processes II</emphasis>, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </caption></figure>
+        
+        <para id="id1166474192881">Increases in reactant concentrations will to a point increase the deposition rate. However, at very high reactant concentrations, gas phase nucleation will occur and the growth rate will drop (<link target-id="id1166490159796"/>). Slow deposition in a CVD reactor can often be attributed to either gas phase nucleation, precursor depletion due to hot walls, thick boundary layer formation, low temperature, or low precursor vapor pressure. </para>
+        <figure id="id1166490159796"><media id="id1166490159796_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-084b.jpg" id="id1166490159796__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Demonstration of deposition rate on reactant concentration for CVD deposition. Adapted from J. G. Eden, in <emphasis effect="italics">Thin Film Processes II</emphasis>, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </caption></figure>
+        
+      </section>
+    </section>
+    <section id="id1166489014264">
+      <title>CVD systems</title>
+      <section id="id1166477553357">
+        <title>Precursor delivery</title>
+        <para id="id1166479726541">Flow of reactants into the reactor must be closely monitored to control stoichiometry and growth rate. Precursor delivery is very important since in many cases the flow rate can limit the deposition. For low vapor pressure solids, a carrier gas is passed over or through a bed of the heated solid to transport the vapor into the reactor. Gas flow lines are usually heated to reduce condensation of the vapor in the flow lines. In the case of gas precursors, mass flowmeters easily gauge and control the flow rates. Liquid precursors are normally heated in a bubbler to achieve a desired vapor pressure (<link target-id="id1166483869072"/>). </para>
+    
+         <figure id="id1166483869072"><media id="id1166483869072_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics7-1681.jpg" id="id1166483869072__onlineimage" width="400" print-width="3in"/>
+            </media>
+          <caption>Schematic representation of a bubbler for liquid precursors. </caption></figure>
+ 
+        
+        <para id="id1166479696027">An inert gas such as hydrogen is bubbled through the liquid and by calculating the vapor pressure of the reactant and monitoring the flow rate of the hydrogen, the flow rate of the precursor is controlled by using <link target-id="eip-631"/>, where Q<sub>MO</sub> is the flow rate of the metal-organic precursor, Q<sub>H2</sub> is the flow rate of hydrogen through the bubbler, P<sub>MO</sub> is the vapor pressure of the metal-organic at the bubbler temperature, and P<sub>B</sub> is the pressure of the bubbler. </para>
+        
+        <equation id="eip-631"><media id="id1166477569484_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics8-b689.jpg" id="id1166477569484__onlineimage" width="185" print-width="1.5in"/>
+          </media>
+        </equation>
+        <para id="id1166477627220">Another method of introducing liquid precursors involves flash vaporization where the liquid is passed into a flask heated above the boiling point of the liquid. The gas vapor is then passed through heated lines to the CVD chamber. Often, a carrier gas is added to provide a fixed flow rate into the reactor. This method of precursor introduction is useful when the precursor will decompose if heated over time. A similar technique called spray pyrolysis introduces the precursors in the form of aerosol droplets. The droplets evaporate in the chamber from the heated gas above the substrate or heated chamber walls (<link target-id="id1166477884350"/>). Then the reaction proceeds as a normal CVD process.</para>
+        <figure id="id1166477884350"><media id="id1166477884350_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics9-d348.jpg" id="id1166477884350__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Schematic representation of a typical aerosol delivery system for CVD precursors. Adapted from T. T. Kodas and M. J. Hamton-Smith, <emphasis effect="italics">The Chemistry of Metal CVD</emphasis>, VCH, New York (1994).</caption></figure>
+        
+      </section>
+      <section id="id1166485159408">
+        <title>Thermal CVD reactors</title>
+        <para id="id1166477372595"> In thermal CVD temperatures as high as 2000 °C may be needed to thermally decompose the precursors. Heating is normally accomplished by use of resistive heating, radio frequency (rf) induction heating, or radiant heating. There are two basic types of reactors for thermal CVD: the hot wall reactor and the cold wall reactor.</para>
+        <para id="id1166483843963">A hot wall reactor is an isothermal furnace into which the substrates are placed. Hot wall reactors are typically very large and depositions are done on several substrates at once. Since the whole chamber is heated, precise temperature control can be achieved with correct furnace design. A disadvantage of the hot wall configuration is that deposition occurs on the walls of the chamber as well as on the substrate. As a consequence, hot wall reactors must be frequently cleaned to reduce flaking of particles from the walls which may contaminate the substrates. Furthermore, reactions in the heated gas and at the walls deplete the reactants and can result in feed rate limited growth. <link target-id="id1166489169305"/> shows a typical low pressure hot wall CVD reactor.</para>
+        <figure id="id1166489169305"><media id="id1166489169305_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics10-7b2e.jpg" id="id1166489169305__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Schematic of a typical low pressure hot wall CVD reactor used in coating silicon substrates. Adapted from H. O. Pierson, <emphasis effect="italics">Handbook of Chemical Vapor Deposition</emphasis>, Noyes Publications, Park Ridge (1992). </caption></figure>
+        
+        <para id="id1166480482079"> In a cold wall reactor only the substrate is heated, usually by induction or radiant heating. Since most CVD reactions are endothermic, deposition is preferentially on the area of highest temperature. As a result, deposition is only on the substrate and the cooler reactor walls stay clean. Cold wall CVD has two main advantages over the hot wall configuration. First, particulate contamination is reduced since there are no deposits formed on the walls of the reactor. Second, since decomposition only occurs on the substrate there is no depletion of source gases due to reaction on the walls. However, hot wall reactors tend to have higher throughput since the designs more easily accommodate multiple wafer configurations. </para>
+        <para id="id1166486259407">The final issue in design of a thermal CVD reactor is the operating pressure. The pressure of the reactor has a large effect on the rate limiting step of the deposition. Atmospheric pressure reactors have a large boundary layer (<link target-id="id1166488931500"/>) and non-uniform diffusion of reactants through the boundary layer often results in non-uniform film compositions across the wafer. Conversely, low pressure reactors have a nearly non-existent boundary later and reactants easily diffuse to the substrate (<link target-id="id1166487866973"/>). However, the difficulty in maintaining a uniform temperature profile across the wafer can result in thickness non-uniformities since the deposition rate in low pressure reactors is strongly temperature dependent. Careful studies of the flow dynamics and temperature profiles of CVD reactors are always carried out in order to achieve uniform material depositions.</para>
+      </section>
+      <section id="id1166490127396">
+        <title>Plasma-enhanced CVD</title>
+        <para id="id1166488764236"> Plasmas are generated for a variety of thin film processes including sputtering, etching, ashing, and plasma-enhanced CVD. Plasma-enhanced CVD (PECVD), sometimes called plasma-assisted (PACVD), has the advantage that plasma activated reactions occur at much lower temperatures compared to those in thermal CVD. For example, the thermal CVD of silicon nitride occurs between 700 - 900 °C, the equivalent PECVD process is accomplished between 250 - 350 °C.</para>
+        <para id="id1166479686194"> A plasma is a partially ionized gas consisting of electrons and ions. Typical ionization fractions of 10<sup>-5</sup> to 10<sup>-1</sup> are encountered in process reactors. Plasmas are electrically conductive with the primary charge carriers being the electrons. The light mass of the electron allows it to respond much more quickly to changes in the field than the heavier ions. Most plasmas used for PECVD are generated using a rf electric field. In the high frequency electric field, the light electrons are quickly accelerated by the field but do not increase the temperature of the plasma because of their low mass. The heavy ions cannot respond to the quick changes in direction and therefore their temperature stays low. Electron energies in the plasma have a Maxwellian distribution in the 0.1 – 20 eV range. These energies are sufficiently high to excite molecules or break chemical bonds in collisions between electrons and gas molecules. The high energy electrons inelastically collide with gas molecules resulting in excitation or ionization. The reactive species generated by the collisions do not have the energy barriers to reactions that the parent precursors do. Therefore, the reactive ions are able to form films at temperatures much lower than those required for thermal CVD.</para>
+        <para id="id1166478621007">The general reaction sequence for PECVD is shown in <link target-id="id1166479711332"/>. In addition to the processes that occur in thermal CVD, reactive species resulting from electron dissociation of parent molecules also diffuse to the surface. The reactive species have lower activation energies for chemical reactions and usually have higher sticking coefficients to the substrate. Therefore, the PECVD reaction is dominated by the reactive species on the surface and not any of the the parent precursor molecules that also diffuse to the surface. </para>
+        <figure id="id1166479711332"><media id="id1166479711332_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics11-a20f.jpg" id="id1166479711332__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Reaction sequence in PECVD. Adapted from M. Konuma, <emphasis effect="italics">Film Deposition by Plasma Techniques</emphasis>, Springer-Verlag, New York (1992).</caption></figure>
+        
+        <para id="id1166486168735">A basic PECVD reactor is shown in <link target-id="id1166478449802"/>. The wafer chuck acts as the lower electrode and is normally placed at ground potential. Gases are either introduced radially at the edges of the reactor and pumped out from the center, or gases can be introduced from the center and pumped at the edges as shown in <link target-id="id1166478449802"/>. The magnetic drive allows rotation of the wafers during processing to randomize substrate position. Some newer reactors introduce the gases through holes drilled in the upper electrode. This method of gas introduction gives a more uniform plasma distribution. </para>
+        <figure id="id1166478449802"><media id="id1166478449802_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics12-5f04.jpg" id="id1166478449802__onlineimage" width="500" print-width="4in"/>
+          </media>
+        <caption>Schematic representation of a radial flow PECVD reactor. Adapted from H. O. Pierson, <emphasis effect="italics">Handbook of Chemical Vapor Deposition</emphasis>, Noyes Publications, Park Ridge (1992).</caption></figure>
+        
+        <para id="id1166488698447"> Plasma CVD has numerous advantages over thermal CVD. Obviously the reduced deposition temperature is a bonus for the semiconductor industry which must worry about dopant diffusion and metal interconnects melting at the temperatures required for thermal CVD. Also, the low pressures (between 0.1 - 10 Torr) required for sustaining a plasma result in surface kinetics controlling the reaction and therefore greater film uniformity. A disadvantage of plasma CVD is that it is often difficult to control stoichiometry due to variations in bond strengths of various precursors. For example, PECVD films of silicon nitride tend to be silicon rich because of the relative bond strength of N<sub>2</sub> relative to the Si-H bond. Additionally, some films may be easily damaged by ion bombardment from the plasma.</para>
+      </section>
+      <section id="id1166488672833">
+        <title>Photochemical CVD</title>
+        <para id="id1166480537643">Photochemical CVD uses the energy of photons to initiate the chemical reactions. Photodissociation of the chemical precursor involves the absorption of one or more photons resulting in the breaking of a chemical bond. The most common precursors for photo-assisted deposition are the hydrides, carbonyls, and the alkyls. The dissociation of dimethylzinc by <link target-id="eip-448"/>, a photon creates a zinc radical and a methyl radical (<sup>.</sup>CH<sub>3</sub>) that will react with hydrogen in the reactor to produce methane. </para>
+        
+        <equation id="eip-448"><media id="id1166486040539_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics13-05b9.jpg" id="id1166486040539__onlineimage" width="320" print-width="2.5in"/>
+          </media></equation><para id="id1166489159445">Like several metal-organics, dimethylzinc is dissociated by the absorption of only one UV photon. However, some precursors require absorption of more than one photon to completely dissociate. There are two basic configurations for photochemical CVD. The first method uses a laser primarily as a localized heat source. The second method uses high energy photons to decompose the reactants on or near the growth surface.</para>
+        <para id="id1166483879221"> In thermal laser CVD, sometimes referred to as laser pyrolysis, the laser is used to heat a substrate that absorbs the laser photons. Laser heating of substrates is a very localized process and deposition occurs selectively on the illuminated portions of the substrates. Except for the method of heating, laser CVD is identical to thermal CVD. The laser CVD method has the potential to be used for direct writing of features with relatively high resolution. The lateral extent of film growth when the substrate is illuminated by a laser is determined not only by the spot size of the laser, but by the thermal conductivity of the substrate. A variation of laser pyrolysis uses a laser to heat the gas molecules such that they are fragmented by thermal processes.</para>
+        <para id="id1166477369855">Photochemical effects can be induced by a laser if the precursor molecules absorb at the laser wavelength. UV photons have sufficient energy to break the bonds in the precursor chemicals. Laser-assisted CVD (LACVD) uses a laser, usually an eximer laser, to provide the high energy photons needed to break the bonds in the precursor molecules. <link target-id="id1166490143408"/> shows two geometries for LACVD. For the perpendicular illumination the photochemical effects generally occur in the adsorbed adlayer on the substrate. Perpendicular irradiation is often done using a UV lamp instead of a laser so that unwanted substrate heating is not produced by the light source. The parallel illumination configuration has the benefit that reaction by-products are produced further from the growth surface and have less chance of being incorporated into the growing film. The main benefit of LACVD is that nearly no heat is required for deposition of high quality films.</para>
+  
+    
+          <figure id="id1166490143408"><media id="id1166490143408_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics14-560b.jpg" id="id1166490143408__onlineimage" width="400" print-width="3in"/>
+            </media>
+          <caption>Parallel (a) and perpendicular (b) irradiation in laser CVD. Adapted from J. G. Eden, in <emphasis effect="italics">Thin Film Processes II</emphasis>, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </caption></figure>
+   
+        
+        <para id="id1166490080477"> An application of laser photolysis is photonucleation. Photonucleation is the process by which a chemisorbed adlayer of metal precursors is photolyzed by the laser to create a nucleation site for further growth. Photonucleation is useful in promoting growth on substrates that have small sticking coefficients for gas phase metal atoms. By beginning the nucleation process with photonucleation the natural barrier to surface nucleation on the substrate is overcome. </para>
+      </section>
+    </section>
+    <section id="id1166486002433">
+      <title>Bibliography</title>
+      <list id="id1166480418318" list-type="bulleted">
+        <item>J. G. Eden, in <emphasis effect="italics">Thin Film Processes II</emphasis>, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </item>
+        <item>T. T. Kodas and M. J. Hamton-Smith, <emphasis effect="italics">The Chemistry of Metal CVD</emphasis>, VCH, New York (1994).</item>
+        <item>M. Konuma, <emphasis effect="italics">Film Deposition by Plasma Techniques</emphasis>, Springer-Verlag, New York (1992).</item>
+        <item>H. O. Pierson, <emphasis effect="italics">Handbook of Chemical Vapor Deposition</emphasis>, Noyes Publications, Park Ridge (1992). </item>
+        <item>R. Reif and W. Kern, in <emphasis effect="italics">Thin Film Processes II</emphasis>, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </item>
+        <item>G. B. Stringfellow, <emphasis effect="italics">Organometallic Vapor-Phase Epitaxy: Theory and Practice</emphasis>, Academic Press, New York (1994).</item>
+      </list>
+    </section>
+  </content>
+</document>

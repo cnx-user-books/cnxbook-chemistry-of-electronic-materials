@@ -1,0 +1,169 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Introduction to Bipolar Transistors</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33798</md:content-id>
+  <md:title>Introduction to Bipolar Transistors</md:title>
+  <md:abstract/>
+  <md:uuid>f91f6c8e-dca5-4c8b-a7f1-67827bfa41db</md:uuid>
+</metadata>
+
+  <content>
+    <note id="eip-273">This module is adapted from the Connexions module entitled <emphasis effect="italics">Introduction to Bipolar Transistors</emphasis> by Bill Wilson. </note><para id="para1">
+      Let's leave the world of two terminal devices (which are all
+      called diodes by the way; diode just means two-terminals) and
+      venture into the much more interesting world of three terminals.
+      The first device we will look at is called the <emphasis effect="italics">bipolar
+      transistor</emphasis>.  Consider the structure shown in <link target-id="fig1"/>:
+    </para>
+
+    <figure id="fig1">
+      <media id="id23799458" alt=""><image src="../../media/3_1.png" mime-type="image/png" width="250" print-width="2.5in"/></media>
+      <caption>Structure of a npn bipolar transistor.</caption>
+    </figure>
+
+    <para id="para2">
+      The device consists of three layers of silicon, a heavily doped
+      n-type layer called the emitter, a moderately doped p-type layer
+      called the base, and third, more lightly doped layer called the
+      collector.  In a biasing (applied DC potential) configuration
+      called <emphasis effect="italics">forward active biasing</emphasis>, the emitter-base
+      junction is forward biased, and the base-collector junction is
+      reverse biased. <link target-id="fig2"/> shows the biasing
+      conventions we will use.  Both bias voltages are referenced to
+      the base terminal.  Since the base-emitter junction is forward
+      biased, and since the base is made of p-type material, V<sub>EB</sub>  must be negative.  On the other hand, in order to reverse bias
+      the base-collector junction V<sub>CB</sub> will be a positive voltage.
+    </para>
+
+    <figure id="fig2">
+<media id="id27141591" alt=""><image src="../../media/3_2.png" mime-type="image/png" width="300" print-width="3in"/></media><caption>
+	Forward active biasing of a npn bipolar transistor.</caption></figure>
+
+
+
+    <para id="para3">
+      Now, let's draw the band-diagram for this device.  At first this
+      might seem hard to do, but we know what forward and reverse
+      biased band diagrams look like, so we'll just stick one of each
+      together.  We show this in <link target-id="fig3"/>, which is a very busy figure, but it is also very
+      important, because it shows all of the important features in the
+      operation the transistor.  Since the base-emitter junction is
+      forward biased, electrons will go from the (n-type) emitter into
+      the base.  Likewise, some holes from the base will be injected
+      into the emitter.
+    </para>
+
+    <figure id="fig3">
+      <media id="id24599739" alt=""><image src="../../media/3_3.png" mime-type="image/png" width="300" print-width="3in"/></media>
+      <caption>
+	Band diagram and carrier fluxes in a bipolar
+	transistor. </caption>
+    </figure>
+
+    <para id="para4">
+      In <link target-id="fig3"/>, we have two different kinds of arrows.
+      The open arrows which are attached to the carriers, show us
+      which way the carrier is moving.  The solid arrows which are
+      labeled with some kind of subscripted <emphasis effect="italics">I</emphasis>, represent current flow.  We need to do this because
+      for holes, motion and current flow are in the same direction,
+      while for electrons, carrier motion and current flow are in
+      opposite directions.
+    </para>
+
+    <para id="para5">
+      Just as we saw in the last chapter, the electrons which are
+      injected into the base diffuse away from the emitter-base
+      junction towards the (reverse biased) base-collector junction.
+      As they move through the base, some of the electrons encounter
+      holes and recombine with them.  Those electrons which
+      do get to the base-collector junction run
+      into a large electric field which sweeps them out of the base
+      and into the collector.  They "fall" down the large potential
+      drop at the junction.
+    </para>
+
+    <para id="para6">
+      These effects are all seen in <link target-id="fig3"/>, with arrows
+      representing the various currents which are associated with each
+      of the carriers fluxes. <emphasis effect="italics">I<sub>Ee</sub></emphasis> represents the current associated with the electron injection
+      into the base, i.e., it points in the opposite direction from the
+      motion of the electrons, since electrons have a negative
+      charge. <emphasis effect="italics">I<sub>Eh</sub></emphasis> represents the current associated with holes injection into the
+      emitter from the base. <emphasis effect="italics">I<sub>Br</sub></emphasis> represents recombination current in the base, while <emphasis effect="italics">I<sub>Ce</sub></emphasis> represents the electron current going into the collector.  It should be easy for you to see that:
+    </para>
+
+    
+
+      <equation id="eqn1">
+	<m:math>
+	  <m:apply><m:eq/>
+	    <m:ci><m:msub>
+		<m:mi>I</m:mi>
+		<m:mi>E</m:mi>
+	      </m:msub></m:ci>
+	    <m:apply><m:plus/>
+	      <m:ci><m:msub>
+		  <m:mi>I</m:mi>
+		  <m:mi>Ee</m:mi>
+		</m:msub></m:ci>
+	      <m:ci><m:msub>
+		  <m:mi>I</m:mi>
+		  <m:mi>Eh</m:mi>
+		</m:msub></m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+      </equation>
+
+      <equation id="eqn2">
+	<m:math>
+	  <m:apply><m:eq/>
+	    <m:ci><m:msub>
+		<m:mi>I</m:mi>
+		<m:mi>B</m:mi>
+	      </m:msub></m:ci>
+	    <m:apply><m:plus/>
+	      <m:ci><m:msub>
+		  <m:mi>I</m:mi>
+		  <m:mi>Eh</m:mi>
+		</m:msub></m:ci>
+	      <m:ci><m:msub>
+		  <m:mi>I</m:mi>
+		  <m:mi>Br</m:mi>
+		</m:msub></m:ci>
+	    </m:apply>
+	  </m:apply>
+	</m:math>
+      </equation>
+
+      <equation id="eqn3">
+	<m:math>
+	  <m:apply><m:eq/>
+	    <m:ci><m:msub>
+		<m:mi>I</m:mi>
+		<m:mi>C</m:mi>
+	      </m:msub></m:ci>
+	    <m:ci><m:msub>
+		<m:mi>I</m:mi>
+		<m:mi>Ce</m:mi>
+	      </m:msub></m:ci>
+	  </m:apply>
+	</m:math>
+      </equation>
+
+
+
+    <para id="para7">
+      In a "good" transistor, almost all of the current across the
+      base-emitter junction consists of electrons being injected into
+      the base.  The transistor engineer works hard to design the
+      device so that very little emitter current is made up of holes
+      coming from the base into the emitter.  The transistor is also
+      designed so that almost all of those electrons which are
+      injected into the base make it across to the base-collector
+      reverse-biased junction.  Some recombination is unavoidable, but
+      things are arranged so as to minimize this effect.
+    </para>
+  </content>
+  
+</document>

@@ -1,0 +1,214 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Chemical Vapor Deposition of Silicon Nitride and Oxynitride</title>
+  <metadata>
+  <md:content-id>m26120</md:content-id><md:title>Chemical Vapor Deposition of Silicon Nitride and Oxynitride</md:title>
+  <md:abstract/>
+  <md:uuid>8964ba34-86ee-4a1c-a8e5-45707101ff86</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1167959309676">
+      <title>Introduction</title>
+      <para id="id1167965001981"> Stoichiometric silicon nitride (Si<sub>3</sub>N<sub>4</sub>) is used for chemical passivation and encapsulation of silicon bipolar and metal oxide semiconductor (MOS) devices, because of its extremely good barrier properties for water and sodium ion diffusion. Water causes device metallization to corrode, and sodium causes devices to become electrically unstable. Silicon nitride is also used as a mask for the selective oxidation of silicon, and as a strong dielectric in MNOS (metal-nitride-oxide-silicon) structures. </para>
+      <para id="id1167964925409"><emphasis effect="bold"/>The use of ion implantation for the formation of active layers in GaAs MESFET devices (<link target-id="id1167954500780"/>) allow for control of the active layer thickness and doping density. Since implantation causes structural disorder, the crystal lattice of the GaAs must be subjected to a post implantation rapid thermal anneal step to repair the damage and to activate the implanted species. The required annealing temperature (&gt; 800 °C) is higher than the temperature at which GaAs decomposes. Silicon nitride encapsulation is used to prevent such dissociation. Silicon nitride is also used for the final encapsulation of GaAs MESFET devices (<link target-id="id1167954500780"/>). </para>
+      <figure id="id1167954500780"><media id="id1167954500780_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-5ec4.jpg" id="id1167954500780__onlineimage" width="500" print-width="4in"/>
+        </media>
+      <caption>Schematic diagrams of a GaAs metal-semiconductor field effect transistor (MESFET). Adapted from A. R. Barron, in <emphasis effect="italics">CVD of Nonmetals</emphasis>, Ed. W. S. Rees, Jr., Wiley, NY (1996). </caption></figure>
+      
+      <para id="id1167953026400">The deposition of Si<sub>3</sub>N<sub>4</sub> is a broadly practiced industrial process using either grown by low pressure CVD (LPCVD) or plasma enhanced CVD (PECVD) with comparable properties for the grown films (<link target-id="id1167955781889"/>). </para>
+      <table id="id1167955781889" summary="Summary of the properties of silicon nitride grown in typical commercial systems.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Deposition</emphasis> </entry>
+              <entry><emphasis effect="bold">LPCVD</emphasis> </entry>
+              <entry><emphasis effect="bold">PECVD</emphasis> </entry>
+            </row>
+            <row>
+              <entry>Growth temperature (°C)</entry>
+              <entry>700 - 800</entry>
+              <entry>250 - 350</entry>
+            </row>
+            <row>
+              <entry>Composition</entry>
+              <entry>Si<sub>3</sub>N<sub>4</sub>(H)</entry>
+              <entry>SiN<sub>x</sub>H<sub>y</sub></entry>
+            </row>
+            <row>
+              <entry>Si/N ratio</entry>
+              <entry>0.75</entry>
+              <entry>0.8 - 1.2</entry>
+            </row>
+            <row>
+              <entry>Atom% H</entry>
+              <entry>4 - 8</entry>
+              <entry>20 - 25</entry>
+            </row>
+            <row>
+              <entry>Dielectric constant</entry>
+              <entry>6 - 7</entry>
+              <entry>6 - 9</entry>
+            </row>
+            <row>
+              <entry>Refractive index</entry>
+              <entry>2.01</entry>
+              <entry>1.8 - 2.5</entry>
+            </row>
+            <row>
+              <entry>Resistivity (Ω.cm)</entry>
+              <entry>1016</entry>
+              <entry>106 - 1015</entry>
+            </row>
+            <row>
+              <entry>Band gap (eV)</entry>
+              <entry>5</entry>
+              <entry>4 - 5</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Summary of the properties of silicon nitride grown in typical commercial systems.</caption>
+</table>
+      
+      <para id="id1167964481542"> One of the disadvantages of Si<sub>3</sub>N<sub>4</sub> is its high dielectric constant that may limit device speed at higher operating frequencies. It is hoped that silicon oxynitride (SiON) films will exhibit the best properties of Si3N4 and SiO<sub>2</sub>, namely the passivation and mechanical properties of Si<sub>3</sub>N<sub>4</sub> and the low dielectric constant and low stress of SiO<sub>2</sub>. </para>
+      <para id="id1167960250007">A summary of some typical CVD systems for silicon nitride is given in <link target-id="id1167963301811"/>. </para>
+      <table id="id1167963301811" summary="Precursors and deposition conditions for silicon nitride CVD.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Silicon precursor</emphasis></entry>
+              <entry><emphasis effect="bold">Nitrogen source</emphasis> </entry>
+              <entry><emphasis effect="bold">Carrier gas</emphasis></entry>
+              <entry><emphasis effect="bold">CVD method</emphasis> </entry>
+              <entry><emphasis effect="bold">Deposition temp. (°C)</emphasis> </entry>
+              <entry><emphasis effect="bold">Comment</emphasis> </entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>70 - 900</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>Ar/N<sub>2</sub></entry>
+              <entry>PECVD</entry>
+              <entry>20 - 600</entry>
+              <entry>Commercial process</entry>
+            </row>
+            <row>
+              <entry>SiH<sub>4</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>PECVD</entry>
+              <entry>70 - 300</entry>
+              <entry>Porous films</entry>
+            </row>
+            <row>
+              <entry>SiCl<sub>2</sub>H<sub>2</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>700 - 900</entry>
+              <entry>Commercial process</entry>
+            </row>
+            <row>
+              <entry>Si<sub>2</sub>Cl<sub>6</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>-</entry>
+              <entry>LPCVD</entry>
+              <entry>450 - 850</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Et<sub>2</sub>SiH<sub>2</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>-</entry>
+              <entry>LPCVD</entry>
+              <entry>650 - 725</entry>
+              <entry>C impurities</entry>
+            </row>
+            <row>
+              <entry>RSi(N<sub>3</sub>)<sub>3</sub> (R = Et, <sup>t</sup>Bu)</entry>
+              <entry>-</entry>
+              <entry>-</entry>
+              <entry>LPCVD</entry>
+              <entry>450 - 600</entry>
+              <entry>Danger – precursor explosive </entry>
+            </row>
+            <row>
+              <entry>MeSiH(NH)<sub>n</sub></entry>
+              <entry>-</entry>
+              <entry>NH<sub>3</sub>/H<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>600 - 800</entry>
+              <entry>Significant C content</entry>
+            </row>
+            <row>
+              <entry>Si(NMe<sub>2</sub>)<sub>4-n</sub>H<sub>n</sub></entry>
+              <entry>-</entry>
+              <entry>He</entry>
+              <entry>APCVD</entry>
+              <entry>600 - 750</entry>
+              <entry>Significant C content</entry>
+            </row>
+            <row>
+              <entry>Si(NMe<sub>2</sub>)<sub>4-n</sub>H<sub>n</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>He</entry>
+              <entry>APCVD</entry>
+              <entry>600 - 750</entry>
+              <entry>No C contamination</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Precursors and deposition conditions for Si<sub>3</sub>N<sub>4</sub> CVD. </caption>
+</table>
+      
+    </section>
+    <section id="id1167960903679">
+      <title>CVD of silicon nitride from hydrides and chlorides</title>
+      <para id="id1167966999446"> The first commercial growth of silicon nitride was by the reaction of SiH<sub>4</sub> and NH<sub>3</sub> by either atmospheric pressure CVD (APCVD) or PECVD. Film growth using APCVD is slower and requires higher temperatures and so it has been generally supplanted by plasma growth, however, film quality for APCVD is higher due to the lower hydrogen content. While thermally grown films are close to stoichiometric, PECVD films have a composition in which the S/N ratio is observed to vary from 0.7 - 1.1. The non-stoichiometric nature of PECVD films is explained by the incorporation of significant hydrogen in the films (10 - 30%). PECVD of SiN<sub>x</sub> using SiH<sub>4</sub>/N<sub>2</sub> leads to electronically leaky films due to the porous nature of the films, however, if an electron cyclotron resonance (ECR) plasma is employed, SiNx films of high quality may be deposited on ambient temperature substrates. </para>
+      <para id="id1167959210307"> The more recent commercial methods for silicon nitride deposition involves LPCVD using SiCl<sub>2</sub>H<sub>2</sub> as the silicon source in combination with NH<sub>3</sub> at 700 - 900 °C. The reduced pressure of LPCVD has the advantages of high purity, low hydrogen content, stoichiometric films, with a high degree of uniformity, and a high wafer throughput. It is for these reasons that LPCVD is now the method of choice in commercial systems. A large excess of NH<sub>3</sub> is therefore used in commercial systems to obtain stoichiometric films. Silicon nitride has also been prepared from SiCl<sub>4</sub>/NH<sub>4</sub>, SiBr<sub>4</sub>/NH<sub>3</sub>, and, more recently, Si<sub>2</sub>Cl<sub>6</sub>/NH<sub>3</sub>. </para>
+      <para id="id1167958911458"> Silicon oxynitride (SiON) may be prepared by the use of any of the precursors used for silicon nitride with the addition of either N<sub>2</sub>O or NO as an oxygen source. The composition and properties of the SiO<sub>x</sub>N<sub>y</sub> films may be varied from SiO<sub>2</sub>-like to Si<sub>3</sub>N<sub>4</sub>-like by the variation of the reactant flow rates. </para>
+      <para id="id1167964751737"><emphasis effect="bold"/>SiCl<sub>2</sub>H<sub>2</sub> gas plumbing to a LPCVD reactor must be thermally insulated to prevent condensation that would otherwise lead to hazy deposits on the film. The volatile by-products from CVD produce NH<sub>4</sub>Cl at the exhaust of the reaction tube, and in the plumbing and pumping system. It would be desirable, therefore, to find an alternative, chlorine-free silicon source with none of the toxicity or pyrophoricity problems associated with SiH<sub>4</sub>. It is for this reason that organosilicon compounds have been investigated. </para>
+    </section>
+    <section id="id1167960172866">
+      <title>CVD from organosilicon precursors</title>
+      <para id="id1167965028389"> Diethylsilane, Et<sub>2</sub>SiH<sub>2</sub>, has shown promise as a replacement for SiH<sub>4</sub> in the low temperature LPCVD of SiO<sub>2</sub>, and has been investigated as a source for SiN<sub>x</sub> and SiO<sub>x</sub>N<sub>y</sub> films. Deposition by LPCVD in the presence of NH3 produces SiN<sub>x</sub> films, in which the carbon contamination (4 - 9%) depends on the partial pressure of the Et<sub>2</sub>SiH<sub>2</sub>. The presence of carbon raises the refractive index (2.025 - 2.28) with respect to traditional LPCVD films (2.01). Mixtures of Et<sub>2</sub>SiH<sub>2</sub>, NH<sub>3</sub>, and N<sub>2</sub>O deposit SiO<sub>x</sub>N<sub>y</sub> films where the composition is controlled by the NH<sub>3</sub>:N<sub>2</sub>O ratio. </para>
+      <section id="id1167960539988">
+        <title>CVD from silicon-nitrogen compounds</title>
+        <para id="id1167951776138"><emphasis effect="bold"/>The incorporation of carbon into silicon nitride films is a persistent problem of organosilicon precursors. Several studies have been aimed at developing single source precursors containing a Si-N bond rather than Si-C bonds. Polyazidosilanes, R<sub>n</sub>Si(N<sub>3</sub>)<sub>4-n</sub>, are low in carbon and hydrogen, reasonably volatile, and contain highly activated nitrogen, however, they represent a significant explosive hazard: <emphasis effect="italics">they are explosive with an equivalent force to TNT</emphasis>. Films deposited using EtSi(N<sub>3</sub>)<sub>3</sub> and (tBu)Si(N<sub>3</sub>)<sub>3</sub> showed promise, despite the observation of oxygen and carbon. Pyrolytic studies on the azide precursors suggest that the primary decomposition step is the loss of dinitrogen, which is followed by migration of the alkyl onto the remaining nitrogen, <link target-id="eip-939"/>. The fact that neither the addition of NH<sub>3</sub> or H<sub>2</sub> influence the film deposition rate suggest that the intramolecular nitride formation process is fast, relative to reaction with NH<sub>3</sub>, or hydrogenation. </para>
+        
+        
+        <equation id="eip-939"><media id="id1167957796464_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-39bd.jpg" id="id1167957796464__onlineimage" width="400" print-width="3in"/>
+          </media></equation><para id="id1167953058692"> Carbon incorporation is also observed for the APCVD deposition from Si(NMe<sub>2</sub>)<sub>n</sub>H<sub>4-n</sub> (n = 2 - 4). However, using the Hoffman transamination reaction, deposition in the presence of NH<sub>3</sub> completely removed carbon incorporation into the stoichiometric Si<sub>3</sub>N<sub>4</sub> film. From FTIR data, the hydrogen content was estimated to be 8 - 10 atom percent. While the Si(NMe<sub>2</sub>)<sub>n</sub>H<sub>4-n</sub>/NH<sub>3</sub> system does not provide substantially lower temperatures than APCVD using SiH<sub>4</sub>/NH<sub>3</sub> growth rates are significantly higher. Unlike the azide precursors, Si(NMe<sub>2</sub>)<sub>n</sub>H<sub>4-n</sub> are easier to handle than either SiH<sub>4 </sub>or SiCl<sub>2</sub>H<sub>2</sub>. </para>
+      </section>
+    </section>
+    <section id="id1167960827406">
+      <title>Bibliography</title>
+      <list id="id1167954344028" list-type="bulleted">
+        <item>J. C. Barbour, H. J. Stein, O. A. Popov, M. Yoder, and C.A. Outten, <emphasis effect="italics">J. Vac. Sci. Technol. A.</emphasis>, 1991, <emphasis effect="bold">9</emphasis>, 480.</item>
+        <item>J. A. Higgens, R. L. Kuvas, F. H. Eisen, and D. R. Chen, <emphasis effect="italics">IEEE Trans. Electron. Devices</emphasis>, 1978, <emphasis effect="bold">25</emphasis>, 587. </item>
+        <item>D. M. Hoffman, <emphasis effect="italics">Polyhedron</emphasis>, 1994, <emphasis effect="bold">13</emphasis>, 1169.</item>
+        <item>W. Kellner, H. Kniepkamp, D. Repow, M. Heinzel, and H. Boroleka, <emphasis effect="italics">Solid State Electron.</emphasis>, 1977, <emphasis effect="bold">20</emphasis>, 459. </item>
+        <item>T. Makino, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1983, <emphasis effect="bold">130</emphasis>, 450.</item>
+        <item>C. T. Naber and G. C. Lockwood, in <emphasis effect="italics">Semiconductor Silicon</emphasis>, Eds. H. R. Huff and R. R. Burgess. The Electrochemical Society, Softbound Proceedings Series, Princeton, NJ (1973).</item>
+        <item>J. E. Schoenholtz, D. W. Hess, <emphasis effect="italics">Thin Solid Films</emphasis>, 1987, <emphasis effect="bold">148</emphasis>, 285.</item>
+      </list>
+      
+    </section>
+  </content>
+</document>

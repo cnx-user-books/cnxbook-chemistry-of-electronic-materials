@@ -1,0 +1,188 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Chemical Vapor Deposition of Aluminum Nitride</title>
+  <metadata>
+  <md:content-id>m26132</md:content-id><md:title>Chemical Vapor Deposition of Aluminum Nitride</md:title>
+  <md:abstract/>
+  <md:uuid>6ea95c40-5b5e-4dd2-8cf3-b1ce28c3dd1b</md:uuid>
+</metadata>
+
+<content>
+    <section id="id3744017">
+      <title>Introduction</title>
+      <para id="id7972637"> Aluminum nitride (AlN) has potential for significant applications in microelectronic and optical devices. It has a large direct bandgap (E<sub>g,dir</sub> = 6.28 eV), extremely high melting point (3000 °C), high thermal conductivity (2.6 W/cm.K), and a large dielectric constant (ε = 9.14). In present commercial microelectronic devices, AlN is used most often as a packaging material, allowing for the construction of complex packages with many signal, ground, power, bonding, and sealing layers. Aluminum nitride is especially useful for high power applications due to its enhanced thermal conductivity. Chemical vapor deposition (CVD) grown thin films of AlN have been centered upon its use as a high gate-insulation layer for MIS devices, and a dielectric in high-performance capacitors. One additional property of AlN that makes it a promising insulating material for both Si and GaAs devices is that its thermal expansion coefficient is almost identical to both of these semiconductors. </para>
+      <para id="id2574915">The lack of a suitably volatile homoleptic hydride for aluminum (AlH<sub>3</sub> is an involatile polymeric species) led to the application of aluminum halides and organometallic compounds as precursors. A summary of selected precursor combinations is given in <link target-id="id7585221"/>. </para>
+      <table id="id7585221" summary="Precursors and deposition conditions for AlN CVD.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Aluminum precursor</emphasis> </entry>
+              <entry><emphasis effect="bold">Nitrogen source</emphasis> </entry>
+              <entry><emphasis effect="bold">Carrier gas</emphasis> </entry>
+              <entry><emphasis effect="bold">CVD method</emphasis> </entry>
+              <entry><emphasis effect="bold">Deposition temp. (°C)</emphasis> </entry>
+              <entry><emphasis effect="bold">Comments</emphasis> </entry>
+            </row>
+            <row>
+              <entry>AlCl<sub>3</sub>(NH<sub>3</sub>)</entry>
+              <entry>-</entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>700 - 1400</entry>
+              <entry>NH<sub>4</sub>Cl present</entry>
+            </row>
+            <row>
+              <entry>AlBr<sub>3</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>400 - 900</entry>
+              <entry>Br present </entry>
+            </row>
+            <row>
+              <entry>AlBr<sub>3</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>520 - 560</entry>
+              <entry>oriented growth</entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>H<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>1200</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>He</entry>
+              <entry>APCVD</entry>
+              <entry>350 - 400</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>pre-cracked NH<sub>3</sub></entry>
+              <entry>H<sub>2</sub>/He</entry>
+              <entry>APCVD</entry>
+              <entry>310 - 460</entry>
+              <entry>N-H and AlN-N bonds detected </entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry><sup>t</sup>BuNH<sub>2</sub> or <sup>i</sup>PrNH<sub>2</sub></entry>
+              <entry>H<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>400 - 600</entry>
+              <entry>high C content, low N</entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>Me<sub>3</sub>SiN<sub>3</sub></entry>
+              <entry>H<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>300 - 450</entry>
+              <entry>very high C content</entry>
+            </row>
+            <row>
+              <entry>[R<sub>2</sub>Al(NH<sub>2</sub>)]<sub>3</sub> (R = Me, Et)</entry>
+              <entry/>
+              <entry>H<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>400 - 800</entry>
+              <entry>poor film quality, high C content</entry>
+            </row>
+            <row>
+              <entry>[R<sub>2</sub>AlN<sub>3</sub>]<sub>3</sub> (R = Me, Et)</entry>
+              <entry/>
+              <entry>-</entry>
+              <entry>LPCVD</entry>
+              <entry>400 - 500</entry>
+              <entry>unreacted precursor present on film</entry>
+            </row>
+            <row>
+              <entry>Al(NMe<sub>2</sub>)<sub>3</sub></entry>
+              <entry>NH<sub>3</sub></entry>
+              <entry>He</entry>
+              <entry>APCVD</entry>
+              <entry>100 - 500</entry>
+              <entry>amorphous 100 - 200 °C, crystalline 300 - 500 °C</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Precursors and deposition conditions for AlN CVD. </caption>
+</table>
+      
+    </section>
+    <section id="id3068584">
+      <title>CVD from halides</title>
+      <para id="id3023470"> The observation that AlN powder may be produced upon the thermal decomposition of the AlCl<sub>3</sub>(NH<sub>3</sub>) complex, prompted initial studies on the use of AlCl<sub>3</sub>/NH<sub>3</sub> for the CVD of AlN films. Initially, the low volatility of AlCl<sub>3</sub> (a polymeric chain structure) required that the AlCl<sub>3</sub>(NH<sub>3</sub>) complex to be used as a single precursor. Low pressure CVD (LPCVD) at 5 -10 Torr resulted in deposition of AlN films, although films deposited below 1000 °C were contaminated with NH<sub>4</sub>Cl, and all the films contained chlorine. Films with reasonable electrical properties were prepared by the use of the more volatile <emphasis effect="italics">tris</emphasis>-ammonia complex, AlCl<sub>3</sub>(NH<sub>3</sub>)<sub>3</sub>. The dielectric constant for films grown at 800 - 1000 °C (11.5) is higher than bulk AlN (9.14) and also than that of the films grown at 1100 °C (8.1). All the films were polycrystalline with the grain size increasing with increasing deposition temperatures and preferred orientation was observed only for the films grown below 1000 °C. </para>
+      <para id="id8338262">Aluminum bromide is a dimeric volatile compound, [Br<sub>2</sub>Al(μ-Br)]<sub>2</sub>, and is more attractive as a CVD source, than AlCl<sub>3</sub>. Deposition of AlN films can be accomplished using AlBr<sub>3</sub> and NH<sub>3</sub> in an APCVD system with H<sub>2</sub> as the carrier gas. The mechanism of film growth has been proposed (<link target-id="id77777"/>). </para>
+      
+      
+
+<figure id="id77777"><media id="id77777_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-a903.jpg" id="id77777__onlineimage" width="500" print-width="5in"/>
+          </media><caption> Mechanism of APCVD film growth of AlN using AlBr<sub>3</sub> and NH<sub>3</sub>. </caption></figure>
+
+
+
+
+
+
+<para id="id2287204"> Due to the high temperatures required (750 °C) for good quality AlN film growth from AlBr<sub>3</sub>, PECVD was investigated. Using an AlBr<sub>3</sub>-H<sub>2</sub>-N<sub>2</sub> gas mixture and a 2450 MHz microwave (100 - 1000 W) plasma source, AlN films were grown. The maximum deposition rate occurred with an N<sub>2</sub>/AlBr<sub>3</sub> ratio of <emphasis effect="italics">ca</emphasis>. 20 and a substrate temperature <emphasis effect="italics">ca</emphasis>. 600 °C. </para>
+    </section>
+    <section id="id8589723">
+      <title>CVD from aluminum alkyls</title>
+      <para id="id8587186"> Based upon the successful metal organic CVD (MOCVD) growth of AlGaAs using the alkyl derivatives, AlR<sub>3</sub>, it was logical to extend MOCVD to aluminum nitride. Initial studies were performed using AlMe<sub>3</sub> and NH<sub>3</sub> with H<sub>2</sub> carrier gas. While these films are generally of high quality, the temperature of deposition is incompatible with semiconductor processing (being above both the melting point of most metallization alloys and the temperature at which dopant migration becomes deleterious). Lower temperatures (as low as 350 °C) were explored, however significant pre-reaction was observed between AlMe<sub>3</sub> and NH<sub>3</sub>; causing depletion of the reactants in the deposition zone, reducing the growth rate and leading to non-uniform deposits. Two routes have been investigated by which this problem can be circumvented. </para>
+      <para id="id2113359"> PECVD successfully lowers the deposition temperature, although, degradation of the substrate surface by ion bombardment is a significant drawback. Given that it is the ammonia decomposition that represents the highest energy process, pre-cracking should lower the overall deposition temperature. This is indeed observed for the AlMe<sub>3</sub>/NH<sub>3</sub>-based AlN system where growth is achieved as low as 584 °C if the NH<sub>3</sub> is catalytically cracked over a heated tungsten filament (1747 °C). In fact, with catalytic pre-cracking, deposition rates were observed to be an order of magnitude greater than for PECVD at the same temperatures, resulting in films that were crystalline with columnar growth. For this approach to low-temperature MOCVD growth of AlN the only major drawback is the presence of residual N-H and AlN-N groups detected by FT-IR. </para>
+      <para id="id3990917">Chemical solutions to the high stability of NH<sub>3</sub> have primarily centered upon the use of alternative nitrogen sources. The use of the volatile nitrogen source hydrazine (N<sub>2</sub>H<sub>4</sub>), has allowed for the growth of AlN at temperatures as low as 220 °C, however, hydrazine is extremely toxic and highly unstable, restricting its commercial application. Primary amines, such as <sup>t</sup>BuNH<sub>2</sub> or <sup>i</sup>PrNH<sub>2</sub>, allow for deposition at modest temperatures (400 - 600 °C). The high carbon incorporation, as high as 17% precludes their adoption. A similar problem is observed with the use of trimethylsilylazide, Me<sub>3</sub>SiN<sub>3</sub>. The presence of carbon contamination in the deposition of Al films and AlGaAs epitaxial layers has been attributed to the use of AlMe<sub>3</sub>. Therefore attempts have been made to use alternative aluminum precursors. </para>
+      <para id="id3184929">Interest in the mechanism of nucleation and atomic layer growth of AlN has prompted several mechanistic studies of the formation of Al-N bonds on the growth surface. All the studies concurred that the mechanism involves a step-wise reaction where the amide (-NH<sub>2</sub>-) groups form covalent bonds to aluminum irrespective of substrate. A schematic representation of the process is shown in <link target-id="id3568506"/>. </para>
+
+
+        <figure id="id3568506"><media id="id3568506_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-f888.jpg" id="id3568506__onlineimage" width="450" print-width="4in"/>
+          </media>
+        <caption>A schematic representation of the proposed step-wise reaction involving the formation of amide (-NH<sub>2</sub>-) groups covalently bound to aluminum during the MOCVD growth of AlN using AlMe<sub>3</sub>/NH<sub>3</sub>. (Adapted from M. E. Bartram, T. A. Michalske, J. W. Rogers, Jr., and R. T. Paine, <emphasis effect="italics">Chem. Mater</emphasis>., 1993, <emphasis effect="bold">5</emphasis>, 1424). </caption></figure>
+      
+    </section>
+    <section id="id8676961">
+      <title>CVD from aluminum amide and related compounds</title>
+      <para id="id3335355">The reaction between aluminum alkyls and amines (<link target-id="eip-884"/>), as well as the formation of AlN powders from the pyrolysis of AlMe<sub>3</sub>(NH<sub>3</sub>) (<link target-id=" eip-565"/>), lead to the misguided concept that the route to high-purity AlN would be through the so-called single source precursor route. </para>
+      
+      <equation id="eip-884"><media id="id3482952_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-44e1.jpg" id="id3482952__onlineimage" width="300" print-width="3in"/>
+        </media>
+      </equation>
+      <equation id="eip-565"><media id="id2428804_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-d426.jpg" id="id2428804__onlineimage" width="220" print-width="2.5in"/>
+        </media>
+      </equation><para id="id8438343">The trimeric dimethylaluminum amide, [Me<sub>2</sub>Al(NH<sub>2</sub>)]<sub>3</sub> (<link target-id="id2974004"/>a), was originally used as a single source precursor for growth of AlN under LPCVD conditions using a hot walled reactor, although subsequent deposition was also demonstrated in a cold walled system. Film quality was never demonstrated for electronic applications, but the films showed promise as fiber coatings for composites. The concept of using a trimeric single source precursor for AlN was derived from the observation of Al<sub>3</sub>N<sub>3</sub> cycles as the smallest structural fragment in wurtzite AlN. However, detailed mechanistic studies indicate that under gas phase thermolysis the trimeric precursor [Me<sub>2</sub>Al(NH<sub>2</sub>)]<sub>3</sub> is in equilibrium with (or decomposes to) dimeric (<link target-id="id2974004"/>b) and monomeric (<link target-id="id2974004"/>c) compounds. Furthermore, nitrogen-poor species (<link target-id="id2974004"/>d) were also observed by TOF-mass spectrometry. </para>
+      <figure id="id2974004"><media id="id2974004_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-f75f.jpg" id="id2974004__onlineimage" width="400" print-width="4in"/>
+        </media>
+      <caption>The trimeric dimethylaluminum amide (a) used as a single source precursor for growth of AlN, and the decomposition products (b - d) observed by TOF-mass spectrometry. </caption></figure>
+      
+      <para id="id2312960">Following the early reports of single source precursor routes, a wide range of compounds have been investigated, including [Al(NR<sub>2</sub>)<sub>3</sub>]<sub>2</sub>, [HAl(NR<sub>2</sub>)<sub>2</sub>]<sub>2</sub> (R = Me, Et), and [Me<sub>2</sub>AlN(<sup>i</sup>Pr)<sub>2</sub>]<sub>2</sub>, all of which gave AlN, but none of these precursors give films of superior quality comparable to that obtained from traditional CVD. In particular, the films contained significant carbon contamination, prompting further investigations into the efficacy of, N-C bond free, dialkylaluminum azides, [R<sub>2</sub>Al(N<sub>3</sub>)]<sub>3</sub>, as LPCVD precursors. </para>
+      <para id="id2427582"> While aluminum <emphasis effect="italics">tris</emphasis>-amides, Al(NR<sub>2</sub>)<sub>3</sub> were shown to give carbon-contaminated films, APCVD carried-out with NH<sub>3</sub> as the carrier gas results in carbon-free AlN film growth as low as 100 °C. The reason for the deposition of high quality films at such low temperatures resides with the Hoffman transamination reaction between the primary amido unit and ammonia. The crystallinity, bandgap and refractive index for the AlN grown by APCVD using [Al(NMe<sub>2</sub>)<sub>3</sub>]<sub>2</sub> and NH<sub>3</sub> are dependent on the deposition temperature. Films grown at 100 - 200 °C are amorphous and have a low bandgap and low refractive index. Above 300 °C, the films are crystalline, and have a refractive index close to that of bulk AlN (1.99 - 2.02), with a bandgap (≤ 5.77 eV) approaching the values reported for polycrystalline AlN (5.8 - 5.9 eV). </para>
+    </section>
+    <section id="id3003373">
+      <title>Bibliography</title>
+      <list id="id3185793" list-type="bulleted">
+        <item>J. L. Dupuie and E. Gulari, <emphasis effect="italics">J. Vac. Sci. Technol. A</emphasis>, 1992, <emphasis effect="bold">10</emphasis>, 18. </item>
+        <item>D. M. Hoffman, <emphasis effect="italics">Polyhedron</emphasis>, 1994, <emphasis effect="bold">13</emphasis>, 1169.</item>
+        <item>L. V. Interrante, W. Lee, M. McConnell, N. Lewis, and E. Hall, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1989, <emphasis effect="bold">136</emphasis>, 472.</item>
+        <item>H. M. Manasevit, F. M. Erdmann, and W. I. Simpson, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1971, <emphasis effect="bold">118</emphasis>, 1864.</item>
+        <item>Y. Pauleau, A. Bouteville, J.J. Hantzpergue, J. C Remy, and A. Cachard, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1980, <emphasis effect="bold">127</emphasis>, 1532. </item>
+        <item>Y. Someno, M. Sasaki, and T. Hirai, <emphasis effect="italics">Jpn. J. Appl. Phys.</emphasis>, 1990, <emphasis effect="bold">29</emphasis>, L358.</item>
+      </list>
+    </section>
+  </content>
+</document>

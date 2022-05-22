@@ -1,0 +1,213 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chemical Vapor Deposition of Alumina</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m24918</md:content-id>
+  <md:title>Chemical Vapor Deposition of Alumina</md:title>
+  <md:abstract/>
+  <md:uuid>8ac1ae5e-8f11-4cc5-9c69-fb4098c81d3e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id4736920">
+      <title>Alumina</title>
+      <para id="id9037675">Alumina, Al<sub>2</sub>O<sub>3</sub>, exists as multiple crystalline forms, however, the two most important are the α and γ forms. α-Al<sub>2</sub>O<sub>3</sub> (corundum) is stable at high temperatures and its structure consists of a hexagonal close-packed array of oxide (O<sup>2-</sup>) ions with the Al<sup>3+</sup> ions occupying octahedral interstices. In contrast, γ-Al<sub>2</sub>O<sub>3</sub> has a defect spinel structure, readily takes up water and dissolves in acid. Despite the potential disadvantages of γ-Al<sub>2</sub>O<sub>3</sub> there is a preference for its deposition on silicon substrates because of the two different lattice-matching relationships of γ-Al<sub>2</sub>O<sub>3</sub> (100) on Si(100). These are shown as schematic diagrams in <link target-id=" id5967324"/>. A summary of CVD precursor systems for Al<sub>2</sub>O<sub>3</sub> is given in <link target-id=" id8655103"/>. </para>
+      <figure id="id5967324"><media id="id5967324_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Al on Si.jpg" id="id5967324__onlineimage" width="500" print-width="6in"/>
+        </media>
+      <caption>Schematic diagram of the crystallographic relations of γ-Al<sub>2</sub>O<sub>3</sub> on Si(100): (a) γ-Al<sub>2</sub>O<sub>3</sub> (100)||Si(100), and (b) γ-Al<sub>2</sub>O<sub>3</sub> (100)||Si(110). Adapted from A. R. Barron, <emphasis effect="italics">CVD of Non-Metals</emphasis>, W. S. Rees, Jr., Ed. VCH, New York (1996). </caption></figure>
+      
+      
+      <table id="id8655103" summary="Precursors and deposition conditions for alumina CVD.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Aluminum precursor</emphasis> </entry>
+              <entry><emphasis effect="bold">Oxygen source</emphasis>  </entry>
+              <entry><emphasis effect="bold">Carrier gas</emphasis> </entry>
+              <entry><emphasis effect="bold">CVD method</emphasis> </entry>
+              <entry><emphasis effect="bold">Deposition temp. (°C)</emphasis> </entry>
+              <entry><emphasis effect="bold">Comments</emphasis> </entry>
+            </row>
+            <row>
+              <entry>AlCl<sub>3</sub></entry>
+              <entry>CO<sub>2</sub>/H<sub>2</sub></entry>
+              <entry>H<sub>2</sub> or N<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>700 - 900</entry>
+              <entry>amorphous (700), crystalline (850 - 900)</entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>O<sub>2</sub></entry>
+              <entry>N<sub>2</sub> or He</entry>
+              <entry>APCVD</entry>
+              <entry>350 - 380</entry>
+              <entry>dep. rate highly dependent on gas-phase conc. Al and O<sub>2</sub></entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>O<sub>2</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>375</entry>
+              <entry>plasma-enhanced, 10 W</entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>N<sub>2</sub>O</entry>
+              <entry>N<sub>2</sub> or He</entry>
+              <entry>APCVD</entry>
+              <entry>100 - 660</entry>
+              <entry>lower quality than with O<sub>2</sub></entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>N<sub>2</sub>O</entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>950 - 1050</entry>
+              <entry>good passivation properties of Si MOS devices</entry>
+            </row>
+            <row>
+              <entry>AlMe<sub>3</sub></entry>
+              <entry>N<sub>2</sub>O</entry>
+              <entry>He</entry>
+              <entry>PECVD</entry>
+              <entry>120 - 300</entry>
+              <entry>plasma-enhanced, </entry>
+            </row>
+            <row>
+              <entry>Al(O<sup>i</sup>Pr)<sub>3</sub></entry>
+              <entry>O<sub>2</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>420 - 600</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Al(O<sup>i</sup>Pr)<sub>3</sub></entry>
+              <entry>O<sub>2</sub></entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>LPCVD</entry>
+              <entry>250 - 450</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Al(O<sup>i</sup>Pr)<sub>3</sub></entry>
+              <entry>N<sub>2</sub>O</entry>
+              <entry>Ar</entry>
+              <entry>LPCVD</entry>
+              <entry>200 - 750</entry>
+              <entry>epitaxial on Si</entry>
+            </row>
+            <row>
+              <entry>Al(acac)<sub>3</sub></entry>
+              <entry/>
+              <entry>N<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>420 - 450</entry>
+              <entry>high C content</entry>
+            </row>
+            <row>
+              <entry>Al(acac)<sub>3</sub></entry>
+              <entry>air</entry>
+              <entry>N<sub>2</sub></entry>
+              <entry>APCVD</entry>
+              <entry>250 - 600</entry>
+              <entry>significant C content</entry>
+            </row>
+            <row>
+              <entry>Al(acac)<sub>3</sub></entry>
+              <entry>O<sub>2</sub> and H<sub>2</sub>O</entry>
+              <entry>Ar</entry>
+              <entry>LPCVD</entry>
+              <entry>230 - 550</entry>
+              <entry>growth rate indep. of H<sub>2</sub>O but film quality dep. on H<sub>2</sub>O</entry>
+            </row>
+         
+    
+</tbody>
+        
+
+
+
+</tgroup><caption>Precursors and deposition conditions for Al<sub>2</sub>O<sub>3</sub> CVD. </caption>
+</table>
+      <section id="id7213943">
+        <title>CVD from halides</title>
+        <para id="id1166935222165">The initial use of CO<sub>2</sub>/H<sub>2</sub> as a hydrolysis source for the CVD of SiO<sub>2</sub> from SiCl<sub>4</sub>, led to the analogous deposition of Al<sub>2</sub>O<sub>3</sub> from AlCl<sub>3</sub>, i.e., </para>
+
+
+<equation id="eip-224"><media id="id224_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq24.jpg" id="id224__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+        <para id="id8616824">Deposition in the temperature range 700 - 900 °C was found to yield films with optimum dielectric properties, but films deposited below 700 °C contained significant chloride impurities. It has been determined that H<sub>2</sub>O vapor, formed from H<sub>2</sub> and CO<sub>2</sub>, acts as the oxygen donor, and not the CO<sub>2</sub>. The crystal form of the CVD-grown alumina films was found to depend on the deposition temperature; films grown below 900 °C were γ-Al<sub>2</sub>O<sub>3</sub>, while those grown at 1200 °C were α-Al<sub>2</sub>O<sub>3</sub>, in accord with the known phase diagram for this material. </para>
+      </section>
+      <section id="id7494080">
+        <title>CVD from trimethylaluminum (TMA)</title>
+        <para id="id1166928492420">Although trimethylaluminum, AlMe<sub>3</sub> (TMA), reacts rapidly with water to yield Al<sub>2</sub>O<sub>3</sub>, the reaction is highly exothermic (-1243 kJ/mol) and thus difficult to control. The oxygen gettering properties of aluminum metal, however, can be employed in the controlled MOCVD growth of Al<sub>2</sub>O<sub>3</sub>. The common deposition conditions employed for CVD of Al<sub>2</sub>O<sub>3</sub> from AlMe<sub>3</sub> are similar to those used for aluminum-metal CVD, but with the addition of an oxygen source, either O<sub>2</sub> or N<sub>2</sub>O. </para>
+        <para id="id6460143"> Films grown by APCVD using N<sub>2</sub>O are of inferior quality to those employing O<sub>2</sub>, due to their exhibiting some optical absorption in the visible wavelength region. The growth of high quality films using either oxygen source is highly dependent on the gas phase concentrations of aluminum and “oxygen”. Further improvements in film quality are observed with the use of a temperature gradient in the chambers deposition zone. </para>
+        <para id="id7840515"> Attempts to lower the deposition temperature employing PECVD have been generally successful. However, a detailed spectroscopic study showed that the use of N<sub>2</sub>O as the oxygen source resulted in significant carbon and hydrogen incorporation at low temperatures (120 - 300 °C). The carbon and hydrogen contamination are lowered at high deposition temperature, and completely removed by a post-deposition treatment under O<sub>2</sub>. It was proposed that the carbon incorporated in the films is in the chemical form of Al-CH<sub>3</sub> or Al-C(O)OH, while hydrogen exists as Al-OH moieties within the film. </para>
+        <para id="id2369374"> Photo-assisted CVD of Al<sub>2</sub>O<sub>3</sub> from AlMe<sub>3</sub> has been reported to provide very high growth rates (2000 Å/min) and give films with electrical properties comparable to films deposited using thermal or plasma techniques. Irradiation with a 248 nm (KrF) laser source allowed for uniform deposition across a 3" wafer. However, use of 193 nm (ArF) irradiation required dilution of the AlMe<sub>3</sub> concentration to avoid non-uniform film growth. </para>
+      </section>
+      <section id="id7123724">
+        <title>CVD from alkoxides and β-diketonates</title>
+        <para id="id7754596"><emphasis effect="bold"/>The pyrophoric nature of AlMe<sub>3</sub> urged investigations into alternative precursors, in particular those which already contain oxygen. Alternative precursors might also provide possible routes to eliminate carbon contamination. Given the successful use of TEOS in SiO<sub>2</sub> thin film growth, an analogous alkoxide precursor approach is logical. The first report of Al<sub>2</sub>O<sub>3</sub> films grown by CVD used an aluminum alkoxide precursors. </para>
+        <para id="id5828929"> Aluminum tris-<emphasis effect="italics">iso</emphasis>-propoxide, Al(O<sup>i</sup>Pr)<sub>3</sub>, is a commercially available inexpensive alkoxide precursor compound. Deposition may be carried-out by either APCVD or LPCVD, using oxygen as an additional oxidation source to ensure low carbon contamination. It is adventitious to use LPCVD (10 Torr) growth to inhibit gas phase homogeneous reactions, causing formation of a powdery deposit. The use of lower chamber pressures (3 Torr) and N<sub>2</sub>O as the oxide source provided sufficient improvement in film quality to allow for device fabrication. </para>
+        <para id="id7568433">The deposition of Al<sub>2</sub>O<sub>3</sub> films from the pyrolysis of aluminum acetylacetonate, Al(acac)<sub>3</sub> (<link target-id=" id1166931650593"/>a), has been widely investigated using both APCVD and LPCVD. The perceived advantage of Al(acac)<sub>3</sub> over other aluminum precursors includes lowered-toxicity, good stability at room temperature, easy handling, high volatility at elevated temperatures, and low cost. However, the quality of films was originally poor; carbon being the main contaminant resulting from the thermolysis and incorporation of acetone and carbon dioxide formed upon thermal decomposition (<link target-id=" id1166929700477"/>). </para>
+        
+        <figure id="id1166931650593"><media id="id1166931650593_media" alt="">
+            <image mime-type="image/jpg" src="../../media/beta ketone.jpg" id="id1166931650593__onlineimage" width="400" print-width="3.6in"/>
+          </media>
+        <caption>Aluminum β-diketonate precursors. </caption></figure>
+        
+        <figure id="id1166929700477"><media id="id1166929700477_media" alt="">
+            <image mime-type="image/jpg" src="../../media/pyrolysis.jpg" id="id1166929700477__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Gaseous decomposition products from the pyrolysis of Al(acac)<sub>3</sub> as a function of pyrolysis temperature (Data from J. Von Hoene, R. G. Charles, and W. M. Hickam, <emphasis effect="italics">J. Phys. Chem.</emphasis>, 1958, <emphasis effect="bold">62</emphasis>, 1098). </caption></figure>
+        
+        <para id="id6691226">Incomplete oxidation of the film may be readily solved by the addition of water vapor to the carrier gas stream; pure carbon-free films being grown at temperatures as low as 230 °C. In fact, water vapor plays an important role in the film growth kinetics, film purity, and the surface morphology of the grown films. While the growth rate is unaffected by the addition of water vapor, its influence on the surface morphology is significant. Films grown without water vapor on the Al<sub>2</sub>O<sub>3</sub> surface is rough with particulates. In contrast, films grown with water vapor are mirror smooth. </para>
+        <para id="id6906748">A systematic study of the kinetics of vaporization of Al(acac)<sub>3</sub> along with fluorinated aluminum <emphasis effect="italics">β</emphasis>-diketonate complexes, Al(tfac)<sub>3</sub> (<link target-id=" id1166931650593"/>b) and Al(hfac)<sub>3</sub> (<link target-id=" id1166931650593"/>c), has been reported, and the saturation vapor pressures determined at 75 - 175 °C.</para>
+      </section>
+      
+    </section>
+    <section id="id1166929700747">
+      <title>Aluminum silicates</title>
+      <para id="id7570955"> The high dielectric constant, chemical stability and refractory character of aluminosilicates, (Al<sub>2</sub>O<sub>3</sub>)<sub>x</sub>(SiO<sub>2</sub>)<sub>y</sub>, makes them useful as packaging materials in IC chip manufacture. Mullite (3Al<sub>2</sub>O<sub>3</sub>.2SiO<sub>2</sub>) prepared by sol-gel techniques, is often used as an encapsulant for active devices and thin-film components. Amorphous alumina-silica films have also been proposed as insulators in multilevel interconnections, since they do not suffer the temperature instability of alumina films retain the desirable insulating characteristics. Under certain conditions of growth and fabrication, silica may crystallize, thereby allowing diffusion of oxygen and impurities along grain boundaries to the silicon substrate underneath. Such unwanted reactions are catastrophic to the electronic properties of the device. The retention of amorphous structure over a larger temperature range of silicon rich alumina-silica films offers a possible solution to this deleterious diffusion. </para>
+      <para id="id5918277"> Thin films of mixed metal oxides are usually obtained from a mixture of two different kinds of alkoxide precursors. However, this method suffers from problems with stoichiometry control since extensive efforts must be made to control the vapor phase concentration of two precursors with often dissimilar vapor pressures. Also of import here is the near impossible task of matching rates of hydrolysis/oxidation to give "pure", non-phase segregated films, i.e., those having a homogeneous composition and structure. In an effort to solve these problems, research effort has been aimed at single-source precursors, i.e., those containing both aluminum and silicon. </para>
+      <para id="id9078385">The first study of single-source precursors for (Al<sub>2</sub>O<sub>3</sub>)<sub>x</sub>(SiO<sub>2</sub>)<sub>y</sub> films employed the mono-siloxide complex Al(O<sup>i</sup>Pr)<sub>2</sub>(OSiMe<sub>3</sub>) (<link target-id=" id1166935298488"/>a). However, it was found that except for deposition at very high temperatures (&gt; 900 °C) the deposited films this mono-siloxide compound were aluminum-rich (Al/Si = 1.3 - 2.1) and thus showed thermal instability in the insulating properties caused by crystallization in the films. It would appear that in order for silicon-rich alumina-silica films to be grown more siloxane substituents are required, e.g., the <emphasis effect="italics">tris</emphasis>-siloxy aluminum complex [Al(OSiEt<sub>3</sub>)<sub>3</sub>]<sub>2</sub> (<link target-id=" id1166935298488"/>b). </para>
+
+        <figure id="id1166935298488"><media id="id1166935298488_media" alt="">
+            <image mime-type="image/jpg" src="../../media/silicate.jpg" id="id1166935298488__onlineimage" width="400" print-width="3.6in"/>
+          </media>
+        <caption>Precursors for aluminum silicate thin films. </caption></figure>
+      
+      <para id="id1166935246845"> The Al/Si ratio of thin films growth by APCVD using [Al(OSiEt<sub>3</sub>)<sub>3</sub>]<sub>2</sub> at 420 - 550 °C, was found to be dependent on the deposition temperature and the carrier gas composition (O<sub>2</sub>/Ar). This temperature and oxygen-dependent variation in the film composition suggests that two competing precursor decomposition pathways are present. </para>
+      <list id="id1166931972160" list-type="enumerated" number-style="arabic"><item>Deposition in the absence of O<sub>2</sub>, is similar to that observed for the decomposition of Al(O<sup>i</sup>Pr)<sub>2</sub>(OSiMe<sub>3</sub>) under N<sub>2</sub>, and would imply that the film composition is determined by the temperature-dependent tendencies of the Al-O-Si bonds to cleave. </item>
+        <item>The temperature-independent oxidative decomposition of the precursor. While it is possible to prepare films richer in Si using [Al(OSiEt<sub>3</sub>)<sub>3</sub>]<sub>2</sub> rather than Al(O<sup>i</sup>Pr)<sub>2</sub>(OSiMe<sub>3</sub>), the Al:Si ratio is unfortunately not easily controlled simply by the number of siloxy ligands per aluminum in the precursor. </item>
+      </list>
+      <para id="id6480268">Films grown from the single-source precursor Al(O<sup>i</sup>Pr)<sub>2</sub>(OSiMe<sub>3</sub>) crystallize to kyanite, Al<sub>2</sub>SiO<sub>5</sub>, whereas those grown from [Al(OSiEt<sub>3</sub>)<sub>3</sub>]<sub>2</sub> remained amorphous even after annealing. </para>
+    </section>
+    <section id="id1166929369371">
+      <title>Bibliography</title>
+      <list id="id6320532" list-type="bulleted">
+        <item>A. W. Apblett, L. K. Cheatham, and A. R. Barron, <emphasis effect="italics">J. Mater. Chem.</emphasis>, 1991, <emphasis effect="bold">1 </emphasis>,143. </item>
+        <item>K. M. Gustin and R. G. Gordon, <emphasis effect="italics">J. Electronic Mater.</emphasis>, 1988, <emphasis effect="bold">17</emphasis>, 509.</item>
+        <item>C. Landry, L. K. Cheatham, A. N. MacInnes, and A. R. Barron, <emphasis effect="italics">Adv. Mater. Optics Electron.</emphasis>, 1992, <emphasis effect="bold">1</emphasis>, 3.</item>
+        <item>Y. Nakaido and S. Toyoshima, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1968, <emphasis effect="bold">115</emphasis>, 1094. </item>
+        <item>T. Maruyama and T. Nakai, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1991, <emphasis effect="bold">58</emphasis>, 2079. </item>
+        <item>K. Sawada, M. Ishida, T. Nakamura, and N. Ohtake, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1988, <emphasis effect="bold">52</emphasis>, 1673. </item>
+        <item>J. Von Hoene, R. G. Charles, and W. M. Hickam, <emphasis effect="italics">J. Phys. Chem.</emphasis>, 1958, <emphasis effect="bold">62</emphasis>, 1098.</item>
+      </list>
+    </section>
+  </content>
+</document>

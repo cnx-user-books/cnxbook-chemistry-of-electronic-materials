@@ -1,0 +1,286 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Mechanism of the Metal Organic Chemical Vapor Deposition of Gallium Arsenide</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m25614</md:content-id>
+  <md:title>Mechanism of the Metal Organic Chemical Vapor Deposition of Gallium Arsenide</md:title>
+  <md:abstract/>
+  <md:uuid>b85d06dc-cee8-46f6-8b18-50522f94f638</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168214707994">
+      <title>Introduction</title>
+      <para id="id1168215850500">Preparation of epitaxial thin films of III-V (13-15) compound semiconductors (notably GaAs) for applications in advanced electronic devices became a realistic technology through the development of metal organic chemical vapor deposition (MOCVD) processes and techniques. The processes mainly involves the thermal decomposition of metal alkyls and/or metal hydrides.</para>
+      <para id="eip-309">In 1968 Manasevit at the Rockwell Corporation was the first to publish on MOCVD for the epitaxial growth of GaAs. This followed his pioneering work in 1963 with the epitaxial growth of silicon on sapphire. The first publication used triethylgallium [Ga(CH<sub>2</sub>CH<sub>3</sub>)<sub>3</sub>] and arsine (AsH<sub>3</sub>) in an open tube with hydrogen as the carrier gas. Manasevit actually coined the phrase MOCVD and since this seminal work there have been numerous attempts to improve and expand MOCVD for the fabrication of GaAs. </para><para id="id1168214417656">Several processes, partly in series, partly in parallel take place during the growth by CVD. They are presented schematically in <link target-id="id9420398"/>. The relative importance of each of them depends on the chemical nature of the species involved and the design of the reactor used. The actual growth rate is determined by the slowest process in the series of events needed to come to deposition. </para>
+
+
+
+      
+
+<figure id="id9420398"><media id="id9420398_media" alt="">
+            <image mime-type="image/jpg" src=" GaAs Fig 1.jpg" id="id9420398__onlineimage" width="475" print-width="3.75in"/>
+          </media>
+        <caption>Schematic representation of the fundamental transport and reaction steps underlying MOCVD. Adapted from K. F. Jensen and W. Kern, in Thin Film Processes II, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </caption></figure>
+
+
+
+<para id="id1168217019969">Conventionally, the metal organic chemical vapor deposition (MOCVD) growth of GaAs involves the pyrolysis of a vapor phase mixture of arsine and, most commonly, trimethylgallium [Ga(CH<sub>3</sub>)<sub>3</sub>, TMG] and triethylgallium [Ga(CH<sub>2</sub>CH<sub>3</sub>)<sub>3</sub>, TEG]. Traditionally, growth is carried out in a cold-wall quartz reactor in flowing H<sub>2</sub> at atmospheric or low pressure. The substrate is heated to temperatures 400 - 800 °C, typically by RF heating of a graphite susceptor. Transport of the metal-organics to the growth zone is achieved by bubbling a carrier gas (e.g., H<sub>2</sub>) through the liquid sources that are in held temperature-controlled bubblers. </para>
+      
+      
+    </section>
+    <section id="id1168211785978">
+      <title>Reaction mechanism </title>
+      
+      <para id="eip-443">While the overall reaction (where R = CH<sub>3</sub> or CH<sub>2</sub>CH<sub>3</sub>) can be described by <link target-id="eip-11110"/>.  </para>
+
+
+<equation id="eip-11110"><media id="id22222_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs1.jpg" id=" id22222__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+
+
+
+
+
+      <para id="eip-779">The nature of the reaction is much more complex. From early studies it was thought that free Ga atoms are formed by pyrolysis of TMG and As<sub>4</sub> molecules are formed by pyrolysis of AsH<sub>3</sub> and these species recombine on the substrate surface in an irreversible reaction to form GaAs. </para><para id="id1168215043633">Although a Lewis acid-base complex formed between TMG and AsH<sub>3</sub> is possible, it is now known that if there is any intermediate reaction between the TMG and AsH<sub>3</sub>, the product is unstable. However, early work indicated that free GaAs molecules resulted from the decomposition of a TMG.AsH<sub>3</sub> intermediate and that the heated surface contributed to the reaction. It was subsequently suggested that the reaction occurs by separate pyrolysis of the reactants and a combination of individual Ga and As atoms at the surface or just above it. Finally, evidence has also been found for TMG pyrolysis followed by diffusion through a boundary layer and for AsH<sub>3</sub> pyrolysis catalyzed by the GaAs surface. </para>
+      <para id="id1168208234994">There are several different kinds of potential reactions occuring in the CVD reaction chamber, namely, ligand dissociation, ligand association, , reductive elimination, oxidative addition,  β-hydride elimination, etc. Some of them are listed in the following equations: </para>
+
+<equation id="eip-11113"><media id="id22223_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs2.jpg" id=" id22223__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+<equation id="eip-11114"><media id="id22224_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs3.jpg" id=" id22224__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+<equation id="eip-11115"><media id="id22225_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs4.jpg" id=" id22225__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+<equation id="eip-11116"><media id="id22226_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs5.jpg" id=" id22226__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+<equation id="eip-11117"><media id="id22227_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs6.jpg" id=" id22227__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>  
+
+<equation id="eip-11118"><media id="id22228_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs7.jpg" id=" id22228__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+
+
+
+
+      <section id="eip-97"><title>Using ALE studies as insight for MOCVD</title><para id="eip-298">Given the stepwise and presumably simplified mechanism for atomic layer epitaxy (ALE) growth of GaAs, a number of mechanistic studies have been undertaken of ALE using TMG and AsH<sub>3</sub> to provide insight into the comparable MOCVD reactions. Nishizawa and Kurabayashi proposed that a CH<sub>3</sub>-terminated GaAs surface inhibits further heterogeneous decomposition of TMG and self-limits the growth rate to one monolayer/cycle. While, X-ray photoelectron spectroscopy (XPS) studies showed that no carbon was observed on a GaAs surface reacted with TMG. Furthermore, the same self-limiting growth was seen in in ALE using a metalorganic molecular beam epitaxy (MOMBE) with TMG and AsH<sub>3</sub>. It was reported that a transient surface reconstruction is observable by reflection high-energy electron diffraction (RHEED) during the ALE of GaAs in MOMBE. It was suggested that this structure is caused by CH<sub>3</sub>-termination and the self-limitation of the growth rate is attributed to this structure. However, measurement of the desorption of CH<sub>3</sub> by means of a combination of pulsed molecular beams and time-resolved mass spectrometry, indicates that  CH<sub>3</sub> desorption is too fast to attribute the self-limitation to the CH<sub>3</sub>-terminated surface. Subsequently, investigations of the pyrolysis of TMG on a (100)GaAs surface by the surface photo-absorption method (SPA) allowed for the direct observation of CH<sub>3</sub> desorption from a GaAs surface reacted with TMG. From the measured CH<sub>3</sub> desorption kinetics, it was shown that the CH<sub>3</sub>-terminated surfaces causes the self-limitation of the growth rate in ALE because the excess TMG cannot adsorb. </para><para id="eip-881">All this research helped people to visualize the real reaction mechanism in the formation of GaAs by MOCVD methods, in which the decomposition, diffusion and surface reaction interact with each other and result in a much more complicated reaction mechanism. </para></section>
+      
+      <section id="id1168217097485">
+        <title>Gas phase reaction: pyrolysis of TMG and AsH<sub>3</sub> </title>
+        
+        
+        
+        <para id="id1168205578835">In the TMG/H<sub>2</sub> system, there is almost no reactions at a temperature below 450 °C, whereas the reaction of TMG with H<sub>2</sub> almost completely changed into CH<sub>4</sub> and Ga at a temperature above 600 °C, <link target-id="eip-33338"/>. </para>
+
+<equation id="eip-33338"><media id="id33338_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs8.jpg" id=" id33338__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+
+
+
+
+        
+        <para id="id1168217077405">As for the AsH<sub>3</sub> decomposition, without any deposition of Ga or GaAs in the reactor, the pyrolysis of AsH<sub>3</sub> proceeded barely at a temperature below 600 °C, however, it proceeded nearly completely at a temperature above 750 °C. In the AsH<sub>3</sub>/H<sub>2</sub> system with the TMG introduced previously, the decomposition of AsH<sub>3</sub> was largely enhanced even at a temperature below 600 °C. The decomposition of AsH<sub>3</sub> seems to be affected sensitively by the deposited GaAs or Ga. This phenomenon may be concluded to be caused by the catalytic action by GaAs or Ga. The reaction at a temperature below 600 °C can be described as shown in <link target-id="eip-33339"/>, but at a temperature above 600 °C, pyrolysis of AsH<sub>3</sub> can occur even without GaAs or Ga, <link target-id="eip-33310"/>. </para>
+
+
+<equation id="eip-33339"><media id="id33339_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAsextra.jpg" id=" id33339__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+<equation id="eip-33310"><media id="id33310_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs10.jpg" id="id33310__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+      </section>
+      <section id="id1168205697890">
+        <title>Adsorption and surface reactions</title>
+        <para id="id1168211608774">From the temperature dependent measurements of the desorption spectrum from a surface on which TMG was supplied, it was estimated that the surface-adsorbed species was Ga at the high temperature region of T<sub>sub</sub> &gt; 500 °C, GaCH<sub>3</sub> at the range of 350 °C &lt; T<sub>sub</sub> &lt; 500 °C, and Ga(CH<sub>3</sub>)<sub>2</sub> and Ga(CH<sub>3</sub>)<sub>3</sub> at the range of T<sub>sub</sub> &lt; 350 °C. The reactions, where (ad) means the adsorbed state of the molecules, are: </para>
+        
+
+<equation id="eip-33311"><media id="id33311_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs11.jpg" id="id33311__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+<equation id="eip-33312"><media id="id33312_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs12.jpg" id="id33312__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+        
+<equation id="eip-33313"><media id="id33313_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs13.jpg" id="id33313__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+ <equation id="eip-33314"><media id="id33314_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs14.jpg" id="id33314__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+        <para id="id1168218208668">When AsH<sub>3</sub> is supplied, the reactions with these adsorbates are:</para>
+
+
+<equation id="eip-33315"><media id="id33315_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs15.jpg" id="id33315__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+<equation id="eip-33316"><media id="id33316_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs16.jpg" id="id33316__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+<equation id="eip-33317"><media id="id33317_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs17.jpg" id="id33317__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+<equation id="eip-33318"><media id="id33318_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs18.jpg" id="id33318__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+        <para id="id1168206502264">It was observed that there is no growth in the range of T<sub>sub</sub> &lt; 350 °C, i.e., Ga(CH<sub>3</sub>)<sub>2</sub><sup>.</sup><sub>(ad)</sub> and Ga(CH<sub>3</sub>)<sub>3</sub><sub>(ad)</sub> do not react with AsH<sub>3</sub> in the TMG-AsH<sub>3</sub> system. Monomolecular layer growth is limited by the formation of GaCH<sub>3</sub> and its reaction with AsH<sub>3</sub>. </para>
+      </section>
+      <section id="id1168205470315">
+        <title>Overall reaction pathway</title>
+        <para id="id1168206911977">At lower temperature (350 - 500 °C), equivalently low energy, TMG decompose in the gas phase to Ga(CH<sub>3</sub>)<sub>2</sub> and methyl radical, <link target-id="eip-33319"/>. </para>
+
+<equation id="eip-33319"><media id="id33319_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs19.jpg" id="id33319__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+        <para id="eip-694">After the first ligand dissociation, there are two different pathways, in the first, the Ga(CH<sub>3</sub>)<sub>2</sub> keeps decomposing into GaCH<sub>3</sub> and another methyl group when it is at the gas-substrate interface, <link target-id="eip-33320"/>, and then further decomposes into free gallium atoms on the substrate surface, <link target-id="eip-33321"/>. In the second reaction, the Ga(CH<sub>3</sub>)<sub>2</sub> decomposes directly into Ga and CH<sub>3</sub>-CH<sub>3</sub> by reductive elimination, <link target-id="eip-33322"/>. </para>
+
+<equation id="eip-33320"><media id="id33320_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs20.jpg" id="id33320__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+<equation id="eip-33321"><media id="id33321_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs21.jpg" id="id33321__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+<equation id="eip-33322"><media id="id33322_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs22.jpg" id="id33322__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+        <para id="eip-574">At high temperature (&gt; 500 °C), the TMG decomposes into Ga(CH<sub>3</sub>) and two methyl groups instead of the step-wise decomposition at lower temperature, <link target-id="eip-33323"/>, and the Ga(CH<sub>3</sub>) further decomposes into free Ga atoms at the substrate surface, <link target-id="eip-33324"/>. </para>
+
+<equation id="eip-33323"><media id="id33323_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs23.jpg" id="id33323__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+<equation id="eip-33324"><media id="id33324_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs24.jpg" id="id33324__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+        <para id="eip-628">The decomposition of AsH<sub>3</sub> forms an “arsenic cloud” in the reaction chamber. The decomposition is also step-wise: </para>
+
+
+<equation id="eip-99925"><media id="id33325_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs25.jpg" id="id33325__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+<equation id="eip-99926"><media id="id33326_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs26.jpg" id="id33326__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+<equation id="eip-99927"><media id="id33327_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs27.jpg" id="id33327__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+        <para id="eip-593">The methyl groups in the surface Ga(CH<sub>3</sub>) molecules are removed by the formation of methane with atomic hydrogen from the decomposition of AsH<sub>3</sub>, <link target-id="eip-99928"/>.</para>
+
+<equation id="eip-99928"><media id="id33328_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs28.jpg" id="id33328__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+        
+      </section>
+      <section id="id1168205489398">
+        <title>Kinetics for other systems</title>
+        <para id="id1168217454110">Investigations have been reported for the mechanism of the growth of GaAs using triethylgallium [Ga(CH<sub>2</sub>CH<sub>3</sub>)<sub>3</sub>, TEG] and TMG with trimethylarsene [As(CH<sub>3</sub>)<sub>3</sub>, TMA], triethylarsene [As(CH<sub>2</sub>CH<sub>3</sub>)<sub>3</sub>, TEA],  <emphasis effect="italics">tert</emphasis>-butylarsine {[(CH<sub>3</sub>)<sub>3</sub>C]AsH<sub>2</sub>, TBA}, and phenylarsine [(C<sub>6</sub>H<sub>5</sub>)AsH<sub>2</sub>]. The experiments were conducted in a MOCVD reactor equipped with a recording microbalance for in-situ growth rate measurements. For example, the kinetics of the growth of GaAs were investigated by measuring growth rate as a function of temperature using the microbalance reactor while holding the partial pressure of gallium precursor (e.g., TMG) and arsenic precursor [e.g., As(CH<sub>3</sub>)<sub>3</sub>] constant at 0.01 and 0.05 Torr, respectively. Three different flow rates were used to determine the influence of the gas residence time. </para>
+        
+        <para id="id1168214700661">The growth rate of GaAs with TMG and As(CH<sub>2</sub>CH<sub>3</sub>)<sub>3</sub> is higher as compared with the growth from TMG and As(CH<sub>3</sub>)<sub>3</sub> because of the lower thermal stability of As(CH<sub>2</sub>CH<sub>3</sub>)<sub>3</sub> than As(CH<sub>3</sub>)<sub>3</sub>. Both of the two growth rates showed a strong dependence on the residence time. </para>
+        <para id="id1168214505633">Similarly, the kinetic behaviors of the TMG/TBA and TEG/TBA system were investigated under the same conditions as the TMA and TEA studies. There are two distinct regions of growth. For TMG/TBA, the deposition rate is independent at low temperature and in the intermediate temperature (around 600 °C) the dependence of the growth rate on the total flow rate is significant. This means that the growth at the lower temperature is controlled by surface reactions. The TEG/TBA system showed a similar behavior except that the maximum growth rate occurs around 450 °C while it is around 750 °C for TMG/TBA system. Also, the growth of TMG/(C<sub>6</sub>H<sub>5</sub>)AsH<sub>2</sub> was studied on the same conditions as for the Me<sub>3</sub>Ga/<sup>t</sup>BuAsH<sub>2</sub> system. It was reported that the difference in the growth rate at various flow rates was related to a combination of parasitic reactions and depletion effects from deposition. From the comparison of the data, it is deduced that the effect of parasitic reactions is slightly smaller for (C<sub>6</sub>H<sub>5</sub>)AsH<sub>2</sub> than for TBA.</para>
+        <para id="id1168216766771">Two possible mechanisms for the dependence of growth rate on flow rate were proposed. The first, mass-transfer limitation was thought to be unlikely because of the high diffusivity of the gallium precursors at 1 Torr (ca. 350 cm<sup>2</sup>/s). The second, also the more likely explanation for the observed growth-rate dependence on flow rates is gas-phase depletion cause by the parasitic reactions. Since the growth efficiency is high (41% at 700 °C), the loss of precursor from the gas phase will directly affect the growth rate. It was evidenced by the differences in the growth rates between split and combined feed streams. The growth rate is lower when the reagents are combined upstream of the reactor than when they are combined inside the reactor (split stream). It ís suggested that the experimental observations can be explained by a model based on the reversible formation of an adduct and the decomposition of this adduct to useless polymeric material competing with the growth of GaAs. It can be written in the form shown in <link target-id="eip-99930"/> where k<sub>f</sub> and k<sub>r</sub> are the forward and reverse rate constants for adduct formation, respectively, k<sub>d</sub> is the rate constant for the irreversible decomposition of the adduct to polymer, and k<sub>s</sub> is the surface reaction rate constant for the growth of GaAs. It is obvious that each step involves several elementary reactions, but there were insufficient data to provide any more detail. </para>
+        
+        
+
+
+<equation id="eip-99930"><media id="id33330_media" alt="">
+          <image mime-type="image/jpg" src="../../media/GaAs30.jpg" id="id33330__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+      </section>
+    </section>
+    
+    <section id="id1168205474955">
+      <title>Bibliography</title>
+      <list id="id1168205481336" list-type="bulleted"><item>T. H. Chiu, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1989, <emphasis effect="bold">55</emphasis>, 1244.</item>
+
+        <item>H. Ishii, H. Ohno, K. Matsuzaki and H. Hasegawa, <emphasis effect="italics">J. Crys. Growth</emphasis>, 1989, <emphasis effect="bold">95</emphasis>, 132.</item>
+
+<item>K. F. Jensen and W. Kern, in Thin Film Processes II, Eds. J. L. Vossen and W. Kern, Academic Press, New York (1991). </item> 
+
+        <item>N. Kobayashi, Y. Yamauchi, and Y. Horikoshi, <emphasis effect="italics">J. Crys. Growth</emphasis>, 1991, <emphasis effect="bold">115</emphasis>, 353. </item>
+
+        <item>K. Kodama, M. Ozeki, K. Mochizuki, and N. Ohtsuka, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1989, <emphasis effect="bold">54</emphasis>, 656.</item>
+
+
+       <item>M. R. Leys and H. Veenvliet, <emphasis effect="italics">J. Crys. Growth</emphasis>, 1981, <emphasis effect="bold">55</emphasis>, 145.</item>
+
+        <item>U. Memmert and M. L. Yu, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1990, <emphasis effect="bold">56</emphasis>,1883.</item>
+
+
+        <item>J. Nishizawa and T. Kurabayashi, <emphasis effect="italics">J. Crys. Growth</emphasis>. 1988, <emphasis effect="bold">93</emphasis>, 132.</item>
+
+        <item>T. R. Omstead and K. F. Jensen, <emphasis effect="italics">Chem. Mater.</emphasis>, 1990, <emphasis effect="bold">2</emphasis>, 39.</item>
+
+
+<item>D. J. Schyer and M. A. Ring, <emphasis effect="italics">J. Electrochem. Soc</emphasis>., 1977, <emphasis effect="bold">124</emphasis>, 569. </item>
+
+
+        <item>Watanabe, T. Isu, M. Hata, T. Kamijoh, and Y. Katayama, <emphasis effect="italics">Japan. J. Appl. Phys</emphasis>., 1989, <emphasis effect="bold">28</emphasis>, L1080. </item>
+
+
+        <item>Y. Zhang, Th. Beuermann, and M. Stuke, <emphasis effect="italics">Appl. Phys. B</emphasis>, 1989, <emphasis effect="bold">48</emphasis>, 97. </item>
+
+        <item>Y. Zhang, W. M. Cleaver, M. Stuke, and A. R. Barron, <emphasis effect="italics">Appl. Phys. A</emphasis>, 1992, <emphasis effect="bold">55</emphasis>, 261.</item>
+
+      </list>
+    </section>
+  </content>
+</document>

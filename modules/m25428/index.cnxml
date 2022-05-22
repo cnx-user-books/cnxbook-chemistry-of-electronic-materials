@@ -1,0 +1,287 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Precursors for Chemical Vapor Deposition of Copper</title>
+  <metadata>
+  <md:content-id>m25428</md:content-id><md:title>Precursors for Chemical Vapor Deposition of Copper</md:title>
+  <md:abstract/>
+  <md:uuid>6d001d23-59c4-4a2c-829c-9edbe05818a4</md:uuid>
+</metadata>
+
+<content>
+    <note id="eip-201">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Wei Zhao. </note>
+    <section id="id9279972">
+      <title>Introduction</title>
+      <para id="id8681161">Chemical vapor deposition (CVD) is a process for depositing solid elements and compounds by reactions of gas-phase molecular precursors. Deposition of a majority of the solid elements and a large and ever-growing number of compounds is possible by CVD. </para>
+      <para id="id9046663"> Most metallization for microelectronics today is performed by the physical vapor deposition (PVD) processes of evaporation and sputtering, which are often conceptually and experimentally more straightforward than CVD. However, the increasing importance of CVD is due to a large degree to the advantages that it holds over physical vapor deposition. Foremost among these are the advantages of conformal coverage and selectivity. Sputtering and evaporation are by their nature line-of-sight deposition processes in which the substrate to be coated must be placed directly in front of the PVD source. In contrast, CVD allows any substrate to be coated that is in a region of sufficient precursor partial pressure. This allows the uniform coating of several substrate wafers at once, of both sides of a substrate wafer, or of a substrate of large size and/or complex shape. The PVD techniques clearly will also deposit metal on any surface that is in line of sight. On the other hand, it is possible to deposit selectively on some substrate materials in the presence of others using CVD, because the deposition is controlled by the surface chemistry of the precursor/substrate pair. Thus, it may be possible, for example, to synthesize a CVD precursor that under certain conditions will deposit on metals but not on an insulating material such as SiO<sub>2</sub>, and to exploit this selectivity, for example, in the fabrication of a very large-scale integrated (VLSI) circuit. It should also be pointed out that, unlike some PVD applications, CVD does not cause radiation damage of the substrate. </para>
+      <para id="id7878975"> Since the 1960s, there has been considerable interest in the application of metal CVD for thin-film deposition for metallization of integrated circuits. Research on the thermal CVD of copper is motivated by the fact that copper has physical properties that may make it superior to either tungsten or aluminum in certain microelectronics applications. The resistivity of copper (1.67 mW.cm) is much lower than that of tungsten (5.6 mW.cm) and significantly lower than that of aluminum (2.7 mW.cm). This immediately suggests that copper could be a superior material for making metal interconnects, especially in devices where relatively long interconnects are required. The electromigration resistance of copper is higher than that of aluminum by four orders of magnitude. Copper has increased resistance to stress-induced voidage due to its higher melting point versus aluminum. There are also reported advantages for copper related device performance such as greater speed and reduced cross talk and smaller RC time constants. On the whole, the combination of superior resistivity and intermediate reliability properties makes copper a promising material for many applications, provide that suitable CVD processes can be devised. </para>
+      <section id="id9222235">
+        <title>Applications of metal CVD</title>
+        <para id="id7089518"> There are a number of potential microelectronic applications for metal CVD, including gate metallization (deposit on semiconductor), contact metallization (deposit on semiconductor), diffusion barrier metallization (deposit on semiconductor), interconnect metallization (deposit on insulator and conductor or semiconductor). Most of the relevant features of metal CVD are found in the interconnect and via fill applications, which we briefly describe here. There are basically two types of metal CVD processes that may occur: </para>
+        <list id="id9136036" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Blanket or nonselective deposition, in which deposition proceeds uniformly over a variety of surfaces. </item>
+          <item>Selective deposition in which deposition only occurs on certain types of surfaces (usually semiconductors or conductors, but not insulators). </item>
+        </list>
+        <para id="id9104997">A primary application of blanket metal CVD is for interconnects. The conformal nature of the CVD process is one of the key advantages of CVD over PVD and is a driving force for its research and development. The degree of conformality is usually described as the “step coverage”, which is normally defined as the ratio of the deposit thickness on the step sidewall to the deposit thickness on the top surface. Another application for blanket metal CVD is via hole filling to planarize each level for subsequent processing, This is achieved by depositing a conformal film and etching back to the insulator surface, leaving the metal “plug” intact. Another unique aspect of CVD is its potential to deposit films selectively, which would eliminate several processing steps required to perform the same task. The primary application for selective metal CVD would be for via hole filling. Ideally, deposition only occurs on exposed conductor or semiconductor surfaces, so filling of the via hole is achieved in a single step. </para>
+      </section>
+    </section>
+    <section id="id7360178">
+      <title>Copper CVD</title>
+      <para id="id8793424">The chemical vapor deposition of copper originally suffered from a lack of readily available copper compounds with the requisite properties to serve as CVD precursors. The successful development of a technologically useful copper CVD process requires first and foremost the design and synthesis of a copper precursor which is volatile, i.e., possesses an appreciable vapor pressure and vaporization rate to allow ease in transportation to the reaction zone and deposition at high growth rates. Its decomposition mechanism(s) should preferably be straightforward and lead to the formation of pure copper and volatile by-products that are nonreactive and can be cleanly removed from the reaction zone to prevent film, substrate, and reactor contamination. Gaseous or liquid sources are preferred to solid sources to avoid undesirable variations in vaporization rates because of surface-area changes during evaporation of solid sources and to permit high levels of reproducibility and control in source delivery. Other desirable features in precursor selection include chemical and thermal stability to allow extended shelf life and ease in transport and handling, relative safety to minimize the industrial and environmental impact of processing and disposal, and low synthesis and production costs to ensure an economically viable process. </para>
+      <para id="id8934874"> Several classes of inorganic and metalorganic sources have been explored as copper sources. Inorganic precursors for copper CVD used hydrogen reduction of copper halide sources of the type CuX or CuX<sub>2</sub>, where X is chlorine (Cl) or fluorine (F):</para>
+      <para id="id8507434">2 CuX + H<sub>2</sub> → 2 Cu + 2 HX</para>
+      <para id="id7362075">CuX<sub>2</sub> + H<sub>2</sub> → Cu + 2 HX</para>
+      <para id="id8793141">The volatility of copper halides is low, the reactions involved require prohibitively high temperatures (400 - 1200 °C), lead to the production of corrosive by-products such as hydrochloric and hydrofluoric acids (HCl and HF), and produce deposits with large concentrations of halide contaminants. Meanwhile, the exploration of metalorganic chemistries has involved various copper(II) and copper(I) source precursors, with significant advantages over inorganic precursors. </para>
+    </section>
+    <section id="id9229294">
+      <title>From Cu(II) precursors</title>
+      <section id="id9158881">
+        <title>Volatile Cu(II) compounds</title>
+        
+        <para id="id9186975"> Copper was known to form very few stable, volatile alkyl or carbonyl compounds. This was thought to eliminate the two major classes of compounds used in most existing processes for CVD of metals or compound semiconductors. Copper halides have been used for chemical vapor transport growth of Cu-containing semiconductor crystals. But the evaporation temperatures needed for copper halides are much higher than those needed for metal-organic compounds. Film purity and resistivity were also a problem, possibly reflecting the high reactivity of Si substrates with metal halides. </para>
+        <para id="id8754377">Cu(II) compounds that have been studied as CVD precursors are listed in <link target-id=" id8680648"/>. The structural formulas of these compounds are shown in <link target-id=" id9420398"/> along with the ligand abbreviations in <link target-id=" id10192264"/>. Each compound contains a central Cu(II) atom bonded to two singly charged β-diketonate or β-ketoiminate ligands. Most of them are stable, easy to synthesize, transport and handle. 
+
+</para>
+        <table id="id8680648" summary="Studies of Cu CVD using Cu(II) compound.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Compound</emphasis> </entry>
+                <entry><emphasis effect="bold">Evaporation temp. (°C)</emphasis> </entry>
+                <entry><emphasis effect="bold">Deposition temp. (°C)</emphasis></entry>
+                <entry><emphasis effect="bold">Carrier gas</emphasis> </entry>
+                <entry><emphasis effect="bold">Reactor pressure (Torr)</emphasis> </entry>
+              </row>
+              <row>
+                <entry>Cu(acac)<sub>2</sub></entry>
+                <entry>180 - 200</entry>
+                <entry>225 - 250</entry>
+                <entry>H<sub>2</sub>/Ar</entry>
+                <entry>760</entry>
+              </row>
+              <row>
+                <entry>Cu(hfac)<sub>2</sub></entry>
+                <entry>80 - 95</entry>
+                <entry>250 - 300</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>760</entry>
+              </row>
+              <row>
+                <entry>Cu(tfac)<sub>2</sub></entry>
+                <entry>135 - 160</entry>
+                <entry>250 - 300</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>760</entry>
+              </row>
+              <row>
+                <entry>Cu(dpm)<sub>2</sub></entry>
+                <entry>100</entry>
+                <entry>400</entry>
+                <entry>none </entry>
+                <entry>&lt;10<sup>-2</sup></entry>
+              </row>
+              <row>
+                <entry>Cu(ppm)<sub>2</sub></entry>
+                <entry>100</entry>
+                <entry>400</entry>
+                <entry>none</entry>
+                <entry>&lt;0.3</entry>
+              </row>
+              <row>
+                <entry>Cu(fod)<sub>2</sub></entry>
+                <entry>-</entry>
+                <entry>300 - 400</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>10<sup>-3</sup> - 760</entry>
+              </row>
+              <row>
+                <entry>Cu(acim)<sub>2</sub></entry>
+                <entry>287</entry>
+                <entry>400</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>730</entry>
+              </row>
+              <row>
+                <entry>Cu(nona-F)<sub>2</sub></entry>
+                <entry>85 - 105</entry>
+                <entry>270 - 350</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>10 - 70</entry>
+              </row>
+              <row>
+                <entry>Cu(acen)<sub>2</sub></entry>
+                <entry>204</entry>
+                <entry>450</entry>
+                <entry>H<sub>2</sub></entry>
+                <entry>730</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Studies of Cu CVD using Cu(II) compound. Adapted from T. Kodas and M. Hampden-Smith, <emphasis effect="italics">The Chemistry of Metal CVD</emphasis>, VCH Publishers Inc., New York, NY (1994).</caption>
+</table>
+        
+
+
+<figure id="id9420398"><media id="id9420398_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-a8ec.jpg" id="id9420398__onlineimage" width="575" print-width="4in"/>
+          </media>
+        <caption>Structures of Cu(II) compounds studied as CVD precursors. </caption></figure>
+
+
+        
+        <table id="id10192264" summary="Ligand abbreviations for the structures.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Ligand abbreviation</emphasis> </entry>
+                <entry>
+                  <emphasis effect="bold">R<sub>1</sub></emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">R<sub>2</sub></emphasis>
+                </entry>
+                <entry><emphasis effect="bold">Structural type</emphasis> </entry>
+              </row>
+              <row>
+                <entry>acac</entry>
+                <entry>CH<sub>3</sub></entry>
+                <entry>CH<sub>3</sub></entry>
+                <entry>a</entry>
+              </row>
+              <row>
+                <entry>hfac</entry>
+                <entry>CF<sub>3</sub></entry>
+                <entry>CF<sub>3</sub></entry>
+                <entry>a</entry>
+              </row>
+              <row>
+                <entry>tfac</entry>
+                <entry>CH<sub>3</sub></entry>
+                <entry>CF<sub>3</sub></entry>
+                <entry>a</entry>
+              </row>
+              <row>
+                <entry>dpm</entry>
+                <entry>C(CH<sub>3</sub>)<sub>3</sub></entry>
+                <entry>C(CH<sub>3</sub>)<sub>3</sub></entry>
+                <entry>a</entry>
+              </row>
+              <row>
+                <entry>ppm</entry>
+                <entry>C(CH<sub>3</sub>)<sub>3</sub></entry>
+                <entry>CF<sub>2</sub>CF<sub>3</sub></entry>
+                <entry>a</entry>
+              </row>
+              <row>
+                <entry>fod</entry>
+                <entry>C(CH<sub>3</sub>)<sub>3</sub></entry>
+                <entry>CF<sub>2</sub>CF<sub>2</sub>CF<sub>3</sub></entry>
+                <entry>a</entry>
+              </row>
+              <row>
+                <entry>acim</entry>
+                <entry>CH<sub>3</sub></entry>
+                <entry>H</entry>
+                <entry>b</entry>
+              </row>
+              <row>
+                <entry>nona-F</entry>
+                <entry>CF<sub>3</sub></entry>
+                <entry>CH<sub>2</sub>CF<sub>3</sub></entry>
+                <entry>b</entry>
+              </row>
+              <row>
+                <entry>acen</entry>
+                <entry>CH<sub>3</sub></entry>
+                <entry>-</entry>
+                <entry>c</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Ligand abbreviations for the structures shown in <link target-id=" id9420398"/>. </caption>
+</table>
+        
+        <para id="id8481556">Attention has focused on Cu(II) β-diketonate [i.e., Cu(tfac)<sub>2</sub>, Cu(hfac)<sub>2</sub>] and Cu(II) β-ketoiminate [i.e., Cu(acim)<sub>2</sub>, Cu(acen)<sub>2</sub>]. An important characteristic of Cu(II) compounds as CVD precursors is the use of heavily fluorinated ligand such as Cu(tfac)<sub>2</sub> and Cu(hfac)<sub>2</sub> versus Cu(acac)<sub>2</sub>. The main effort of fluorine substitution is a significant increase in the volatility of the complex.</para>
+      </section>
+      <section id="id16329115">
+        <title>Synthesis of Cu(II) precursors</title>
+        <section id="id5085283">
+          <title>Cu(hfac)<sub>2</sub>·nH<sub>2</sub>O (n = 0, 1, 2)</title>
+          <para id="id11571942">Cu(hfac)<sub>2</sub> is by far the most extensively studied of the Cu(II) CVD precursors. Preparations in aqueous solutions yield the yellow-green dihydrate, Cu(hfac)<sub>2</sub>·2H<sub>2</sub>O. This is stable in very humid air or at lower temperatures but slowly loses one molecule of water under typical laboratory conditions to form the “grass-green” monohydrate, Cu(hfac)<sub>2</sub>·H<sub>2</sub>O. The monohydrate, which is commercially available, can be sublimed unchanged and melts at 133 – 136 °C. More vigorous drying over concentrated H<sub>2</sub>SO<sub>4</sub> produces the purple anhydrous compound Cu(hfac)<sub>2</sub> (mp = 95 – 98 °C). The purple material is hydroscopic, converting readily into the monohydrate. Other β-diketonate Cu(II) complexes are prepared by the similar method. </para>
+        </section>
+        <section id="id15874956">
+          <title>Schiff-base complexes</title>
+          <para id="id6411915"> Schiff-base complexes include Cu(acim)<sub>2</sub>, Cu(acen) and Cu(nona-F)<sub>2</sub>. The first two of these can be prepared by mixing Cu(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> (aq) with the pure ligand and by adding freshly prepared solid Cu(OH)<sub>2</sub> to a solution of the ligand in acetone. The synthesis of Cu(nona-F)<sub>2</sub>, on the other hand, involved two important developments: the introduction of the silyl enol ether route to the ligand and its conversion in-situ into the desired precursor. The new approach to the ligand was required because, in contrast to non-fluorinated b-diketonates, H(hfac) reacts with amines to produce salts. </para>
+        </section>
+      </section>
+      <section id="id11276717">
+        <title>Reaction mechanism</title>
+        <para id="id16710303"> Starting from the experimental results, a list of possible steps for Cu CVD via H<sub>2</sub> reduction of Cu(II) compounds would include the followings, where removal of adsorbed ligand from the surface is believed to be the rate limiting step: </para>
+        <para id="id17239929">Cu(II)L<sub>2</sub>(g) → Cu(s) + 2 L<sup>.</sup>(ads)</para>
+        <para id="id15347924">H<sub>2</sub>(g) → 2 H<sup>.</sup>(ads)</para>
+        <para id="id4062273">L<sup>.</sup>(ads) + H<sup>.</sup>(ads) → HL(g) </para>
+        <para id="id9214957">where L represents any of the singly charged β-diketonate or β-ketoiminate ligands described before. This mechanism gives a clear explanation of the importance of hydrogen being present: in the absence of hydrogen, HL cannot desorb cleanly into the gas phase and ligand will tend to decompose on the surface, resulting in impurity incorporation into the growing film. The mechanism is also supported by the observation that the deposition reaction is enhanced by the addition of alcohol containing β-hydrogen to the reaction mixture. </para>
+        <para id="id7681652">More recently, the focus has shifted to Cu(I) compounds including Cu(I) cyclopentadienyls and Cu(I) β-diketonate. The Cu(I) β-diketonate in particular show great promise as Cu CVD precursors and have superseded the Cu(II) β-diketonate as the best family of precursors currently available.</para>
+      </section>
+    </section>
+    <section id="id4449549">
+      <title>From Cu(I) precursors</title>
+      <section id="id15205692">
+        <title>Precursor design</title>
+        <para id="id15988552">The Cu(I) compounds that have been investigated are described in <link target-id=" id8462741"/>. These species can be broadly divided into two classes, CuX and XCuL<sub>n</sub>, where X is a uninegative ligand and L is a neutral Lewis base electron pair donor. The XCuL<sub>n</sub> class can be further subdivided according to the nature of X and L. </para>
+        <figure id="id8462741"><media id="id8462741_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-ef47.jpg" id="id8462741__onlineimage" width="575" print-width="4in"/>
+          </media>
+        <caption>Copper(I) precursors used for CVD. Adapted from T. Kodas and M. Hampden-Smith, <emphasis effect="italics">The Chemistry of Metal CVD</emphasis>, VCH Publishers Inc., New York, NY (1994).</caption></figure>
+        
+        <para id="id10698015"> Compounds of general formula CuX are likely to be oligomeric resulting in a relatively low vapor pressure. The presence of a neutral donor ligand, L, is likely to reduce the extent of oligomerization compared to CuX by occupying vacant coordination sites. Metal alkoxide compounds are expected to undergo thermal decomposition by cleavage of either M-O or O-C bonds. </para>
+        <para id="id4473786">Organo-copper(I) compounds, RCuL, where R is alkyl, are thermally unstable, but cyclopentadienyl compounds are likely to be more robust due to the π-bonding of the cyclopentadienyl ligand to the copper center. At the same time, the cyclopentadienyl ligand is sterically demanding, occupies three coordination sites at the metal center, and thereby reduces the desire for oligomerization. In general, a cyclopentadienyl ligand is a poor choice to support CVD precursors, especially with electropositive metals, because this ligand is unlikely to be liable. Compounds in the family XCuL<sub>2</sub>, where X is a halide and L is a triorganophosphine, exhibit relatively high volatility but are thermally stable with respect to formation of copper at low temperatures. These species are therefore suitable as products of etching reactions of copper films. </para>
+        <para id="id13828386">A number of researchers have demonstrated the potential of a series of β-diketonate Cu(I) compounds, (β-diketonate)CuL<sub>n</sub>, where L is Lewis base and n = 1 or 2, that fulfill most of the criteria outlined for precursor design before. These species were chosen as copper precursors for the following reasons: </para>
+        <list id="id5153636" list-type="bulleted"><item>They contain the β-diketonate ligand which generally imparts volatility to metal-organic complexes, particularly when fluorinated, as a result of a reduction in hydrogen-bonding in the solid-state. </item>
+          <item>They are capable of systematic substitution through both the β-diketonate and Lewis base ligands to tailor volatility and reactivity. </item>
+          <item>Lewis bases such as phosphines, olefins and alkynes are unlikely to thermally decompose at temperatures where copper deposition occurs. </item>
+          <item>These precursors can deposit copper via thermally induced disproportionation reactions and no ligand decomposition is required since the volatile Lewis base the Cu(II) disproportionation products are transported out of the reactor intact at the disproportionation temperature.</item>
+        </list>
+      </section>
+      <section id="id9742838">
+        <title>Reaction mechanism</title>
+        <para id="id11090965">A general feature of the reactions of Cu(I) precursors is that they thermally disproportionate, a mechanism likely to be responsible for the high purity of the copper films observed since ligand decomposition does not occur. The disproportionation mechanism is shown in <link target-id=" id16207560"/> for (β-diketonate)CuL. The unique capabilities of this class of compounds result from this reaction mechanism by which they deposit copper. This mechanism is based on the dissociative adsorption of the precursor to form Cu(hfac) and L, disproportionation to form Cu(hfac)<sub>2</sub> and Cu and desorption of Cu(hfac)<sub>2</sub> and L.</para>
+   
+
+
+          <figure id="id16207560"><media id="id16207560_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics3-1a5e.jpg" id="id16207560__onlineimage" width="575" print-width="4in"/>
+            </media>
+          <caption>Schematic diagram of the disproportionation mechanism. Adapted from T. Kodas and M. Hampden-Smith, <emphasis effect="italics">The Chemistry of Metal CVD</emphasis>, VCH Publishers Inc., New York, NY (1994).</caption></figure>
+
+        
+        <para id="id17458683">Thus, the starting material acts as its own reducing agent and no external reducing agent such as H<sub>2</sub> is required. Another advantage of the Cu(I) β-diketonates over the Cu(II) β-diketonates is that in the former the ligand L can be varied systematically, allowing the synthesis of a whole series of different but closely related compounds. </para>
+      </section>
+    </section>
+    <section id="id11110587">
+      <title>Selectivity</title>
+      <para id="id11275609">Selectivity deposition has been studied in both hot- and cold-wall CVD reactors as a function of the nature of the substrate, the temperature of the substrate and the nature of the copper substituents. Selectivity has usually been evaluated by using Si substrates on which SiO<sub>2</sub> has been grown and patterned with various metals by either electron-beam deposition, CVD or sputtering. Research has suggested that selectivity on metallic surfaces is attributable to the biomolecular disproportionation reaction involved in precursor decomposition. </para>
+      
+    </section>
+    <section id="id15890662">
+      <title>Bibliography</title>
+      <list id="id11049097" list-type="bulleted">
+        <item>J. R. Creighton, and J. E. Parmeter, <emphasis effect="italics">Critical Review in Solid State and Materials Science</emphasis>, 1993, <emphasis effect="bold">18</emphasis>, 175. </item>
+        <item>L. H. Dubois and B. R. Zegarski, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1992, <emphasis effect="bold">139</emphasis>, 3295.</item>
+        <item>J. J. Jarvis, R. Pearce, and M. F. Lappert, <emphasis effect="italics">J. Chem. Soc.</emphasis>, <emphasis effect="italics">Dalton Trans.</emphasis>, 1977, 999. </item>
+        <item>A. E. Kaloyeros, A. Feng, J. Garhart, K. C. Brooks, S. K. Ghosh, A. N. Sazena, and F. Luehers, <emphasis effect="italics">J. Electronic Mater.,</emphasis> 1990, <emphasis effect="bold">19</emphasis>, 271.</item>
+        <item>T. Kodas and M. Hampden-Smith, <emphasis effect="italics">The Chemistry of Metal CVD</emphasis>, VCH Publishers Inc., New York, NY (1994).</item>
+        <item>C. F. Powell, J. H. Oxley, and J. M. Blocher Jr., <emphasis effect="italics">Vapor Deposition</emphasis>, John Wiley, New York (1966). </item>
+        <item>S. Shingubara, Y. Nakasaki, and H. Kaneko,<emphasis effect="italics"> Appl. Phys. Lett.,</emphasis> 1991, <emphasis effect="bold">58</emphasis>, 42.</item>
+      </list>
+    </section>
+  </content>
+</document>

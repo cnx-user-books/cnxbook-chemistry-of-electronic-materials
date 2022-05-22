@@ -1,0 +1,93 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Optical Issues in  Photolithography</title>
+  <metadata>
+  <md:content-id>m25448</md:content-id><md:title>Optical Issues in  Photolithography</md:title>
+  <md:abstract/>
+  <md:uuid>0661ebbe-52fb-48b1-a96a-0878fa6270ed</md:uuid>
+</metadata>
+
+<content>
+    
+    
+    <note id="eip-595">This module was developed as part of the Rice University course CHEM-496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Zane Ball. </note><section id="id1164127833566">
+      <title>Introduction</title>
+      <para id="id7171566"> Photolithography is one of the most important technology in the production of advanced integrated circuits. It is through photolithography that semiconductor surfaces are patterned and the circuits formed. In order to make extremely small features, on the order of the wavelength of the light, advanced optical techniques are used to transfer a pattern from a mask onto the surface. A polymeric film or <emphasis effect="italics">resist</emphasis>, is modified by the light and records the information in a process not dissimilar to ordinary photography. </para>
+      <para id="id8033744">An illustration of the photolithographic process is shown in <link target-id=" id1164120248912"/>. The process follows the following basic steps: </para>
+      <list id="id1164122397203" list-type="enumerated" number-style="arabic" class="stepwise"><item>The wafer is spin coated with resist to form a uniform ~1 µm thin film of resist on the surface.</item>
+        <item>The wafer is exposed with ultraviolet light through a mask which contains the desired pattern. In the simplest processes the mask is simply placed over the wafer, but advanced sub-micron technologies require the pattern to imaged through a complex optical system.</item>
+        <item>The photoresist is developed and the irradiated area is washed away (positive resist) or the unirradiated area is washed away (negative resist).</item>
+        <item>Processing (etching, deposition etc.)</item>
+        <item>Remaining resist is stripped.</item>
+      </list>
+
+
+        <figure id="id1164120248912"><media id="id1164120248912_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-50c2.jpg" id="id1164120248912__onlineimage" width="597" print-width="5.5in"/>
+          </media>
+        <caption>Steps in optical printing using photolithography. </caption></figure>
+
+      <para id="id5927263"> In addition to being possibly the most important semiconductor process step, photolithography is also the most expensive technology in semiconductor manufacturing. This expense is the result of two considerations: </para>
+      <list id="id6777965" list-type="enumerated" number-style="arabic"><item>The optics in photolithography tools are expensive where a single lens can cost a $1 million or more </item>
+        <item>Each chip (often referred to as a "dye") must be exposed individually unlike other semiconductor processes such as CVD where an entire wafer can be processed at a time or oxidation processes where many wafers can be processed simultaneously.</item>
+      </list>
+      <para id="id1164134383290">This means that not only are photolithography machines the most expensive of semiconductor processing equipment, but more of them are needed in order to maintain throughput.</para>
+    </section>
+    <section id="id1164127757936">
+      <title>Optical issues in photolithography</title>
+      <section id="id2143150">
+        <title>The critical dimension and depth of focus</title>
+        <para id="id1164128584476"> A semiconductor process technology is often described by a characteristic length known as the critical dimension. The critical dimension (CD) is the smallest feature that needs to be patterned on the surface. The exact definition varies from process to process but is often the channel length of the smallest transistor (typical of a memory chip) or the width of the smallest metal interconnection line (logic chips). This critical dimension is defined by the photolithographic process and is perhaps the most important figure of merit in the manufacture of integrated circuits. Making the critical dimension smaller is the primary focus of improving semiconductor technology for the following reasons: </para>
+        <list id="id7407593" list-type="enumerated" number-style="arabic"><item>Making the CD smaller dramatically increases the number of devices per unit area and this increase goes with the square of the CD (i.e., a reduction in CD by a factor of 2 generates 4 times the number of devices). </item>
+          <item>Making the CD smaller of a device already in production will make a smaller chip. This means that the number of chips per wafer increases dramatically, and since costs generally scale with the number of wafers and not the number of chips to a wafer, costs are dramatically reduced. </item>
+          <item>Smaller devices are faster.</item>
+        </list>
+        <para id="id8579081">Therefore, improvements in lithography technology translate directly into better, faster, more complex circuits at lower cost.</para>
+        <para id="id1164134174656">Having established the importance of the critical dimension it is important to understand what features of a photolithography system impact. The theory behind projection lithography is very well known, dating from the original analysis of the microscope by Abbe. It is, in fact, the Abbe sine condition that dictates the critical dimension: </para>
+        
+        <equation id="eip-429"><media id="id4996853_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics2-c347.jpg" id="id4996853__onlineimage" width="199" print-width="1.5in"/>
+            </media></equation><para id="id7943739">where the two expressions refer to the limit of a purely coherent illuminating source and purely incoherent source respectively, and λ is the vacuum wavelength of the illuminating light source, <emphasis effect="italics">n</emphasis> the index of refraction of the objective lens, and <emphasis effect="italics">Θ</emphasis><emphasis effect="italics"/> refers to the angle between the axis of the lens and the line from the back focal point to the aperture of the entrance of the lens. The quantity in the denominator, <emphasis effect="italics">n</emphasis>sin(<emphasis effect="italics">Θ</emphasis><emphasis effect="italics"/>) is referred to as the numerical aperture<emphasis effect="italics"/> or NA. As the degree of coherence can be adjusted in a lithography system, the critical dimension is usually written more generally as:</para>
+        
+        <equation id="eip-853"><media id="id1164127723168_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-1b6c.jpg" id="id1164127723168__onlineimage" width="114" print-width="1in"/>
+          </media></equation><para id="id1164126800927">From this equation, we begin to see what can be done to reduce the critical dimension of a lithography system:</para>
+        <list id="id1164127726648" list-type="enumerated" number-style="arabic"><item>Change the wavelength of the source. </item>
+          <item>Increase the numerical aperture (NA). </item>
+          <item>Reduce <emphasis effect="italics">k</emphasis><emphasis effect="italics"><sub>1</sub></emphasis>. </item>
+        </list>
+        <para id="id8726724"> Before we discuss how this is accomplished, we must consider one other key quantity, the depth of focus or DOF. The depth of focus is the length along the axis in which a sharp image exists. Naturally a large DOF is desirable for ease of alignment, since the entire dye must with lie within this region. In reality, however, the more meaningful constraint is that the DOF must be thicker than the resist layer so that the entire volume of resist is exposed and can be developed. Also, if the surface morphology of the device dictates that the resist to be exposed is not planar, then the DOF must be large enough so that all features are properly illuminated. Current resists must be 1 µm in thickness in order to have the necessary etch resistance, so this can be considered a minimum value for an acceptable DOF. The depth of focus can also be expressed as a function of numerical aperture and wavelength:</para>
+        
+        <equation id="eip-864"><media id="id1164129034985_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-e0d1.jpg" id="id1164129034985__onlineimage" width="144" print-width="1.25in"/>
+          </media></equation><para id="id1164127508263">If we desire to minimize the critical dimension simply by making optics of large numerical aperture that we will simultaneously reduce the depth of focus and at a much faster rate owing to the dependence on the square of the numerical aperture.</para>
+        <para id="id5971863">These two quantities, DOF and CD, provide the direction in lithography and semiconductor processing as a whole. For example, a design with an improved surface planarity or a new resist that is effective at smaller thicknesses would allow for a smaller depth of focus which would in turn allow for a larger numerical aperture implying a smaller critical dimension. The resist, the source wavelength, and the optical delivery system all affect the critical dimension and that further refinements require a multifaceted approach to improving lithography systems. What also must be realized is that, as far as the optical system is concerned, virtually all that can be done with conventional optics has been done and that fundamental restraints on <emphasis effect="italics">k</emphasis><emphasis effect="italics"><sub>1</sub></emphasis><emphasis effect="italics"/> have been reached. </para>
+      </section>
+      <section id="id1164120539371">
+        <title>Wavefront engineering</title>
+        <para id="id8081170">One way to get around the fundamental limitations of an imaging system illustrated in <link target-id="eip-429"/> is through one of a variety of techniques often termed <emphasis effect="italics">wavefront engineering.</emphasis> Here, not only is the amplitude mapped from the object plane to the image plane, but the phase structure of the light going through the mask is manipulated to improve the contrast and allow for effective values of <emphasis effect="italics">k</emphasis><emphasis effect="italics"><sub>1</sub></emphasis><emphasis effect="italics"/> lower than the theoretical minimum for uniform illumination. The most important example of these techniques is the phase shift mask or PSM. Here the mask consists of two types of areas, those that allow light to pass through unaffected and some regions where the amplitude of the light is unaffected but its phase is shifted. The resulting electric fields will then sum to zero in some places where use of an ordinary mask would have resulted in a positive intensity. 
+
+</para>
+        <para id="id2775357"> There are many problems with the practical introduction of various phase shifting techniques. Construction of masks with phase shifting elements (usually a thin layer of PMMA) is difficult and expensive. Mask damage, already a key problem in conventional production techniques, becomes an even greater issue as traditional mask repair techniques can no longer be used. Also identifying errors in a mask is made more difficult by the odd design.</para>
+      </section>
+      <section id="id1164122903735">
+        <title>Interaction with resists</title>
+        <para id="id1164119160017"> The ultimate resolution of a photolithographic process is not dependent on optics alone, but also on the interaction with the resist. One of the key concerns, particularly as wavelengths of sources become shorter, is the ability of the source light to penetrate the resist film. Many polymers absorb strongly in the UV which can limit the interaction to the surface. In such a case only a thin layer of the polymer is exposed and the pattern may not be fully uncovered during developing. One important property of resist is the presence of <emphasis effect="italics">saturable absorption</emphasis>.. Saturable absorbers are those absorption sites in the polymer that when excited to a higher state remain there for relatively long periods of time and do not continue to absorb into higher states. If only saturable absorption is present in a polymer film, then continued irradiation eventually leads to transparency as all absorption sites will be saturated. This allows light penetration through the resist film with full exposure to the substrate surface.</para>
+        <para id="id1164121268456"> Full penetration of the film leads to a second problem, multiple reflection interference. This occurs when light which has penetrated the film to the substrate is then reflected back towards the surface. The result is a standing wave interference pattern which causes uneven exposure through the film. The problem becomes more severe as optical limits are approached where feature size is approximately equal to the wavelength of the light source meaning such standing waves are the same size as the irradiated features. In the most advanced lithography techniques such as 248 nm lithography with excimer lasers, a special anti-reflectance coating must be laid down before the resist is deposited. Development of an AR coating that has no adverse effects during the exposure and development process is difficult.</para>
+        <para id="id1164134315515"> One completely new approach to photolithography resists are top-surface-imaged resists or TSI resists. These processes do not require light penetration through the whole volume of resist. In a TSI resist, a silyl amine is selectively in-diffused from the gas phase into a phenolic polymer in response to the laser irradiation. This diffusion process creates a silyl ether, and development takes place in the form of an oxygen plasma etch, sometimes termed 'dry developing'. Depth of focus limitations are thus avoided as exposure is necessary only at the surface of the resist layer, and the resolution of the etching process determines the final resist profile. Such a technique has tremendous advantages, particularly as source wavelengths become shorter and transparent polymers more rare. Such as resist has a clear optical advantage as well since the image need only be formed at the surface of the resist layer reducing the DOF needed to 100 nm or less, allowing for larger numerical aperture lithography systems with smaller critical dimensions. </para>
+      </section>
+      <section id="id4409390">
+        <title>Light sources</title>
+        <para id="id1164122978770"> Current photolithography techniques in production utilize ultraviolet lamps as the light source. In the most advanced production facilities, 0.35 µm mercury i-line technology is used. For the next generation of chips such as 64 Mbit DRAMS better performance is necessary and either i-line technology combined with PSM or a new light source is required. Certainly for the 256 Mbit generation using 0.25 µm technology, the i-line source is no longer adequate. The apparent successor is the 248 nm KrF laser, which entered the most advanced production facilities in the late 1990s. KrF technology is often referred to in the literature as Deep UV or DUV lithography. For further shrinkage to 0.18 µm technology, the ArF excimer laser at 193 nm will likely be used with the transition likely to take place in the first few years of the next decade. </para>
+        <para id="id4081062"> At critical dimensions lower than 0.18 - 0.1 µm and below, a whole host of technological problems will need to be overcome in every stage of manufacturing including photolithography. One likely scheme for future lithography is to use X-rays where the wavelength of the light is so much smaller than the feature size such that proximity printing can be used. This is where the mask is placed close to the surface and an X-ray source is scanned across using no optics. Common X-ray sources for such techniques include synchrotron radiation and laser produced plasmas. It has also been widely suggested that the cost of implementing X-ray or other post-optical techniques together with the increased cost of every other manufacturing process step will make improvements beyond 0.1 µm cost prohibitive where benefits in increased circuit speed and density will be dwarfed by massive manufacturing cost. It is noted however that such predictions have been made in the past with regard to other technological barriers. </para>
+      </section>
+    </section>
+    <section id="id2816751">
+      <title>Bibliography</title>
+      <list id="id1164127422460" list-type="bulleted">
+        <item>M. Born and E. Wolf, <emphasis effect="italics">Principles of Optics 6th Edition</emphasis>, Pergamon Press, New York (1980). </item>
+        <item>M. Nakase, <emphasis effect="italics">IEICE Trans. Electron.</emphasis>, 1993, <emphasis effect="bold">E76-C</emphasis>, 26. </item>
+        <item>M. Rothschild, A. R. Forte, M. W. Horn, R. R. Kunz, S. C. Palmateer, and J. H. C. Sedlacek, <emphasis effect="italics">IEEE J. Selected Topics in Quantum Electronics</emphasis>, 1995, <emphasis effect="bold">1</emphasis>, 916. </item>
+      </list>
+    </section>
+  </content>
+</document>

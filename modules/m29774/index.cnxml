@@ -1,0 +1,196 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Liquid Phase Deposition</title>
+  <metadata>
+  <md:content-id>m29774</md:content-id><md:title>Liquid Phase Deposition</md:title>
+  <md:abstract/>
+  <md:uuid>35e25529-c178-4c79-b010-1ec8607eca28</md:uuid>
+</metadata>
+
+<content>
+    <section id="id3248751">
+      <title>Introduction</title>
+      <para id="id8689891">Silicon dioxide (silica, SiO<sub>2</sub>) has been the most researched chemical compound apart from water. Silica has been used throughout history, for example, flint, which when sharpened formed one of humanities first tools. Crystalline silica, or sand, was melted into glass as early as 5000 B.C., birthing a technology that has gained sophistication in modern times. Silicon is the second most plentiful element in the Earth’s crust, the most plentiful being oxygen. It is thus surprising that it was not until 1800 that silica was named a compound by Sir Humphry Davy. He, however, failed to isolate its components via electrolysis, and it is Jöns Jacob Berzelius who is thus credited with discovering silica in 1824. He heated potassium fluorosilicate with potassium metal and, after purifying the product of this reaction with water, produced amorphous silica powder. </para>
+      <para id="id4007603">The most common forms of silica employed in industry include α-quartz, vitreous silica, silica gel, fumed silica and diatomaceous earth. Synthetic quartz is hydrothermally grown from a seed crystal, with aqueous NaOH and vitreous SiO<sub>2</sub>, at 400 °C and 1.7 kbar. Because it is a piezoelectric material, it is used in crystal oscillators, transducers, pickups and filters for frequency control and modulation. Vitreous silica is super cooled liquid silica used in laboratory glassware, protective tubing sheaths and vapor grown films. Silica gel is formed from the reaction of aqueous sodium silicate with acid, after which it is washed and dehydrated. Silica gel is an exceptionally porous material with numerous applications including use as a dessicant, chromatographic support, catalyst substrate and insulator. Pyrogenic or fumed silica is produced by the high temperature hydrolysis, in an oxyhydrogen flame, of SiCl<sub>4</sub>. Its applications include use as a thickening agent and reinforcing filler in polymers. Diatomaceous earth, the ecto-skeletons of tiny unicellular marine algae called diatoms, is mined from vast deposits in Europe and North America. Its primary use is in filtration. Additional applications include use as an abrasive, insulator, filler and a lightweight aggregate. </para>
+      <para id="id5528465">Methods of colloidal growth and thin film deposition of amorphous silica have been investigated since 1925. The two most common and well-investigated methods of forming SiO<sub>2</sub> in a sol or as a film or coating are condensation of alkoxysilanes (known as the Stober method) and hydrolysis of metal alkoxides (the Iler or dense silica [DS] process). </para>
+    </section>
+    <section id="id1171170324731">
+      <title>Liquid phase deposition (LPD)</title>
+      <para id="id1171170366965"> LPD is a method for the “non-electrochemical production of polycrystalline ceramic films at low temperatures.” LPD, along with other aqueous solution methods [chemical bath deposition (CBD), successive ion layer adsorption and reaction (SILAR) and electroless deposition (ED) with catalyst] has developed as a potential substitute for vapor-phase and chemical-precursor systems. Aqueous solution methods are not dependent on vacuum systems or glove boxes, and the use of easily acquired reagents reduces reliance on expensive or sensitive organometallic precursors. Thus, LPD holds potential for reduced production costs and environmental impact. Films may be deposited on substrates that might not be chemically or mechanically stable at higher temperatures. In addition, the use of liquid as a deposition medium allows coating of non-planar substrates, expanding the range of substrates that are capable of being coated. Aqueous deposition techniques have not reached the level of maturation that vapor-phase techniques have in respect to a high level of control over composition, microstructure and growth rates of the resulting films, but their prospect makes them attractive for research. </para>
+      <para id="id3427216">LPD generally refers to the formation of oxide thin films, the most common being SiO<sub>2</sub>, from an aqueous solution of a metal-fluoro complex [MF<sub>n</sub>]<sup>m-n</sup>, which is slowly hydrolyzed using water, boric acid or aluminum metal. Addition of water drives precipitation of the oxide. Boric acid and aluminum work as fluoride scavengers, rapidly weakening the fluoro complex and precipitating the oxide. These reactants are added either drop wise or outright, both methods allowing for high control of the hydrolysis reaction and of the solution’s supersaturation. Film formation is accomplished from highly acidic solutions, in contrast to the basic or weakly acidic solutions used in chemical bath deposition. </para>
+      <para id="id5898660">A generic description of the LPD reaction is shown in <link target-id="eip-128"/>, where <emphasis effect="italics">m</emphasis> is the charge on the metal cation. If the concentration of water is increased or the concentration of hydrofluoric acid (HF) is decreased, the equilibrium will be shifted toward the oxide. Use of boric acid or aluminum metal will accomplish the latter, see <link target-id="eip-206"/> and <link target-id="eip-726"/>. The most popular of these methods for accomplishing oxide formation has been through the addition of boric acid. </para>
+ 
+     <equation id="eip-128"><media id="id1171177089959_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-14a0.jpg" id="id1171177089959__onlineimage" width="350" print-width="3in"/>
+        </media></equation>
+
+
+
+
+
+
+      <equation id="eip-206">      <media id="id1171175354300_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-25d6.jpg" id="id1171175354300__onlineimage" width="350" print-width="3in"/>
+        </media></equation>
+
+  
+
+
+      <equation id="eip-726">        <media id="id1171175275471_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-597b.jpg" id="id1171175275471__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+      <para id="id7803812">The first patent using liquid phase deposition (LPD) of silicon dioxide via fluorosilicic acid solutions (H<sub>2</sub>SiF<sub>6</sub>) was granted to the Radio Corporation of America (RCA) in 1950. RCA used LPD as a method for coating anti-reflective films on glass, but the patent promised further applications. Since this initial patent there have been many further patents and papers utilizing this method, in variable forms, to coat substrates, usually silicon, with silicon dioxide. The impetus behind this work is to create an alternative to the growth of insulator coatings by thermal oxidation or chemical vapor deposition (CVD) for planar silicon chip technology. Thermal oxidation and CVD are performed at elevated temperatures, requiring a higher output of energy and more complicated instrumentation than that of LPD. The most simple and elegant of the LPD methods uses only water to catalyze silica thin film growth on silicon from a solution of fluorosilicic acid supersaturated with silicon dioxide, <link target-id=" eip-433"/>. </para>
+
+      <equation id="eip-433">        <media id="id7535956_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-a176.jpg" id="id7535956__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+      <para id="id7313348">The amount of water reacted with the supersaturated fluorosilicic acid solution controls both the growth rate and incorporation of fluorine into the resulting silica matrix. Both growth rate and fluorine content increase with increased addition of water. Ultimately this “dilution” affects the optical properties of the resulting silica film; an increased amount of fluorine decreases its dielectric constant (and thus its refractive index). </para>
+      <para id="id1171171285126"> To ensure a uniform film growth with LPD, the preparation of the surface to be coated is of utmost importance. Suitable treatments may involve the formation of surface hydroxides, the pre-deposition or self-assembly of an appropriate seed layer. The most efficient coverage is seen with silicon surfaces functionalized with hydroxy (-OH) groups prior to immersion in the growth solution. This can be achieved through appropriate etching of the silicon surface. It is proposed that the silanol (Si-OH) groups act to seed the growth of the silica film through condensation reactions with the silicic acid formed in the growth solution. </para>
+      <para id="id1171178928484">Lee and co-workers and Homma separately propose that intermediate, hydrolyzed species, SiF<sub>n</sub>(OH)<sub>4-n</sub> (n &lt; 4), are formed by the reaction shown in <link target-id=" eip-987"/>. According to Lee, these species then react with the substrate surface to form a film. Homma proposes that fluorine-containing siloxanes are subsequently formed, which adsorb onto the surface where condensation and bonding occurs between the oligomers and surface hydroxyl groups. The former mechanism implies a molecular growth mechanism, whereas the latter implies homogeneous nucleation with subsequent deposition.</para>
+
+
+      <equation id="eip-987">        <media id="id9017382_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-d4cd.jpg" id="id9017382__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+
+      <para id="id3159490">In concentrated fluorosilicic acid solutions silica can be dissolved to well beyond its solubility, forming fluorosilicon complexes such as [SiF<sub>6</sub>.SiF<sub>4</sub>]<sup>2-</sup>, <link target-id=" eip-971"/>. The bridged fluorosilicon complex has electron deficient silicon because of the high electronegativity of the bonded fluorines, creating weak Si-F bonds. These bonds are then prone to nucleophilic attack by water. The fluorine ion (F<sup>-</sup>) combines with the proton in this reaction to form hydrofluoric acid (HF). The product of this reaction can then react further with water to yield [SiF<sub>4</sub>(OH)<sub>2</sub>]<sup>2-</sup>, SiF<sub>4</sub> and HF. The high acidity of the solution then allows protons to react with [SiF<sub>4</sub>(OH)<sub>2</sub>]<sup>2-</sup> to form tetrafluorosilicate (SiF<sub>4</sub>) and water, <link target-id=" eip-30"/>. Hydrolysis of the SiF<sub>4</sub> will then yield the hexafluorosilicate anion, protons and silicic acid, <link target-id=" eip-850"/>. </para>
+ 
+     <equation id="eip-971">        <media id="id1171173718857_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics6-abb0.jpg" id="id1171173718857__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+      <equation id="eip-30">        <media id="id1171171968727_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics7-f625.jpg" id="id1171171968727__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+      <equation id="eip-850">        <media id="id1171172483032_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics8-5142.jpg" id="id1171172483032__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+      <para id="id1171175235788">Silicic acid is adsorbed onto the surface of the substrate that has been introduced into the growth solution. Molecular growth of silica on the substrate surface is initialized in an acid catalyzed dehydration between the silicic acid and the silanol groups on the substrate surface. Si-O-Si bonds are formed, resulting in an initial silica coating of the surface. Following reactions between the initial silica coating and the monosilicic acid in solution result in further silica deposition and growth. Because of the presence of HF in the solution, the surface and growing silica matrix is subject to attack according to the reaction in <link target-id=" eip-199"/>. This explains the incorporation of a quantity of fluorine into the silica film. Additionally, it reveals that a certain amount of silica etching occurs along with growth. Because of the prevalence of the silicic acid in the solution, however, deposition is predominant.</para>
+
+
+      <equation id="eip-199">        <media id="id1171171873494_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics9-95bd.jpg" id="id1171171873494__onlineimage" width="350" print-width="3in"/>
+        </media>
+</equation>
+
+
+
+
+
+      <para id="id1171176597097">This proposed mechanism, which is more in depth than those proposed by Lee and Homma, elucidates what is experimentally proven. The deposition rate of the silica increases with addition of H<sub>2</sub>O because the nucleophilic attack of the fluorosilicon complex is then augmented, increasing the concentration of silicic acid in the growth solution. The H<sub>2</sub>O addition increases the reaction rate and thus the concentration of HF in the growth solution, resulting in greater incorporation of fluorine into the silica matrix because of HF attack of the deposited film. Additionally, Yeh’s mechanism supports a molecular growth model, i.e., heterogeneous growth, which represents a consensus of the body of research performed thus far. </para>
+      <para id="id1171175287950">In a solution with dissolved ceramic precursors, nucleation and growth will occur either in solution (homogenous nucleation) or on the surfaces of introduced solid phases (heterogeneous nucleation). Successful film formation relies on the promotion of heterogeneous nucleation. Solubility generally depends on the solution pH and the concentration of the species in solution. As the solution crosses over from a solvated state to a state of supersaturation, film formation can occur. It is vital to assure that the state of supersaturation is one that promotes film growth and not homogeneous nucleation and precipitation. This concept is illustrated in <link target-id=" id1171172313541"/>. </para>
+
+
+
+        <figure id="id1171172313541"><media id="id1171172313541_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics10-a5f3.jpg" id="id1171172313541__onlineimage" width="450" print-width="3.5in"/>
+          </media>
+        <caption>Idealized solubility diagram for film forming species in water. Adapted from B. C. Bunker, P. C. Rieke, B. J. Tarasevich, A. A. Campbell, G. E. Fryxall, G. L. Graff, L. Song, J. Liu, J. W. Virden, and G. L. McVay, <emphasis effect="italics">Science</emphasis>, 1994, <emphasis effect="bold">264</emphasis>, 48. </caption></figure>
+
+
+
+      
+      <para id="id3783645">Silica can be dissolved in fluorosilicic acid to well above its solubility in water, which is approximately 220 ppm (mg/L). Depending on the concentration of the fluorosilicic acid solution, it can contain up to 20% more silica than is implied by the formula H<sub>2</sub>SiF<sub>6</sub>. After saturation of the solution with SiO<sub>2</sub>, the solvated species is a mixture of fluorosilicates, which reacts as explained earlier. It must be emphasized that addition of water in this reaction is not simply dilution, but is the addition of a reactant, which places the solution in a metastable state (the blue area in <link target-id=" id1171172313541"/>) in preparation for the introduction of a suitable surface to seed the growth of silica. </para>
+      <para id="id7273157"> Another important factor in solution growth methods is interfacial energy. When a substrate with lower interfacial energy than that of a growing homogeneous nucleus is introduced into a growth solution, heterogeneous growth is favored. Thus, a seeded growth mechanism by definition introduces a substrate of lower interfacial energy into a supersaturated solution, facilitating heterogeneous growth. Lower interfacial energies can be a product of surface modification, as well as a property of the materials’ natural state.</para>
+      <section id="id4213789">
+        <title>Comparing LPD to sol-gel</title>
+        <para id="id1171175973971"> An alternative method to LPD for forming silica thin films is the sol-gel method. A sol is a colloidal dispersion of particles in a liquid. A gel is a material that contains a continuous solid matrix enclosing a continuous liquid phase. The liquid inhibits the solid from collapsing and the solid impedes release of the liquid. A formal definition of sol-gel processing is the “growth of colloidal particles and their linking together to form a gel.” This method describes both the hydrolysis and condensation of silicon alkoxides and the hydrolysis and condensation of aqueous silicates (the DS process).</para>
+        <para id="id1171171228972">In the hydrolysis of silicon alkoxides, an alkoxide group is replaced with a hydroxyl group, <link target-id=" eip-784"/>. Further condensation reactions between alkoxyl groups or hydroxyl groups produce siloxane bonds, see <link target-id=" eip-950"/> and <link target-id=" eip-456"/>. </para>
+
+
+        <equation id="eip-784">          <media id="id1171175630495_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics11-6e06.jpg" id="id1171175630495__onlineimage" width="350" print-width="3in"/>
+          </media>
+</equation>
+
+
+
+        <equation id="eip-950">          <media id="id8341412_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics12-f0cf.jpg" id="id8341412__onlineimage" width="350" print-width="3in"/>
+          </media>
+</equation>
+
+
+
+
+        <equation id="eip-456">          <media id="id6908782_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics13-d3f3.jpg" id="id6908782__onlineimage" width="350" print-width="3in"/>
+          </media>
+</equation>
+
+
+
+
+        <para id="id1171176456885">Tetramethoxysilane [Si(OMe)<sub>4</sub>, TMOS] and tetraethylorthoxysilane [Si(OEt)<sub>4</sub>, TEOS] are the most commonly used precursors in silica sol-gel processing. The alkoxides are hydrolyzed in their parent alcohols, with a mineral acid or base catalyst, producing silicate gels that can be deposited as coatings. The Stober method, which utilizes this chemistry, relies on homogeneous nucleation to produce monodisperse sols. </para>
+        <para id="id3418088">Iler’s DS method of silica film formation was originally patented as a pigment coating to increase dispersibility of titania particles for use in the paint industry. The DS method is based on the aqueous chemistry of silica and takes advantage of the species present in solution at varying pH. Below pH 7 three-dimensional gel networks are formed. Above pH 7 silica surfaces are quite negatively charged (<link target-id=" eip-830"/>), so that particle growth occurs without aggregation. The isoelectric point of silica is pH 2. Reactions above and below pH 2 are thought to occur through bimolecular nucleophilic condensation mechanisms. Above pH 2 an anionic species attacks a neutral species (<link target-id=" eip-795"/>) and below pH 2 condensation involves a protonated silanol (<link target-id=" eip-932"/>). The DS process has been utilized extensively in sol-gel coating technology and as a growth method for monodisperse and polydisperse sols. </para>
+
+
+        <equation id="eip-830">          <media id="id1171176442093_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics14-602d.jpg" id="id1171176442093__onlineimage" width="350" print-width="3in"/>
+          </media>
+</equation>
+
+
+
+
+        <equation id="eip-795">          <media id="id3856568_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics15-4c04.jpg" id="id3856568__onlineimage" width="350" print-width="3in"/>
+          </media>
+</equation>
+
+
+
+
+        <equation id="eip-932">          <media id="id1171176135703_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics16-3858.jpg" id="id1171176135703__onlineimage" width="350" print-width="3in"/>
+          </media>
+</equation>
+
+
+
+
+      </section>
+    </section>
+    <section id="id1171173724610">
+      <title>Bibliography</title>
+      <list id="id5249816" list-type="bulleted">
+        <item>B. C. Bunker, P. C. Rieke, B. J. Tarasevich, A. A. Campbell, G. E. Fryxall, G. L. Graff, L. Song, J. Liu, J. W. Virden, and G. L. McVay, <emphasis effect="italics">Science</emphasis>, 1994, <emphasis effect="bold">264</emphasis>, 48. </item>
+        <item>P.-H. Chang, C.-T. Huang, and J.-S. Shie, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1997, <emphasis effect="bold">144</emphasis>, 1144. </item>
+        <item>J.-S. Chou and S.-C. Lee, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1994, <emphasis effect="bold">141</emphasis>, 3214. </item>
+        <item>T. Homma, T. Katoh, Y. Yamada, and Y. Murao, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1993, <emphasis effect="bold">140</emphasis>, 2410. </item>
+        <item>R. K. Iler, <emphasis effect="italics">The Chemistry of Silica Solubility, Polymerization, Colloid and Surface Properties, and Biochemistry</emphasis>, John Wiley &amp; Sons (1979). </item>
+        <item id="id8973141">H. R. Jafry, E. A. Whitsitt, and A. R. Barron, <emphasis effect="italics">J. Mater. Sci</emphasis>., 2007, <emphasis effect="bold">42</emphasis>, 7381.</item>
+        <item>T. Niesen and M. R. De Guire, <emphasis effect="italics">J. Electroceramics</emphasis>, 2001, <emphasis effect="bold">6</emphasis>, 169. </item>
+        <item>N. Ozawa, Y. Kumazawa, and T. Yao, <emphasis effect="italics">Thin Solid Films</emphasis>, 2002, <emphasis effect="bold">418</emphasis>, 102. </item>
+        <item>W. Stober, A. Fink, and E. Bohn, <emphasis effect="italics">J. Colloid Interface Sci.</emphasis>, 1968, <emphasis effect="bold">26</emphasis>, 62. </item>
+        <item>D. Whitehouse, <emphasis effect="italics">Glass of the Roman Empire</emphasis>, Corning (1988). </item>
+        <item>E. A. Whitsitt and A. R. Barron, <emphasis effect="italics">Nano Lett</emphasis>., 2003, <emphasis effect="bold">3</emphasis>, 775.</item>
+        <item id="id1171175649379">E. A. Whitsitt and A. R. Barron, <emphasis effect="italics">Chem. Commun</emphasis>., 2003, 1042.</item>
+        <item>E. A. Whitsitt and A. R. Barron, <emphasis effect="italics">J. Colloid Interface Sci</emphasis>., 2005, <emphasis effect="bold">287</emphasis>, 318.</item>
+        <item>C.-F. Yeh, C.-L. Chen, and G.-H. Lin, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 1994, <emphasis effect="bold">141</emphasis>, 3177. </item>
+      </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,319 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Polymer Light Emitting Diodes</title>
+  <metadata>
+  <md:content-id>m25670</md:content-id><md:title>Polymer Light Emitting Diodes</md:title>
+  <md:abstract/>
+  <md:uuid>417b7abe-1c83-4817-8cee-32a3a03df5d4</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8694927">This module was developed as part of a Rice University course CHEM496: <emphasis effect="italics">Chemistry of Electronic Materials</emphasis>. This module was prepared with the assistance of Pui Yee Hung. </para>
+    <section id="id1165677387913">
+      <title>Introduction</title>
+      <para id="id8369812">In 1990, electroluminescent (EL) from conjugated polymers was first reported by Burroughes et al. of Cambridge University. A layer of poly(<emphasis effect="italics">para</emphasis>-phenylenevinylene) (PPV) was sandwiched between layers of indium tin oxide (ITO) and aluminum. When this device is under a 14 V dc bias, the PPV emits a yellowish-green light with a quantum efficiency of 0.05%. This report attracted a lot of attention, because the potential that polymer light emitting diodes (LEDs) could be inexpensively mass produced into large area display area. The processing steps in making polymer LEDs are readily scaleable. The industrial coating techniques is well developed to mass produce polymer layers of 100 nm thickness, and the device could be patterned onto large surface area by pixellation of metal.</para>
+      
+      <para id="id8713540">Since the initial discovery, and increasing amount of researches has been performed, and significant progress has been made. In 1990 the polymer LED only emitted yellowish green color, now the emission color ranged from deep blue to near infra red. The efficiency of the multi-layer polymer LED even reached a quantum efficiency of &gt;4% and the operating voltage has been reduced significantly. In term of efficiency, color selection and operating voltage, polymer LEDs have attained adequate levels for commercialization. But there are reliability problems that are symptomatic of any organic devices. </para>
+    </section>
+    <section id="id8273523">
+      <title>Device physics and materials science of polymer LEDs </title>
+      <para id="id2776883">A schematic diagram of a polymer LED is shown in <link target-id="id8259822"/>. A polymer LED can be divided into three different components:</para>
+      
+      <list id="id1165676304825" list-type="enumerated" number-style="upper-alpha">
+        <item><emphasis effect="bold">Anode</emphasis>: the hole supplier, made of metal of high working function. Examples of the common anode are indium tin oxide (ITO), gold etc. The anode is usually transparent so that light can be emitted through. </item>
+        <item><emphasis effect="bold">Cathode</emphasis>: the electron supplier, made of metal of low working function. Examples of the common cathode are aluminum or calcium. </item>
+        <item><emphasis effect="bold">Polymer</emphasis>: made of conjugated polymer film with thickness of 100 nm. </item>
+      </list>
+
+        <figure id="id8259822"><media id="id8259822_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-7b84.jpg" id="id8259822__onlineimage" width="475" print-width="3.75in"/>
+          </media>
+        <caption>Schematic set-up of polymer LED. </caption></figure>
+     
+      
+      <para id="id1165675039212">When a polymer LED is under a direct current (dc) bias, holes are injected from the anode (ITO) and electrons are injected from the cathode (aluminum). Under the influences of the electrical field, the electrons and holes will migrate toward each other. When they recombine in the conjugated polymer layer, a bound excited states (excitons) will be formed. Some of the excitons (singlets) then decays in the conjugated polymer layer to emit light through the transparent substrates (glass). The emission color will be depended on the energy gap of the polymers. There is energy gap in a conjugated polymer because the π electron are not completely delocalized over the entire polymer chain. Instead there are alternate region in the polymer chain that has a higher electron density (<link target-id="id2556262"/>a). The chain length of this region is about 15-20 multiple bonds. The emission color can be controlled by tuning this energy band gap (<link target-id="id2556262"/>b). It shows that bond alternation limits the extent of delocalization. <link target-id="id2580642"/> summarizes the structure and emission color of some common conjugated polymers. </para>
+      <figure id="id2556262"><media id="id2556262_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-1ba5.jpg" id="id2556262__onlineimage" width="500" print-width="4in"/>
+        </media>
+      <caption>Alternation of bond lengths along a conjugated polymer chain (a) results in a material with properties of a large band gap semiconductor (b), where CB is the conductive band gap, and VB is the valence band, and E<sub>g</sub> is the band gap. </caption></figure>
+      
+      <table id="id2580642" summary="Example of common conjugated polymers.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Polymer</emphasis> </entry>
+              <entry><emphasis effect="bold">Chemical name</emphasis> </entry>
+              <entry><emphasis effect="bold">Structure</emphasis> </entry>
+              <entry>
+                <emphasis effect="bold">π-π* energy gap (eV)</emphasis>
+              </entry>
+              <entry><emphasis effect="bold">Emission peak (nm)</emphasis> </entry>
+            </row>
+            <row>
+              <entry>PA</entry>
+              <entry><emphasis effect="italics">trans</emphasis>-polyacetylene</entry>
+              <entry>
+                <media id="id1165675269760" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics3-3be3.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>1.5</entry>
+              <entry>600</entry>
+            </row>
+            <row>
+              <entry>PDA</entry>
+              <entry>polydiacetylene</entry>
+              <entry>
+                <media id="id8873660" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics4-fb9c.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>1.7</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>PPP</entry>
+              <entry>poly(<emphasis effect="italics">para</emphasis>-phenylene)</entry>
+              <entry>
+                <media id="id1165676205247" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics5-f3d5.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>3.0 (red)</entry>
+              <entry>465</entry>
+            </row>
+            <row>
+              <entry>PPV</entry>
+              <entry>Poly(<emphasis effect="italics">para</emphasis>-phenylenevinylene)</entry>
+              <entry>
+                <media id="id8021663" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics6-ff2e.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>2.5 (green)</entry>
+              <entry>565</entry>
+            </row>
+            <row>
+              <entry>RO-PPV</entry>
+              <entry>poly(2,5-dialkoxy-p-phenlyenevinylen)</entry>
+              <entry>
+                <media id="id8631099" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics7-d50f.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>2.2 (blue)</entry>
+              <entry>~580</entry>
+            </row>
+            <row>
+              <entry>PT</entry>
+              <entry>polythiophene</entry>
+              <entry>
+                <media id="id8114732" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics8-084f.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>2.0 (red)</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>P3AT</entry>
+              <entry>Poly(3-alkythiophene)</entry>
+              <entry>
+                <media id="id8830752" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics9-5464.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>2.0 (red)</entry>
+              <entry>690</entry>
+            </row>
+            <row>
+              <entry>PTV</entry>
+              <entry>Poly(2,5-thiophenevinylene)</entry>
+              <entry>
+                <media id="id5231886" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics10-f512.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>1.8</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>PPy</entry>
+              <entry>Polypyrrole</entry>
+              <entry>
+                <media id="id1165676160730" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics11-faeb.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry>3.1</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>PAni</entry>
+              <entry>Polyaniline</entry>
+              <entry>
+                <media id="id6880922" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics12-8f6d.jpg" width="100" print-width="0.5"/>
+                </media>
+              </entry>
+              <entry/>
+              <entry>3.2</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Example of common conjugated polymers. </caption>
+</table>
+      
+    </section>
+    <section id="id8955652">
+      <title>Approaches to improve the efficiency</title>
+      <para id="id1165677351618">Efficiency for any LED is defined:</para>
+      <para id="id6770892">n<sub>ext</sub> = n<sub>esc</sub> * n<sub>int</sub><sub/></para>
+      <para id="id1165685031792">where n<sub>ext</sub><sub/>is the external quantum efficiency, n<sub>int</sub> is the internal efficiency (represents the fraction of injected carrier, usually electron, that is converted to photon), and n<sub>esc</sub> is the escape efficiency (represent fraction of photons that can reach to the outside). </para>
+      <para id="id8674523">The most common way to improve the internal efficiency is to balance the number of electrons and holes which arrives at the polymer layer. Originally, there are more holes than electron that arrive of the polymer layer because conjugated polymers have a higher electron affinity, and as a consequence will favor the transport of hole than electron. There are two ways to maintains the balance:</para>
+      
+      <list id="id1165675098872" list-type="enumerated" number-style="arabic" mark-suffix=")">
+        <item>Match the work function of electrode with the electron affinity and ionization potential of the polymer.</item>
+        <item>Tune the polymer’s electron affinity and ionization potential to match the work function of the electrode.</item>
+      </list>
+      <para id="id1165677184096">The escape efficiency is also important because a polymer LED is made up of layers of materials that have different refractive index, and some of the photon generated from the excition may be reflected at the boundary and trapped inside the device. </para>
+      <section id="id1165675159493">
+        <title>Improvement in internal quantum efficiency using low working function cathode</title>
+        <para id="id8347494">Conjugated polymer is electron rich, the mobility for hole is higher than electron, and more holes will arrive in the polymer layer than electrons. One way to increase the population of the electron is to use a lower working function metal as cathode. Braun and Heeger have replaced the aluminum cathode with calcium results in improved internal efficiency by a factor of ten, to 0.1%. This approach is direct and fast but low working function electrode like calcium will be oxidized easily and shorten the devices’ life. </para>
+      </section>
+      <section id="id1165676306708">
+        <title>Improvement in internal quantum efficiency using multiple polymer layers</title>
+        <para id="id2385437">A layer of poly[2,5-di(hexyloxy)cyanoterephthalylidene] (CN-PPV, <link target-id="id1165677288005"/>) is coated on top of PPV to improve the transport and recombination of electron and holes (<link target-id="id7407850"/>). </para>
+ 
+          <figure id="id1165677288005"><media id="id1165677288005_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics13-49af.jpg" id="id1165677288005__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Structure of CN-PPV. </caption></figure>
+   
+        
+        <figure id="id7407850"><media id="id7407850_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics14-0870.jpg" id="id7407850__onlineimage" width="475" print-width="3.75in"/>
+          </media>
+        <caption>Schematic representation of a CN-PPV and PPV multi-layer LED. </caption></figure>
+        
+        <para id="id5421088">The nitrile group in the CN-PPV has two effect on the polymer. </para>
+        <list id="id1165674975966" list-type="enumerated" number-style="arabic" mark-suffix=")">
+          <item>It increases the electron affinity so electrons can travel more efficient from the aluminum to the polymer layer. And metal of relative high working function like aluminum and gold can be now be used as cathode instead of calcium. </item>
+          <item>It increases the binding energy of the occupied π and unoccupied π* state but maintain a similar π-π* gap. So when the PPV and CN-PPV is placed together, holes and electron will be confined at the heterojunction. </item>
+        </list>
+        <para id="id1165675339723">The resulting energy levels are shown in <link target-id="id1165677071108"/>.</para>
+    
+          <figure id="id1165677071108"><media id="id1165677071108_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics15-411b.jpg" id="id1165677071108__onlineimage" width="450" print-width="3.5in"/>
+            </media>
+          <caption>Schematic energy-level diagram for a PPV and CN-PPV under foreword bias. Adapted from N. C. Greenham, S. C. Maratti, D. D. C. Bradley, R. H. Friend, and A. B. Holmes, <emphasis effect="italics">Nature</emphasis>,1993, <emphasis effect="bold">365</emphasis>, 62. </caption></figure>
+
+
+        
+        <para id="id1165676292789">The absolute energies of levels are not known accurately, but the diagram show the relative position of the HOMO and LUMO levels in the polymers, and the Fermi levels of the various possible metal contacts, the differences in electron affinity (ΔEA) and ionization potential (ΔIP) between PPV and CN-PPV are also shown (<link target-id="id1165677071108"/>). </para>
+        <para id="id2798368">At the polymers interface there is a sizable offset in the energies of HOMO and LUMO of PPV and CN-PPV, the holes transported from the ITO and the electrons transport from the aluminum will be confined in the heterojunction. The local charge density will be sufficiently high to ensure the holes and electrons will pass within a collision capture radius. This set-up increases the chance for an electrons to combine with holes to form an excition. In addition, the emission will be close to the junction, far away from the electrode junction which will quench the singlet excitions. The result is that a multi-layers LED has an internal quantum efficiency of 10% and external quantum efficiency (for light emitted in foreword direction) of 25%.</para>
+        <para id="id2236658">Based on this approach, a couple of polymers have been developed or modified to produce the desirable emission color and processing property. The drawback of this method is that desirable properties may not be commentary to each other. For example, in MEH-PPV an alkoxy side group (RO) is introduced to PPV so that it can be dissolved in organic solvent. But the undesirable effect is that MEH-PPV is less thermally stable. Moreover in multiple layers LEDs, different polymer layers have different refractive indices and a fraction of the photons will undergo total internal reflection at the refractive boundaries and cannot escape as light. This problem can be overcome by Febry-Pert microcavity structure.</para>
+      </section>
+      <section id="id2853934">
+        <title>Improvement in external quantum efficiency using microcavity</title>
+        <para id="id2811487">Fabry-Perot resonant structures are also used in inorganic LED, and are is based on Fermi’s golden rule: </para>
+        <para id="id8365928">K<sub>r</sub><sub/>∼ | &lt;M &gt; | r<sub>(v)</sub></para>
+        <para id="id2590367">where M (the matrix element of the perturbation between final and initial states) depends on the nature of the material, and r<sub>(v)</sub> can be altered by changing the density of various density states, e.g. using a luminescent thin films to select certain value of V. </para>
+        <para id="id8974141">In building a microcavity for a polymer LED, the polymer is placed between two mirrors. (<link target-id="id2236600"/>), in which one of the mirrors is made up of aluminum, the other mirror (a Bragg Mirror) is form by epitaxial multilayer stacks of Si<sub>x</sub>N<sub>y</sub> and SiO<sub>2</sub>. </para>
+        <figure id="id2236600"><media id="id2236600_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics16-031f.jpg" id="id2236600__onlineimage" width="500" print-width="3in"/>
+          </media>
+        <caption>Schematic set-up of micro-cavity. </caption></figure>
+        
+        
+        
+        
+      </section>
+      <section id="id8824505">
+        <title>Improvement in internal quantum efficiency: doping of polymer</title>
+        <para id="id1165674846148">Doping is a process that creates carrier by purposely introducing impurities and is very popular method in the semiconductor industry. However, this technique was not used in polymer LED until 1995, when a co-polymer polystyrene-poly(3-hexylthiphene) (PS-P3HT) was doped with FeCl<sub>3</sub><sub>. </sub>Doping of MEH-PPV with iodine has improved the efficiency by 200% and the polymer LED can be operated under both forward and reverse bias (<link target-id="id2579271"/>). The doping is accomplsihed by mixing 1 wt% MEH-PPV with 0.2 wt% I<sub>2</sub>. The molar ratio of MEH-PPV to I<sub>2</sub> is 5:1. That is a huge “doping “ ratio when you compare the doping concentration in the semiconductor. </para>
+        <table id="id2579271" summary="Results of iodine doping of an Al/MEH-PPV/ITO-based LED.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry/>
+                <entry><emphasis effect="bold">Un-doped</emphasis> </entry>
+                <entry><emphasis effect="bold">Doped</emphasis>  </entry>
+              </row>
+              <row>
+                <entry>Turn on voltage (V)</entry>
+                <entry>10 </entry>
+                <entry>foreword 5, reversed 12</entry>
+              </row>
+              <row>
+                <entry>External efficiency (%)</entry>
+                <entry>4 x 10<sup>-4</sup></entry>
+                <entry>8 x 10<sup>-3</sup></entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Results of iodine doping of an Al/MEH-PPV/ITO-based LED. </caption>
+</table>
+        
+      </section>
+    </section>
+    <section id="id8697688">
+      <title>Polymer LEDs on a silicon substrate: an application advantage over inorganic LEDs </title>
+      <para id="id1165676161295">In the initial research polymer LEDs were in direct competition with the inorganic LEDs and tried to achieve the existing LED standard. This is a difficult task as polymer LEDs have a lower long term stability. However, there are some applications in which polymer LEDs have a clear advantage over their more traditional inorganic analogs. One of these is to incorporate LEDs with the silicon integrated circuits for inter-chip communication. </para>
+      <para id="id2392839">It is difficult to build inorganic LEDs on a silicon substrate, because of the thermal stress developing between the inorganic LED (usually a III-V based device) and the silicon interface. But polymer LEDs offer a solution, since polymers can be easily spin-coated on the silicon. The operating voltage of polymer LED is less than 4 V, and the turn on voltage can be as low as 2 V. Together with a switching time of less than 50 ns, make polymer LED a perfect candidate. </para>
+    </section>
+    <section id="id2476866">
+      <title>Reliability and degradation of polymer LEDs</title>
+      <para id="id8069357">In terms of the efficiency, color selection, and driving voltage, polymer LED have attained adequate level for commercialization. However, the device lifetime is still far from satisfactory. Research into understanding the reliability and degredation mechanisms of polymer LEDs has generally been divided into two area:</para>
+      <list id="id2348193" list-type="enumerated" number-style="arabic" mark-suffix=") ">
+        <item>Photo-degradation of polymer. </item>
+        <item>Interface degradation. </item>
+      </list>
+      <section id="id6955028">
+        <title>Polymer photo degradation</title>
+        <para id="id2389282">Photoluminescece (PL) studies of the photo-oxidation of PPV have been undertaken, since it is believes that EL is closely related with PL. </para>
+        <para id="id1165675967424">It was found that there is a rapid decay in emission when PPV is exposed to oxygen. Using time resolved FTIR spectroscopy an increase in the carbonyl signal and a decrease in C=C signal with time (<link target-id="id1165677277709"/>). It was suggested that the carbonyl group has a strong electron affinity level to charge transfer between molecules segment in the polymer, thereby dissociating the excition and quenching the PL. </para>
+        <figure id="id1165677277709"><media id="id1165677277709_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics17.jpg" id="id1165677277709__onlineimage" width="400" print-width="3.5in"/>
+          </media>
+        <caption>FTIR as a function of photo-oxidation of PPV. Adapted from M. Yan, L. J. Rothberg, F. Papadimitrakopoulos, M. E. Galvin and T. M. Miller, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 1994, <emphasis effect="bold">73</emphasis>, 744. </caption></figure>
+        
+        <para id="id1165679594294">Similar research was performed by Cumpston and Jensen using BCHA-PPV and P3OT (<link target-id="id4311242"/>) and exposing them to dry air in UV irradiation. In BCHA-PPV, there is an increase in carbonyl signal with time, while the P3OT remain intact. A mechanism proposed for the degradation of BCHA-PPV involves the transfer of energy from the excited triplet state of the PPV to oxygen to from singlet oxygen which attack the vinyl double bond in the PPV backbone. And P3OT dose not has vinyl bond so it can resist the oxidation . </para>
+
+          <figure id="id4311242"><media id="id4311242_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics18.jpg" id="id4311242__onlineimage" width="500" print-width="4in"/>
+            </media>
+          <caption>Structure of (a) BCHA-PPV and (b) P3OT. </caption></figure>
+
+        
+        <para id="id1165675177625">The research described above was all performed on polymer thin films deposited on an inert surface. The presence of cathode and anode may also affect the oxidation mechanism. Scott et al. have taken IR spectra from a MEH-PPV LED in the absence of oxygen. They obtained similar result as in Yan et al., however, a decrease in ITO’s oxygen signal was noticed suggesting that the ITO anode acts like a oxygen reservoir and supplies the oxygen for the degradation process. </para>
+      </section>
+      <section id="id8914636">
+        <title>Polymer LED interface degradation</title>
+        <para id="id2450881">There are few interface degredation studies in polymer LEDs. One of them by Scott et al. took SEM image of the cathode from a failed polymer LED. The polymer LED used ITO as the anode, MEH-PPV as the polymer layer, and an aluminum calcium alloy as cathode. SEM images showed “craters” formed in the cathode. The craters are formed when the cathode metal is melted and pull away from the polymer layer. It was suggested that a high current density will generate heat and result in local hot spot. The temperature in the hot spot is high enough to melt the cathode. And when it melt, it will pull away from the polymer. This process will decrease the effective cathode area, and reduce the luminescence gradually.</para>
+      </section>
+    </section>
+    <section id="id1165677491797">
+      <title>Bibliography</title>
+      <list id="id1165676042148" list-type="bulleted"><item>D. R. Baigent, N. C. Greenham, J. Gruner, R. N. Marks, R. H. Friends, S. C. Moratti, and A. B. Holmes,<emphasis effect="italics"> Synth.</emphasis><emphasis effect="italics">Met., </emphasis>1994, <emphasis effect="bold">67</emphasis>, 3. </item>
+        <item>B. H. Cumpston and K. F. Jensen, <emphasis effect="italics">Synth. Met., </emphasis>1995, <emphasis effect="bold">73</emphasis>, 195. </item>
+        <item>J. H. Burroughes, D. D. C. Bradley, A. R. Brown, R. N. Marks, K. Mackay, R. H. Friend, P. L. Burns, and A. B. Holmes, <emphasis effect="italics">Nature</emphasis>, 1990, <emphasis effect="bold">347</emphasis>, 539. </item>
+        <item>N. C. Greenham, S. C.Maratti, D. D. C. Bradley, R. H. Friend, and A. B. Holmes, <emphasis effect="italics">Nature</emphasis>, 1993, <emphasis effect="bold">365</emphasis>, 628.</item>
+        <item>J. Gruner, F. Cacialli, I. D. W. Samuel, R. H. Friend, <emphasis effect="italics">Synth. Met, </emphasis>1996,<emphasis effect="bold"> 76, </emphasis>197.</item>
+        <item>M. Herold, J. Gmeiner, W. Riess, and M. Schwoerer, <emphasis effect="italics">Synth. Met.</emphasis>, 1996, <emphasis effect="bold">76</emphasis>, 109.</item>
+        <item>R. H. Jordan, A. Dodabalapur, L. J. Rothberg, and R. E. Slusher, <emphasis effect="italics">Proceeding of SPIE</emphasis>, 1997,<emphasis effect="bold"> 3002</emphasis>, 92. </item>
+        <item>I. D. Parker and H. H. Kim, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1994, <emphasis effect="bold">64</emphasis>, 1774. </item>
+        <item>J. C. Scott, J. Kaufman, P. J. Brock, R. DiPietro, J. Salem, and J. A. Goitia, <emphasis effect="italics">J. Appl. Phys.</emphasis>, 1996, <emphasis effect="bold">79</emphasis>, 2745. </item>
+        <item>M. S. Weaver, D. G. Lidzaey, T. A. Fisher, M. A. Pate, D. O’Brien, A. Bleyer, A. Tajbakhsh, D. D. C. Bradley, M. S. Skolnick, and G. Hill, <emphasis effect="italics">Thin solid Films, </emphasis>1996, <emphasis effect="bold">273</emphasis>, 39. </item>
+        <item>M. Yan, L. J.Rothberg, F. Papadimitrakopoulos, M. E. Galvin, and T. M. Miller, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 1994, <emphasis effect="bold">73</emphasis>, 744.</item>
+      </list>
+    </section>
+  </content>
+</document>

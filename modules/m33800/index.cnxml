@@ -1,0 +1,78 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Applying Metallization by Sputtering</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33800</md:content-id>
+  <md:title>Applying Metallization by Sputtering</md:title>
+  <md:abstract/>
+  <md:uuid>0231ac1e-d8a5-4afe-8c41-eb130cf16d68</md:uuid>
+</metadata>
+ 
+  <content>
+
+
+
+    <note id="eip-102">This module is adapted from the Connexions module entitled <emphasis effect="italics"> Applying Metal/Sputtering</emphasis> by Bill Wilson. </note>
+
+<para id="para1">We now put the wafer in a sputter
+	deposition system. In the sputter system, we coat the
+	entire surface of the wafer with a conductor. An
+	aluminum-silicon alloy is usually used, although other metals
+	are employed as well.
+    </para>
+
+    <para id="para2">A sputtering system is shown schematically in
+      <link target-id="fig1"/>. A sputtering system is a vacuum chamber,
+      which after it is pumped out, is re-filled with a low-pressure
+      argon gas. A high voltage ionizes the gas, and creates what is
+      known as the Crookes dark space near the cathode,
+      which in our case, consists of a metal target made out of the
+      metal we want to deposit. Almost all of the potential of the
+      high-voltage supply appears across the dark space. The glow
+      discharge consists of argon ions and electrons which have been
+      stripped off of them. Since there are about equal number of ions
+      and electrons, the net charge density is about zero, and hence
+      by Gauss' law, so is the field. </para>
+      
+      <figure id="fig1"><media id="id8002294" alt=""><image src="../../media/Fig30.jpg" mime-type="image/jpg" width="400" print-width="4in"/></media>
+
+<caption>A schematic representation of a sputtering apparatus.</caption></figure>
+
+      
+<para id="paranew22">
+The electric field accelerates the argon atoms which slam into
+      the aluminum target. There is an exchange of momentum, and an
+      aluminum atom is ejected from the target (<link target-id="fig2"/>)
+      and heads to the silicon wafer, where it sticks, and builds up a
+      metal film <link target-id="fig3"/>.</para>
+
+      <figure id="fig2">
+	<media id="id1172474481602" alt=""><image src="../../media/5_34.png" mime-type="image/png" width="300" print-width="3in"/></media>
+<caption>The sputtering mechanism.</caption>
+      </figure>
+
+      <figure id="fig3">
+	<media id="id1172478667706" alt=""><image src="../../media/5_35.png" mime-type="image/png" width="300" print-width="3in"/></media> 
+<caption>Wafer coated with metal. </caption>
+      </figure>
+
+<para id="paranew33">
+      If you look at <link target-id="fig3"/>, you will note that we have
+      seemingly done something pretty stupid. We have wired all of the
+      elements of our CMOS inverter together; but all is not
+      lost. We can do one more photolithographic step, and pattern and
+      etch the aluminum, so we only have it where we need it. This is
+      shown in <link target-id="fig4"/>.    </para>
+
+      <figure id="fig4">
+
+	<media id="id1172471551133" alt=""><image src="../../media/5_36.png" mime-type="image/png" width="300" print-width="3in"/></media>
+<caption>After interconnect patterning. </caption>
+      </figure>
+
+
+
+
+
+  </content>
+  
+</document>
